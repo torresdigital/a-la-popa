@@ -9,13 +9,15 @@
 
 <!-- **Important**: If you have previously installed OpenSpades or any modified version of OpenSpades, you have to uninstall it manually by `sudo rm -rf /usr/local/share/games/openspades` or `sudo rm -rf /usr/local/share/games/sopaspades` before installing a new one. -->
 
+
 **Important**: If you have previously installed OpenSpades or any modified version of OpenSpades on you PC. Just copy the comando bellow on the two little squares on left, and use right click to past the command in you terminal and press ENTER.
 
-**Importante**: Se você já tem uma instalação antiga no seu PC com Linux, você precisa remover, usando este comandO ABAIXO. Copie o comando nos dois pequenos quadradinhos à esquerda, e cole no seu terminal com o botão direiro do Mouse, e aperte ENTER.
+**Importante**: Se você já tem uma instalação antiga no seu PC com Linux, você precisa remover, usando este comando abaixo. Copie o comando nos dois pequenos quadradinhos à esquerda, e cole no seu terminal com o botão direiro do Mouse, e aperte ENTER.
 
+O Comando / The Command 👇
 ```
 sudo rm -rf /usr/local/share/games/openspades && \
-sudo rm -rf /usr/local/share/games/sopaspades && \
+sudo rm -rf /usr/local/share/games/sopaspades
 ```
 
 ## What is this?
