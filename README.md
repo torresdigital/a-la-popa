@@ -1,12 +1,22 @@
-# synSpades
+# 🍜 SOPASpades
+
+## - A Beautiful OpenSpades Client to SOPA Servers (( SOPA‼️ 😋 SOUP !!)) 
+
+![SOPA!](https://repository-images.githubusercontent.com/564385628/bf3842ec-ccf9-44e5-ad6a-2b1a4272909a)
+
 
 [OpenSpades Website](https://openspades.yvt.jp) — [Community](https://buildandshoot.com)
 
-# Warning
-This project has been archived, and will not be updated any longer. If you want a better and/or updated OpenSpades client I recommend: [ZeroSpades](https://github.com/siecvi/zerospades/releases), [DankSpades](https://www.github.com/yusufcardinal/openspades) & [NucetoSpades](https://github.com/Nuceto/NucetoSpadesOld/releases).
+  **Important**: If you have previously installed OpenSpades or any modified version of OpenSpades, you have to uninstall it manually by `sudo rm -rf /usr/local/share/games/openspades` or `sudo rm -rf /usr/local/share/games/sopaspades` before installing a new one.
 
-## Little warning
-I 75% of the time fuck up something, so please beware there might be errors here and there, just report them to me by opening an issue. I'll try to solve it.
+
+**Importante**: Se você já tem uma instalação antiga no seu PC com Linux, você precisa remover, usando este comand. Copie e cole no seu terminal.
+
+```
+sudo rm -rf /usr/local/share/games/openspades && \
+sudo rm -rf /usr/local/share/games/sopaspades
+
+```
 
 ## What is this?
 synSpades is a modified version of OpenSpades, with changes by Doctor Dank, including a bigger color palette thanks to Liza & other smaller changes such as macros (Totally didn't steal the macros from [this dude](https://www.github.com/yusufcardinal/openspades)).
