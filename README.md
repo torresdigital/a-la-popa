@@ -74,13 +74,14 @@ ou posterior é recomendado porque o OpenSpades depende muito dos recursos do C+
 2. Clone the synSpades repository:
 
    ```bash
-   git clone https://github.com/c-um/synSpades.git && cd synSpades
+   git clone https://github.com/atorresbr/sopa-spades.git && cd sopa-spades
    ```
 
 3. Run the following one liner:
 
    ```
-   mkdir synspades.mk && cd synspades.mk && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && make
+   mkdir synspades.mk && cd synspades.mk && \
+   cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && make
    ```
 
 4. Install synSpades (optional but recommended):
