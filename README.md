@@ -34,12 +34,18 @@ sudo rm -rf /usr/local/share/games/sopaspades
 
 ### En Linux - On Linux - No Linux
 
-#### Building and installing from source | Construindo e instalando a partir da do source | Construyendo e instalando desde la source
-GCC 4.9 / Clang 3.2 or later is recommended because OpenSpades relies on C++11 features heavily.
+#### installing from source |  instalando a partir do source | instalando desde la source
 
-1. Install the following dependencies:
+🇪🇸 Se recomienda GCC 4.9 / Clang 3.2 o posterior porque OpenSpades depende en gran medida de las funciones de C++11.
 
-   *On Debian-derived distributions*:
+🇺🇸 GCC 4.9 / Clang 3.2 or later is recommended because OpenSpades relies on C++11 features heavily.
+
+🇧🇷 GCC 4.9/Clang 3.2 ou posterior é recomendado porque o OpenSpades depende muito dos recursos do C++ 11.
+
+
+1. Instale las siguientes dependencias | Install the following dependencies | Instale as seguintes dependências:
+
+   *To Debian-derived distributions | Para distribuições derivadas do Debian | A distribuciones derivadas de Debian*:
    ```
    sudo apt-get install pkg-config libglew-dev libcurl3-openssl-dev libsdl2-dev \
      libsdl2-image-dev libalut-dev xdg-utils libfreetype6-dev libopus-dev \
@@ -49,7 +55,8 @@ GCC 4.9 / Clang 3.2 or later is recommended because OpenSpades relies on C++11 f
    
    *On Fedora or other RHEL-derived distributions*:
    ```
-   sudo dnf install pkgconf-pkg-config glew-devel openssl-devel libcurl-devel SDL2-devel SDL2_image-devel \
+   sudo dnf install pkgconf-pkg-config glew-devel openssl-devel \
+     libcurl-devel SDL2-devel SDL2_image-devel \
      freealut-devel xdg-utils freetype-devel opus-devel opusfile-devel \
      libjpeg-devel libXinerama-devel libXft-devel cmake ImageMagick
    ```
