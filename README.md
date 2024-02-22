@@ -24,22 +24,15 @@ Se você já tem uma instalação antiga no seu PC com Linux, você precisa remo
  If you have previously installed OpenSpades or any modified version of OpenSpades on you PC. Just copy the comando bellow on the two little squares on left, and use right click to past the command in you terminal and press ENTER.
 
 
-O Comando / The Command 👇
+El Comando / O Comando / The Command 👇
 ```
 sudo rm -rf /usr/local/share/games/openspades && \
 sudo rm -rf /usr/local/share/games/sopaspades
 ```
 
-## What is this?
-synSpades is a modified version of OpenSpades, with changes by Doctor Dank, including a bigger color palette thanks to Liza & other smaller changes such as macros (Totally didn't steal the macros from [this dude](https://www.github.com/yusufcardinal/openspades)).
+## Cómo instalar / How to Install / Como instalar 
 
-## How do I use the macros?
-Write `/syn_macro_` in chat and it'll essentially explain itself to you. There's currently only a macro for the P key & the Mouse Button 4 & 5 keys.
-If someone can, please implement a macro menu where you can set macro keys yourself, as right now you have to add lines to the code to have another bind.
-
-## How to Build/Install?
-
-### On Linux
+### En Linux - On Linux - No Linux
 
 #### Building and installing from source
 GCC 4.9 / Clang 3.2 or later is recommended because OpenSpades relies on C++11 features heavily.
@@ -111,3 +104,10 @@ Spoiler alert: You're on your own here.
 
 ## Licensing
 Please see the file named LICENSE.
+
+## What is this?
+synSpades is a modified version of OpenSpades, with changes by Doctor Dank, including a bigger color palette thanks to Liza & other smaller changes such as macros (Totally didn't steal the macros from [this dude](https://www.github.com/yusufcardinal/openspades)).
+
+## How do I use the macros?
+Write `/syn_macro_` in chat and it'll essentially explain itself to you. There's currently only a macro for the P key & the Mouse Button 4 & 5 keys.
+If someone can, please implement a macro menu where you can set macro keys yourself, as right now you have to add lines to the code to have another bind.
