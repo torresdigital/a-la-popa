@@ -36,11 +36,14 @@ sudo rm -rf /usr/local/share/games/sopaspades
 
 #### installing from source |  instalando a partir do source | instalando desde la source
 
-🇪🇸 Se recomienda GCC 4.9 / Clang 3.2 o posterior porque OpenSpades depende en gran medida de las funciones de C++11.
+🇪🇸 Se recomienda GCC 4.9 -
+ Clang 3.2 o posterior porque OpenSpades depende en gran medida de las funciones de C++11.
 
-🇺🇸 GCC 4.9 / Clang 3.2 or later is recommended because OpenSpades relies on C++11 features heavily.
+🇺🇸 GCC 4.9 -
+ Clang 3.2 or later is recommended because OpenSpades relies on C++11 features heavily.
 
-🇧🇷 GCC 4.9/Clang 3.2 ou posterior é recomendado porque o OpenSpades depende muito dos recursos do C++ 11.
+🇧🇷 GCC 4.9 -
+Clang 3.2 ou posterior é recomendado porque o OpenSpades depende muito dos recursos do C++ 11.
 
 
 1. Instale las siguientes dependencias | Install the following dependencies | Instale as seguintes dependências:
