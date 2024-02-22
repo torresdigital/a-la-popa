@@ -34,7 +34,7 @@ sudo rm -rf /usr/local/share/games/sopaspades
 
 ### En Linux - On Linux - No Linux
 
-#### Building and installing from source
+#### Building and installing from source | Construindo e instalando a partir da do source | Construyendo e instalando desde la source
 GCC 4.9 / Clang 3.2 or later is recommended because OpenSpades relies on C++11 features heavily.
 
 1. Install the following dependencies:
