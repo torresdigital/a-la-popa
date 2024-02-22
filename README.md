@@ -71,7 +71,7 @@ ou posterior é recomendado porque o OpenSpades depende muito dos recursos do C+
    *On other distributions*:
    Install corresponding packages from your repository (or compile from source).
 
-2. Clone the synSpades repository:
+2. Clone the SOPA SPADES repository: 
 
    ```bash
    git clone https://github.com/atorresbr/sopa-spades.git && cd sopa-spades
