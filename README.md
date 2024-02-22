@@ -9,7 +9,7 @@
 
 <!-- **Important**: If you have previously installed OpenSpades or any modified version of OpenSpades, you have to uninstall it manually by `sudo rm -rf /usr/local/share/games/openspades` or `sudo rm -rf /usr/local/share/games/sopaspades` before installing a new one. -->
 
- Limpar e Instalar / Limpiar y instalar / Clean and Install 
+ ## Limpar e Instalar / Limpiar y instalar / Clean and Install 
 
 **Importante**: Si ya tiene una instalación antigua en su PC con Linux, debe eliminarla usando este comando a continuación. Copie el comando en los dos pequeños cuadrados de la izquierda, péguelo en su terminal con el botón derecho del mouse y presione ENTER.
 
