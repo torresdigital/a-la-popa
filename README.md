@@ -46,6 +46,7 @@ sudo rm -rf /usr/local/share/games/sopaspades
 Clang 3.2 ou posterior é recomendado porque o OpenSpades depende muito dos recursos do C++ 11.
 
 
+
 1. Instale las siguientes dependencias | Install the following dependencies | Instale as seguintes dependências:
 
    *To Debian-derived distributions | Para distribuições derivadas do Debian | A distribuciones derivadas de Debian*:
