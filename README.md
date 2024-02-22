@@ -1,12 +1,28 @@
-# synSpades
+# 🍜 SOPA SPADES !
+
+## - A Beautiful OpenSpades Client to SOPA Servers (( SOPA‼️ 😋 SOUP !!)) 
+
+![SOPA!](https://repository-images.githubusercontent.com/564385628/bf3842ec-ccf9-44e5-ad6a-2b1a4272909a)
+
 
 [OpenSpades Website](https://openspades.yvt.jp) — [Community](https://buildandshoot.com)
 
-# Warning
-This project has been archived, and will not be updated any longer. If you want a better and/or updated OpenSpades client I recommend: [ZeroSpades](https://github.com/siecvi/zerospades/releases), [DankSpades](https://www.github.com/yusufcardinal/openspades) & [NucetoSpades](https://github.com/Nuceto/NucetoSpadesOld/releases).
+<!-- **Important**: If you have previously installed OpenSpades or any modified version of OpenSpades, you have to uninstall it manually by `sudo rm -rf /usr/local/share/games/openspades` or `sudo rm -rf /usr/local/share/games/sopaspades` before installing a new one. -->
 
-## Little warning
-I 75% of the time fuck up something, so please beware there might be errors here and there, just report them to me by opening an issue. I'll try to solve it.
+ Limpar e Instalar / Limpiar y instalar / Clean and Install 
+
+**Importante**: Si ya tiene una instalación antigua en su PC con Linux, debe eliminarla usando este comando a continuación. Copie el comando en los dos pequeños cuadrados de la izquierda, péguelo en su terminal con el botón derecho del mouse y presione ENTER.
+
+**Importante**: Se você já tem uma instalação antiga no seu PC com Linux, você precisa remover, usando este comando abaixo. Copie o comando nos dois pequenos quadradinhos à esquerda, e cole no seu terminal com o botão direiro do Mouse, e aperte ENTER.
+
+**Important**: If you have previously installed OpenSpades or any modified version of OpenSpades on you PC. Just copy the comando bellow on the two little squares on left, and use right click to past the command in you terminal and press ENTER.
+
+
+O Comando / The Command 👇
+```
+sudo rm -rf /usr/local/share/games/openspades && \
+sudo rm -rf /usr/local/share/games/sopaspades
+```
 
 ## What is this?
 synSpades is a modified version of OpenSpades, with changes by Doctor Dank, including a bigger color palette thanks to Liza & other smaller changes such as macros (Totally didn't steal the macros from [this dude](https://www.github.com/yusufcardinal/openspades)).
