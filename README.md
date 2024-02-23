@@ -48,7 +48,7 @@ or later is recommended because OpenSpades relies on C++11 features heavily.
 
 ou posterior é recomendado porque o OpenSpades depende muito dos recursos do C++ 11.
 
-### Comandos e instalação | Commands to instaltion | Los comandos y instalacion
+### 🇧🇷 Comandos e instalação | 🇺🇸 Commands to instaltion | 🇪🇸 Los comandos y instalacion
 
 1. Instale las siguientes dependencias | Install the following dependencies | Instale as seguintes dependências:
 
