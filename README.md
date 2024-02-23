@@ -108,9 +108,9 @@ or later is recommended because OpenSpades relies on C++11 features heavily.
 
    `sudo make install`
 
-### 5. Launch:
+### 5. Iniciar el cliente del juego 💠 Iniciando o Cliente do Jogo 💠 Starting the Game Client :
 
-   `openspades` (if installed) or `cd $REPO_DIRECTORY/synspades.mk; bin/OpenSpades` and enjoy
+   `openspades` (if installed) or `cd $REPO_DIRECTORY/sopaspades.mk; bin/OpenSpades` and enjoy
 
 
 ### Windows
@@ -138,8 +138,8 @@ Spoiler alert: You're on your own here.
 ## Licensing
 Please see the file named LICENSE.
 
-## What is this?
-synSpades is a modified version of OpenSpades, with changes by Doctor Dank, including a bigger color palette thanks to Liza & other smaller changes such as macros (Totally didn't steal the macros from [this dude](https://www.github.com/yusufcardinal/openspades)).
+## SOPA SPADES VERSION.
+SOPA SPADES is a modified synSpades and OpenSpades version, with changes by Doctor Dank and Ixve  (( synth )), including a bigger color palette thanks to Liza & other smaller changes such as macros (Totally didn't steal the macros from [this dude](https://www.github.com/yusufcardinal/openspades)).
 
 ## How do I use the macros?
 Write `/syn_macro_` in chat and it'll essentially explain itself to you. There's currently only a macro for the P key & the Mouse Button 4 & 5 keys.
