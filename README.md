@@ -97,20 +97,18 @@ or later is recommended because OpenSpades relies on C++11 features heavily.
    git clone https://github.com/atorresbr/sopa-spades.git && cd sopa-spades
    ```
 
-### 3. Run the following one liner:
+### 3. Execute el comando abajo 💠 Execute o comando abaixo 💠 Run the commmand :
 
    ```
-   mkdir synspades.mk && cd synspades.mk && \
+   mkdir sopa-pades.mk && cd sopa-spades.mk && \
    cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && make
    ```
 
-### 4. Install SOPA SPADES (optional but recommended):
+### 4. Terminando la instalacion 💠 Finalizando a Instalação 💠  Finishing the installation :
 
    `sudo make install`
 
-   **Important**: If you have previously installed OpenSpades or any modified version of OpenSpades, you have to uninstall it manually by `sudo rm -rf /usr/local/share/games/openspades` before installing a new one.
-
-5. Launch:
+### 5. Launch:
 
    `openspades` (if installed) or `cd $REPO_DIRECTORY/synspades.mk; bin/OpenSpades` and enjoy
 
