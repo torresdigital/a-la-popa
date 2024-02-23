@@ -52,7 +52,7 @@ ou posterior é recomendado porque o OpenSpades depende muito dos recursos do C+
 
 ## Dependências | Dependences:
 
-1. Instale las siguientes dependencias | Install the following dependencies | Instale as seguintes dependências:
+1. Instale as seguintes dependências | Install the following dependencies | Instale las siguientes dependencias:
 
    *To Debian-derived distributions | Para distribuições derivadas do Debian | A distribuciones derivadas de Debian*:
 
