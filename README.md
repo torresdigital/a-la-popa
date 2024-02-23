@@ -13,15 +13,15 @@
 
 🇪🇸 **Importante**: 
 
-Si ya tiene una instalación antigua en su PC con Linux, debe eliminarla usando este comando a continuación. Copie el comando en los dos pequeños cuadrados de la izquierda, péguelo en su terminal con el botón derecho del mouse y presione ENTER.
+Si ya tiene una instalación antigua en su PC con Linux, debe eliminarla usando este comando a continuación. Copie el comando en los dos pequeños cuadrados de la derecha, péguelo en su terminal con el botón derecho del mouse y presione ENTER.
 
 🇧🇷 **Importante**: 
 
-Se você já tem uma instalação antiga no seu PC com Linux, você precisa remover, usando este comando abaixo. Copie o comando nos dois pequenos quadradinhos à esquerda, e cole no seu terminal com o botão direiro do Mouse, e aperte ENTER.
+Se você já tem uma instalação antiga no seu PC com Linux, você precisa remover, usando este comando abaixo. Copie o comando nos dois pequenos quadradinhos à direita, e cole no seu terminal com o botão direiro do Mouse, e aperte ENTER.
 
 🇺🇸 **Important**:
 
- If you have previously installed OpenSpades or any modified version of OpenSpades on you PC. Just copy the comando bellow on the two little squares on left, and use right click to past the command in you terminal and press ENTER.
+ If you have previously installed OpenSpades or any modified version of OpenSpades on you PC. Just copy the comando bellow on the two little squares on right, and use right click to past the command in you terminal and press ENTER.
 
 
 El Comando / O Comando / The Command 👇
@@ -32,7 +32,7 @@ sudo rm -rf /usr/local/share/games/sopaspades
 
 ## Cómo instalar | How to Install | Como instalar 
 
-### En Linux || On Linux || No Linux
+### En Linux 💠 On Linux 💠 No Linux
 
 #### installing from source |  instalando a partir do source | instalando desde la source
 
@@ -53,6 +53,9 @@ ou posterior é recomendado porque o OpenSpades depende muito dos recursos do C+
 1. Instale las siguientes dependencias | Install the following dependencies | Instale as seguintes dependências:
 
    *To Debian-derived distributions | Para distribuições derivadas do Debian | A distribuciones derivadas de Debian*:
+
+💠 clique nos quadrados pequenos para copiar os comandos. Após copiar, cole no seu terminal com o botão direito do mouse, e aperte Enter.
+
    ```
    sudo apt-get install pkg-config libglew-dev libcurl3-openssl-dev libsdl2-dev \
      libsdl2-image-dev libalut-dev xdg-utils libfreetype6-dev libopus-dev \
