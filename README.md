@@ -110,15 +110,12 @@ or later is recommended because OpenSpades relies on C++11 features heavily.
    sudo make install
    ```
 
-### 5. Iniciar el cliente del juego 💠 Iniciando o Cliente do Jogo 💠 Starting the Game Client :
-    (if installed) 
+### 5. Iniciar el cliente del juego 💠 Iniciando o Cliente do Jogo 💠 Starting the Game Client :  <!-- (if installed) -->  
 
    ``` 
    openspades
   ``` 
 
-
-   
    or `cd $REPO_DIRECTORY/sopaspades.mk; bin/OpenSpades` and enjoy
 
 
