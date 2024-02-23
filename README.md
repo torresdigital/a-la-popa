@@ -114,8 +114,9 @@ or later is recommended because OpenSpades relies on C++11 features heavily.
 
    ``` 
    openspades
-
   ``` 
+
+
     (if installed) 
    
    or `cd $REPO_DIRECTORY/sopaspades.mk; bin/OpenSpades` and enjoy
