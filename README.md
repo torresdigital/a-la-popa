@@ -50,11 +50,17 @@ ou posterior é recomendado porque o OpenSpades depende muito dos recursos do C+
 
 ### 🇧🇷 Comandos e instalação | 🇺🇸 Commands to instaltion | 🇪🇸 Los comandos y instalacion
 
+## Dependências | Dependences:
+
 1. Instale las siguientes dependencias | Install the following dependencies | Instale as seguintes dependências:
 
    *To Debian-derived distributions | Para distribuições derivadas do Debian | A distribuciones derivadas de Debian*:
 
 💠 clique nos quadrados pequenos para copiar os comandos. Após copiar, cole no seu terminal com o botão direito do mouse, e aperte Enter.
+
+💠 clic en los cuadrados pequeños para copiar los comandos. Después de copiar, péguelo en su terminal con el botón derecho del mouse y presione Enter.
+
+💠 click on the small squares to copy the commands. After copying, paste into your terminal with the right mouse button and press Enter.
 
    ```
    sudo apt-get install pkg-config libglew-dev libcurl3-openssl-dev libsdl2-dev \
@@ -63,7 +69,7 @@ ou posterior é recomendado porque o OpenSpades depende muito dos recursos do C+
      libjpeg-dev libxinerama-dev libxft-dev
    ```
    
-   *On Fedora or other RHEL-derived distributions*:
+   *💠 On Fedora or other RHEL-derived distributions 💠 No Fedora ou outras distribuições derivadas do RHEL 💠 En Fedora u otras distribuciones derivadas de RHEL*:
    ```
    sudo dnf install pkgconf-pkg-config glew-devel openssl-devel \
      libcurl-devel SDL2-devel SDL2_image-devel \
