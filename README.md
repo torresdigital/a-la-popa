@@ -36,7 +36,7 @@ sudo rm -rf /usr/local/share/games/sopaspades
 
 #### installing from source |  instalando a partir do source | instalando desde la source
 
-🇪🇸 Se recomienda GCC 4.9 - Clang 3.2 
+🇪🇸 GCC 4.9 - Clang 3.2 
 
 o posterior porque OpenSpades depende en gran medida de las funciones de C++11.
 
@@ -71,9 +71,7 @@ ou posterior é recomendado porque o OpenSpades depende muito dos recursos do C+
    *On other distributions*:
    Install corresponding packages from your repository (or compile from source).
 
-2. Clone the SOPA SPADES repository: scrdr
-
-w
+2. Clone the SOPA SPADES repository: 
 
    ```bash
    git clone https://github.com/atorresbr/sopa-spades.git && cd sopa-spades
