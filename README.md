@@ -120,8 +120,8 @@ or later is recommended because OpenSpades relies on C++11 features heavily.
 
 
 ### Windows
-Windows is currently not supported, if anyone wants to go through the pain of building it for Windows, you're more than welcome to.
-If you have built for Windows please send me it on Discord: synth#0420 (I am going to lose the custom tag soon though)
+<!-- Windows is currently not supported, if anyone wants to go through the pain of building it for Windows, you're more than welcome to.
+If you have built for Windows please send me it on Discord: synth#0420 (I am going to lose the custom tag soon though) -->
 
 ### macOS
 Same goes for Windows. Although I've yet to meet anyone playing OpenSpades or B&S on macOS
