@@ -69,7 +69,7 @@ ou posterior é recomendado porque o OpenSpades depende muito dos recursos do C+
      libjpeg-dev libxinerama-dev libxft-dev
    ```
    
-   *💠 On Fedora or other RHEL-derived distributions 💠 No Fedora ou outras distribuições derivadas do RHEL 💠 En Fedora u otras distribuciones derivadas de RHEL*:
+   *💠 On Fedora or RHEL-derived distributions 💠 Fedora e outras distribuições en RHEL 💠 En Fedora y distribuciones derivadas RHEL*:
    ```
    sudo dnf install pkgconf-pkg-config glew-devel openssl-devel \
      libcurl-devel SDL2-devel SDL2_image-devel \
