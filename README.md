@@ -9,38 +9,50 @@
 
 <!-- **Important**: If you have previously installed OpenSpades or any modified version of OpenSpades, you have to uninstall it manually by `sudo rm -rf /usr/local/share/games/openspades` or `sudo rm -rf /usr/local/share/games/sopaspades` before installing a new one. -->
 
- Limpar e Instalar / Limpiar y instalar / Clean and Install 
+ ## Limpar e Instalar / Limpiar y instalar / Clean and Install 
 
-**Importante**: Si ya tiene una instalación antigua en su PC con Linux, debe eliminarla usando este comando a continuación. Copie el comando en los dos pequeños cuadrados de la izquierda, péguelo en su terminal con el botón derecho del mouse y presione ENTER.
+🇪🇸 **Importante**: 
 
-**Importante**: Se você já tem uma instalação antiga no seu PC com Linux, você precisa remover, usando este comando abaixo. Copie o comando nos dois pequenos quadradinhos à esquerda, e cole no seu terminal com o botão direiro do Mouse, e aperte ENTER.
+Si ya tiene una instalación antigua en su PC con Linux, debe eliminarla usando este comando a continuación. Copie el comando en los dos pequeños cuadrados de la izquierda, péguelo en su terminal con el botón derecho del mouse y presione ENTER.
 
-**Important**: If you have previously installed OpenSpades or any modified version of OpenSpades on you PC. Just copy the comando bellow on the two little squares on left, and use right click to past the command in you terminal and press ENTER.
+🇧🇷 **Importante**: 
+
+Se você já tem uma instalação antiga no seu PC com Linux, você precisa remover, usando este comando abaixo. Copie o comando nos dois pequenos quadradinhos à esquerda, e cole no seu terminal com o botão direiro do Mouse, e aperte ENTER.
+
+🇺🇸 **Important**:
+
+ If you have previously installed OpenSpades or any modified version of OpenSpades on you PC. Just copy the comando bellow on the two little squares on left, and use right click to past the command in you terminal and press ENTER.
 
 
-O Comando / The Command 👇
+El Comando / O Comando / The Command 👇
 ```
 sudo rm -rf /usr/local/share/games/openspades && \
 sudo rm -rf /usr/local/share/games/sopaspades
 ```
 
-## What is this?
-synSpades is a modified version of OpenSpades, with changes by Doctor Dank, including a bigger color palette thanks to Liza & other smaller changes such as macros (Totally didn't steal the macros from [this dude](https://www.github.com/yusufcardinal/openspades)).
+## Cómo instalar | How to Install | Como instalar 
 
-## How do I use the macros?
-Write `/syn_macro_` in chat and it'll essentially explain itself to you. There's currently only a macro for the P key & the Mouse Button 4 & 5 keys.
-If someone can, please implement a macro menu where you can set macro keys yourself, as right now you have to add lines to the code to have another bind.
+### En Linux || On Linux || No Linux
 
-## How to Build/Install?
+#### installing from source |  instalando a partir do source | instalando desde la source
 
-### On Linux
+🇪🇸 GCC 4.9 - Clang 3.2 
 
-#### Building and installing from source
-GCC 4.9 / Clang 3.2 or later is recommended because OpenSpades relies on C++11 features heavily.
+o posterior porque OpenSpades depende en gran medida de las funciones de C++11.
 
-1. Install the following dependencies:
+🇺🇸 GCC 4.9 - Clang 3.2 
 
-   *On Debian-derived distributions*:
+or later is recommended because OpenSpades relies on C++11 features heavily.
+
+🇧🇷 GCC 4.9 - Clang 3.2 
+
+ou posterior é recomendado porque o OpenSpades depende muito dos recursos do C++ 11.
+
+### 🇧🇷 Comandos e instalação | 🇺🇸 Commands to instaltion | 🇪🇸 Los comandos y instalacion
+
+1. Instale las siguientes dependencias | Install the following dependencies | Instale as seguintes dependências:
+
+   *To Debian-derived distributions | Para distribuições derivadas do Debian | A distribuciones derivadas de Debian*:
    ```
    sudo apt-get install pkg-config libglew-dev libcurl3-openssl-dev libsdl2-dev \
      libsdl2-image-dev libalut-dev xdg-utils libfreetype6-dev libopus-dev \
@@ -50,27 +62,29 @@ GCC 4.9 / Clang 3.2 or later is recommended because OpenSpades relies on C++11 f
    
    *On Fedora or other RHEL-derived distributions*:
    ```
-   sudo dnf install pkgconf-pkg-config glew-devel openssl-devel libcurl-devel SDL2-devel SDL2_image-devel \
+   sudo dnf install pkgconf-pkg-config glew-devel openssl-devel \
+     libcurl-devel SDL2-devel SDL2_image-devel \
      freealut-devel xdg-utils freetype-devel opus-devel opusfile-devel \
      libjpeg-devel libXinerama-devel libXft-devel cmake ImageMagick
    ```
 
-   *On other distributions*:
+   *On other distributions | *:
    Install corresponding packages from your repository (or compile from source).
 
-2. Clone the synSpades repository:
+2. Clone the SOPA SPADES repository: 
 
    ```bash
-   git clone https://github.com/c-um/synSpades.git && cd synSpades
+   git clone https://github.com/atorresbr/sopa-spades.git && cd sopa-spades
    ```
 
 3. Run the following one liner:
 
    ```
-   mkdir synspades.mk && cd synspades.mk && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && make
+   mkdir synspades.mk && cd synspades.mk && \
+   cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && make
    ```
 
-4. Install synSpades (optional but recommended):
+4. Install SOPA SPADES (optional but recommended):
 
    `sudo make install`
 
@@ -105,3 +119,10 @@ Spoiler alert: You're on your own here.
 
 ## Licensing
 Please see the file named LICENSE.
+
+## What is this?
+synSpades is a modified version of OpenSpades, with changes by Doctor Dank, including a bigger color palette thanks to Liza & other smaller changes such as macros (Totally didn't steal the macros from [this dude](https://www.github.com/yusufcardinal/openspades)).
+
+## How do I use the macros?
+Write `/syn_macro_` in chat and it'll essentially explain itself to you. There's currently only a macro for the P key & the Mouse Button 4 & 5 keys.
+If someone can, please implement a macro menu where you can set macro keys yourself, as right now you have to add lines to the code to have another bind.
