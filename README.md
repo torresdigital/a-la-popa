@@ -36,17 +36,15 @@ sudo rm -rf /usr/local/share/games/sopaspades
 
 #### installing from source |  instalando a partir do source | instalando desde la source
 
-🇪🇸 GCC 4.9 - Clang 3.2 
-
+🇪🇸 GCC 4.9 - Clang 3.2 <br>
 o posterior porque OpenSpades depende en gran medida de las funciones de C++11.
 
-🇺🇸 GCC 4.9 - Clang 3.2 
+🇧🇷 GCC 4.9 - Clang 3.2 <br>
+ou posterior é recomendado porque o OpenSpades depende muito dos recursos do C++ 11.
 
+🇺🇸 GCC 4.9 - Clang 3.2 <br>
 or later is recommended because OpenSpades relies on C++11 features heavily.
 
-🇧🇷 GCC 4.9 - Clang 3.2 
-
-ou posterior é recomendado porque o OpenSpades depende muito dos recursos do C++ 11.
 
 ### 🇧🇷 Comandos e instalação | 🇺🇸 Commands to instaltion | 🇪🇸 Los comandos y instalacion
 
@@ -72,7 +70,7 @@ ou posterior é recomendado porque o OpenSpades depende muito dos recursos do C+
    💠 On Fedora or RHEL-derived distributions
 
    💠 Fedora e outras distribuições en RHEL 
-   
+
    💠 En Fedora y distribuciones derivadas RHEL
 
    ```
@@ -82,23 +80,31 @@ ou posterior é recomendado porque o OpenSpades depende muito dos recursos do C+
      libjpeg-devel libXinerama-devel libXft-devel cmake ImageMagick
    ```
 
-   *On other distributions | *:
+   ## Instalando el Juego 💠 Instalando o Jogo 💠 Installing the Game
+
+   💠 On other distributions: <br>
    Install corresponding packages from your repository (or compile from source).
 
-2. Clone the SOPA SPADES repository: 
+   💠 Em outras distribuições: <br>
+    Instale os pacotes correspondentes do seu repositório (ou compile a partir do código-fonte).
+
+   💠 Sobre otras distribuciones: <br>
+    Instale los paquetes correspondientes desde su repositorio (o compílelos desde el código fuente).
+
+### 2.  Clonar el repositorio 💠 Clonando o repositório 💠 Cloning the repository : 
 
    ```bash
    git clone https://github.com/atorresbr/sopa-spades.git && cd sopa-spades
    ```
 
-3. Run the following one liner:
+### 3. Run the following one liner:
 
    ```
    mkdir synspades.mk && cd synspades.mk && \
    cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && make
    ```
 
-4. Install SOPA SPADES (optional but recommended):
+### 4. Install SOPA SPADES (optional but recommended):
 
    `sudo make install`
 
