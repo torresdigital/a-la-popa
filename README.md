@@ -30,9 +30,9 @@ sudo rm -rf /usr/local/share/games/openspades && \
 sudo rm -rf /usr/local/share/games/sopaspades
 ```
 
-## Cómo instalar / How to Install / Como instalar 
+## Cómo instalar | How to Install | Como instalar 
 
-### En Linux - On Linux - No Linux
+### En Linux || On Linux || No Linux
 
 #### installing from source |  instalando a partir do source | instalando desde la source
 
@@ -68,7 +68,7 @@ ou posterior é recomendado porque o OpenSpades depende muito dos recursos do C+
      libjpeg-devel libXinerama-devel libXft-devel cmake ImageMagick
    ```
 
-   *On other distributions*:
+   *On other distributions | *:
    Install corresponding packages from your repository (or compile from source).
 
 2. Clone the SOPA SPADES repository: 
