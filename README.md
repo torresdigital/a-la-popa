@@ -48,7 +48,7 @@ or later is recommended because OpenSpades relies on C++11 features heavily.
 
 ou posterior é recomendado porque o OpenSpades depende muito dos recursos do C++ 11.
 
-## Comandos e instalação | Commands to instaltion | Los comandos y instalacion
+### Comandos e instalação | Commands to instaltion | Los comandos y instalacion
 
 1. Instale las siguientes dependencias | Install the following dependencies | Instale as seguintes dependências:
 
@@ -71,7 +71,9 @@ ou posterior é recomendado porque o OpenSpades depende muito dos recursos do C+
    *On other distributions*:
    Install corresponding packages from your repository (or compile from source).
 
-2. Clone the SOPA SPADES repository: 
+2. Clone the SOPA SPADES repository: scrdr
+
+w
 
    ```bash
    git clone https://github.com/atorresbr/sopa-spades.git && cd sopa-spades
@@ -84,7 +86,7 @@ ou posterior é recomendado porque o OpenSpades depende muito dos recursos do C+
    cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && make
    ```
 
-4. Install synSpades (optional but recommended):
+4. Install SOPA SPADES (optional but recommended):
 
    `sudo make install`
 
