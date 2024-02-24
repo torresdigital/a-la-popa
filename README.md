@@ -13,15 +13,15 @@
 
 🇪🇸 **Importante**: 
 
-Si ya tiene una instalación antigua en su PC con Linux, debe eliminarla usando este comando a continuación. Copie el comando en los dos pequeños cuadrados de la izquierda, péguelo en su terminal con el botón derecho del mouse y presione ENTER.
+Si ya tiene una instalación antigua en su PC con Linux, debe eliminarla usando este comando a continuación. Copie el comando en los dos pequeños cuadrados de la derecha, péguelo en su terminal con el botón derecho del mouse y presione ENTER.
 
 🇧🇷 **Importante**: 
 
-Se você já tem uma instalação antiga no seu PC com Linux, você precisa remover, usando este comando abaixo. Copie o comando nos dois pequenos quadradinhos à esquerda, e cole no seu terminal com o botão direiro do Mouse, e aperte ENTER.
+Se você já tem uma instalação antiga no seu PC com Linux, você precisa remover, usando este comando abaixo. Copie o comando nos dois pequenos quadradinhos à direita, e cole no seu terminal com o botão direiro do Mouse, e aperte ENTER.
 
 🇺🇸 **Important**:
 
- If you have previously installed OpenSpades or any modified version of OpenSpades on you PC. Just copy the comando bellow on the two little squares on left, and use right click to past the command in you terminal and press ENTER.
+ If you have previously installed OpenSpades or any modified version of OpenSpades on you PC. Just copy the comando bellow on the two little squares on right, and use right click to past the command in you terminal and press ENTER.
 
 
 El Comando / O Comando / The Command 👇
@@ -32,27 +32,34 @@ sudo rm -rf /usr/local/share/games/sopaspades
 
 ## Cómo instalar | How to Install | Como instalar 
 
-### En Linux || On Linux || No Linux
+### En Linux 💠 On Linux 💠 No Linux
 
 #### installing from source |  instalando a partir do source | instalando desde la source
 
-🇪🇸 GCC 4.9 - Clang 3.2 
-
+🇪🇸 GCC 4.9 - Clang 3.2 <br>
 o posterior porque OpenSpades depende en gran medida de las funciones de C++11.
 
-🇺🇸 GCC 4.9 - Clang 3.2 
+🇧🇷 GCC 4.9 - Clang 3.2 <br>
+ou posterior é recomendado porque o OpenSpades depende muito dos recursos do C++ 11.
 
+🇺🇸 GCC 4.9 - Clang 3.2 <br>
 or later is recommended because OpenSpades relies on C++11 features heavily.
 
-🇧🇷 GCC 4.9 - Clang 3.2 
-
-ou posterior é recomendado porque o OpenSpades depende muito dos recursos do C++ 11.
 
 ### 🇧🇷 Comandos e instalação | 🇺🇸 Commands to instaltion | 🇪🇸 Los comandos y instalacion
 
-1. Instale las siguientes dependencias | Install the following dependencies | Instale as seguintes dependências:
+## Dependências | Dependences:
+
+1. Instale as seguintes dependências | Install the following dependencies | Instale las siguientes dependencias:
 
    *To Debian-derived distributions | Para distribuições derivadas do Debian | A distribuciones derivadas de Debian*:
+
+💠 clique nos quadrados pequenos para copiar os comandos. Após copiar, cole no seu terminal com o botão direito do mouse, e aperte Enter.
+
+💠 clic en los cuadrados pequeños para copiar los comandos. Después de copiar, péguelo en su terminal con el botón derecho del mouse y presione Enter.
+
+💠 click on the small squares to copy the commands. After copying, paste into your terminal with the right mouse button and press Enter.
+
    ```
    sudo apt-get install pkg-config libglew-dev libcurl3-openssl-dev libsdl2-dev \
      libsdl2-image-dev libalut-dev xdg-utils libfreetype6-dev libopus-dev \
@@ -60,7 +67,12 @@ ou posterior é recomendado porque o OpenSpades depende muito dos recursos do C+
      libjpeg-dev libxinerama-dev libxft-dev
    ```
    
-   *On Fedora or other RHEL-derived distributions*:
+   💠 On Fedora or RHEL-derived distributions
+
+   💠 Fedora e outras distribuições en RHEL 
+
+   💠 En Fedora y distribuciones derivadas RHEL
+
    ```
    sudo dnf install pkgconf-pkg-config glew-devel openssl-devel \
      libcurl-devel SDL2-devel SDL2_image-devel \
@@ -68,36 +80,48 @@ ou posterior é recomendado porque o OpenSpades depende muito dos recursos do C+
      libjpeg-devel libXinerama-devel libXft-devel cmake ImageMagick
    ```
 
-   *On other distributions | *:
+   ## Instalando el Juego 💠 Instalando o Jogo 💠 Installing the Game
+
+   💠 On other distributions: <br>
    Install corresponding packages from your repository (or compile from source).
 
-2. Clone the SOPA SPADES repository: 
+   💠 Em outras distribuições: <br>
+    Instale os pacotes correspondentes do seu repositório (ou compile a partir do código-fonte).
+
+   💠 Sobre otras distribuciones: <br>
+    Instale los paquetes correspondientes desde su repositorio (o compílelos desde el código fuente).
+
+### 2.  Clonar el repositorio 💠 Clonando o repositório 💠 Cloning the repository : 
 
    ```bash
    git clone https://github.com/atorresbr/sopa-spades.git && cd sopa-spades
    ```
 
-3. Run the following one liner:
+### 3. Execute el comando abajo 💠 Execute o comando abaixo 💠 Run the commmand :
 
    ```
-   mkdir synspades.mk && cd synspades.mk && \
+   mkdir sopa-pades.mk && cd sopa-spades.mk && \
    cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && make
    ```
 
-4. Install SOPA SPADES (optional but recommended):
+### 4. Terminando la instalacion 💠 Finalizando a Instalação 💠  Finishing the installation :
 
-   `sudo make install`
+   ``` 
+   sudo make install
+   ```
 
-   **Important**: If you have previously installed OpenSpades or any modified version of OpenSpades, you have to uninstall it manually by `sudo rm -rf /usr/local/share/games/openspades` before installing a new one.
+### 5. Iniciar el cliente del juego 💠 Iniciando o Cliente do Jogo 💠 Starting the Game :  <!-- (if installed) -->  
 
-5. Launch:
+   ``` 
+   openspades
+  ``` 
 
-   `openspades` (if installed) or `cd $REPO_DIRECTORY/synspades.mk; bin/OpenSpades` and enjoy
+   or `cd $REPO_DIRECTORY/sopaspades.mk; bin/OpenSpades` and enjoy
 
 
 ### Windows
-Windows is currently not supported, if anyone wants to go through the pain of building it for Windows, you're more than welcome to.
-If you have built for Windows please send me it on Discord: synth#0420 (I am going to lose the custom tag soon though)
+<!-- Windows is currently not supported, if anyone wants to go through the pain of building it for Windows, you're more than welcome to.
+If you have built for Windows please send me it on Discord: synth#0420 (I am going to lose the custom tag soon though) -->
 
 ### macOS
 Same goes for Windows. Although I've yet to meet anyone playing OpenSpades or B&S on macOS
@@ -120,8 +144,8 @@ Spoiler alert: You're on your own here.
 ## Licensing
 Please see the file named LICENSE.
 
-## What is this?
-synSpades is a modified version of OpenSpades, with changes by Doctor Dank, including a bigger color palette thanks to Liza & other smaller changes such as macros (Totally didn't steal the macros from [this dude](https://www.github.com/yusufcardinal/openspades)).
+## SOPA SPADES VERSION.
+SOPA SPADES is a modified synSpades and OpenSpades version, with changes by Doctor Dank and Ixve  (( synth )), including a bigger color palette thanks to Liza & other smaller changes such as macros (Totally didn't steal the macros from [this dude](https://www.github.com/yusufcardinal/openspades)).
 
 ## How do I use the macros?
 Write `/syn_macro_` in chat and it'll essentially explain itself to you. There's currently only a macro for the P key & the Mouse Button 4 & 5 keys.
