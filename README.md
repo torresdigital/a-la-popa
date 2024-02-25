@@ -16,16 +16,16 @@
 
 🇧🇷 Se você é iniciante com Linux, copie o comando nos pequenos quadrados na direita dos comandos. Depois de copiar, cole com botão direo no sue terminal e aperte ENTER.
 
-```bash
+```
   sudo apt-get install pkg-config libglew-dev libcurl3-openssl-dev libsdl2-dev \
      libsdl2-image-dev libalut-dev xdg-utils libfreetype6-dev libopus-dev \
      libopusfile-dev cmake imagemagick \
      libjpeg-dev libxinerama-dev libxft-dev && \
 
-     sudo rm -Rf sopa-spades \
+     sudo rm -Rf lapopa \
 
-        git clone https://github.com/atorresbr/sopa-spades.git && cd sopa-spades \
-        mkdir sopa-spades.mk && cd sopa-spades.mk && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && make
+        git clone https://github.com/atorresbr/lapopa.git && cd lapopa \
+        mkdir lapopa.mk && cd lapopa.mk && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && make
 
       sudo make install && \
 
@@ -120,13 +120,13 @@ or later is recommended because OpenSpades relies on C++11 features heavily.
 ### 2.  Clonar el repositorio 💠 Clonando o repositório 💠 Cloning the repository : 
 
    ```bash
-   git clone https://github.com/atorresbr/sopa-spades.git && cd sopa-spades
+   git clone https://github.com/atorresbr/lapopa.git && cd lapopa
    ```
 
 ### 3. Execute el comando abajo 💠 Execute o comando abaixo 💠 Run the commmand :
 
    ```
-   mkdir sopa-spades.mk && cd sopa-spades.mk && \
+   mkdir lapopa.mk && cd lapopa.mk && \
    cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && make
    ```
 
