@@ -9,6 +9,32 @@
 
 <!-- **Important**: If you have previously installed OpenSpades or any modified version of OpenSpades, you have to uninstall it manually by `sudo rm -rf /usr/local/share/games/openspades` or `sudo rm -rf /usr/local/share/games/sopaspades` before installing a new one. -->
 
+
+🇪🇸 principiante, copie el comando en dos cuadrados a la derecha y use el botón derecho del mouse para pegarlo en su terminal y presione ENTER para instalar el juego.
+
+🇺🇸 If you are a extremelly benginer, just copy the command on two squares on right, and use the right click mouse to past in you terminal and press ENTER to install the game.
+
+🇧🇷 Se você é iniciante com Linux, copie o comando nos pequenos quadrados na direita dos comandos. Depois de copiar, cole com botão direo no sue terminal e aperte ENTER.
+
+```
+  sudo apt-get install pkg-config libglew-dev libcurl3-openssl-dev libsdl2-dev \
+     libsdl2-image-dev libalut-dev xdg-utils libfreetype6-dev libopus-dev \
+     libopusfile-dev cmake imagemagick \
+     libjpeg-dev libxinerama-dev libxft-dev && \
+
+     sudo rm -Rf lapopa \
+
+        git clone https://github.com/atorresbr/lapopa.git && cd lapopa \
+        mkdir lapopa.mk && cd lapopa.mk && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && make
+
+      sudo make install && \
+
+      openspades
+
+```
+
+
+
  ## Limpar e Instalar / Limpiar y instalar / Clean and Install 
 
 🇪🇸 **Importante**: 
@@ -94,13 +120,13 @@ or later is recommended because OpenSpades relies on C++11 features heavily.
 ### 2.  Clonar el repositorio 💠 Clonando o repositório 💠 Cloning the repository : 
 
    ```bash
-   git clone https://github.com/atorresbr/sopa-spades.git && cd sopa-spades
+   git clone https://github.com/atorresbr/lapopa.git && cd lapopa
    ```
 
 ### 3. Execute el comando abajo 💠 Execute o comando abaixo 💠 Run the commmand :
 
    ```
-   mkdir sopa-pades.mk && cd sopa-spades.mk && \
+   mkdir lapopa.mk && cd lapopa.mk && \
    cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && make
    ```
 
@@ -111,6 +137,11 @@ or later is recommended because OpenSpades relies on C++11 features heavily.
    ```
 
 ### 5. Iniciar el cliente del juego 💠 Iniciando o Cliente do Jogo 💠 Starting the Game :  <!-- (if installed) -->  
+
+💠 To start the game, type the command below on you TERMINAL, o just copy and past the command . <br>
+💠 Para iniciar el juego, escriba el comando en tu TERMINAL, o simplemente copie y colar. <br>
+💠 Para iniciar o jogo, digite o comando abaixo em seu terminal ou copie e cole. <br>
+
 
    ``` bash
    openspades
