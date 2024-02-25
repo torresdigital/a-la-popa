@@ -9,6 +9,33 @@
 
 <!-- **Important**: If you have previously installed OpenSpades or any modified version of OpenSpades, you have to uninstall it manually by `sudo rm -rf /usr/local/share/games/openspades` or `sudo rm -rf /usr/local/share/games/sopaspades` before installing a new one. -->
 
+
+🇪🇸 benginer, simplemente copie el comando en dos cuadrados a la derecha y use el botón derecho del mouse para pegarlo en su terminal y presione ENTER para instalar el juego.
+
+🇺🇸 If you are a extremelly benginer, just copy the command on two squares on right, and use the right click mouse to past in you terminal and press ENTER to install the game.
+
+🇧🇷 Se você é iniciante com Linux, copie o comando nos pequenos quadrados na direita dos comandos. Depois de copiar, cole com botão direo no sue terminal e aperte ENTER.
+
+```bash
+  sudo apt-get install pkg-config libglew-dev libcurl3-openssl-dev libsdl2-dev \
+     libsdl2-image-dev libalut-dev xdg-utils libfreetype6-dev libopus-dev \
+     libopusfile-dev cmake imagemagick \
+     libjpeg-dev libxinerama-dev libxft-dev && \
+
+        git clone https://github.com/atorresbr/sopa-spades.git && cd sopa-spades \
+
+
+   mkdir sopa-pades.mk && cd sopa-spades.mk && \
+   cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && make && \
+
+      sudo make install && \
+
+      openspades
+
+```
+
+
+
  ## Limpar e Instalar / Limpiar y instalar / Clean and Install 
 
 🇪🇸 **Importante**: 
