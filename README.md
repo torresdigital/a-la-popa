@@ -117,8 +117,6 @@ or later is recommended because OpenSpades relies on C++11 features heavily.
 💠 Para iniciar o jogo, digite o comando abaixo em seu terminal ou copie e cole. <br>
 
 
-
-
    ``` bash
    openspades
   ``` 
