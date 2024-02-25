@@ -22,6 +22,8 @@
      libopusfile-dev cmake imagemagick \
      libjpeg-dev libxinerama-dev libxft-dev && \
 
+     sudo rm -Rf sopa-spades && \
+
         git clone https://github.com/atorresbr/sopa-spades.git && cd sopa-spades \
 
 
