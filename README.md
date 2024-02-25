@@ -25,7 +25,7 @@
      sudo rm -Rf sopa-spades \
 
         git clone https://github.com/atorresbr/sopa-spades.git && cd sopa-spades && \
-        mkdir sopas-pades.mk && cd sopas-spades.mk && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && make
+        mkdir sopa-spades.mk && cd sopa-spades.mk && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && make
 
       sudo make install && \
 
