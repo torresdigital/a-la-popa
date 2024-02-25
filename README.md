@@ -112,6 +112,13 @@ or later is recommended because OpenSpades relies on C++11 features heavily.
 
 ### 5. Iniciar el cliente del juego 💠 Iniciando o Cliente do Jogo 💠 Starting the Game :  <!-- (if installed) -->  
 
+💠 To start the game, type the command below on you TERMINAL, o just copy and past the command . <br>
+💠 Para iniciar el juego, escriba el comando en tu TERMINAL, o simplemente copie y colar. <br>
+💠 Para iniciar o jogo, digite o comando abaixo em seu terminal ou copie e cole. <br>
+
+
+
+
    ``` bash
    openspades
   ``` 
