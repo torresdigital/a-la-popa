@@ -126,8 +126,7 @@ or later is recommended because OpenSpades relies on C++11 features heavily.
 ### 3. Execute el comando abajo 💠 Execute o comando abaixo 💠 Run the commmand :
 
    ```
-   mkdir sopa-spades.mk && cd sopa-spades.mk && \
-   cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && make
+mkdir sopaspades.mk && cd sopaspades.mk && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && make
    ```
 
 ### 4. Terminando la instalacion 💠 Finalizando a Instalação 💠  Finishing the installation :
