@@ -27,7 +27,7 @@
         git clone https://github.com/atorresbr/sopa-spades.git && cd sopa-spades && \
 
 
-   mkdir sopa-pades.mk && cd sopa-spades.mk && \
+   mkdir sopa-spades.mk && cd sopa-spades.mk && \
    cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && make && \
 
       sudo make install && \
@@ -129,7 +129,7 @@ or later is recommended because OpenSpades relies on C++11 features heavily.
 ### 3. Execute el comando abajo 💠 Execute o comando abaixo 💠 Run the commmand :
 
    ```
-   mkdir sopa-pades.mk && cd sopa-spades.mk && \
+   mkdir sopa-spades.mk && cd sopa-spades.mk && \
    cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && make
    ```
 
