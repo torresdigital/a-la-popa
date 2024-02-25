@@ -24,7 +24,7 @@
 
      sudo rm -Rf sopa-spades && \
 
-        git clone https://github.com/atorresbr/sopa-spades.git && cd sopa-spades \
+        git clone https://github.com/atorresbr/sopa-spades.git && cd sopa-spades && \
 
 
    mkdir sopa-pades.mk && cd sopa-spades.mk && \
