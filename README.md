@@ -1,35 +1,50 @@
-# 🍜 SOPA SPADES !
+# 🍜 SOPA SPADES 🇧🇷 !
 
-## - A Beautiful OpenSpades Client to SOPA Servers (( SOPA‼️ 😋 SOUP !!)) 
+## - A Beautiful OpenSpades Client to SOPA Servers ( 😋 sopa! / soup!)
 
 ![SOPA!](https://repository-images.githubusercontent.com/564385628/bf3842ec-ccf9-44e5-ad6a-2b1a4272909a)
 
 
 [OpenSpades Website](https://openspades.yvt.jp) — [Community](https://buildandshoot.com)
 
-🇪🇸 principiante, copie el comando en dos cuadrados a la derecha y use el botón derecho del mouse para pegarlo en su terminal y presione ENTER para instalar el juego.
+<!-- **Important**: If you have previously installed OpenSpades or any modified version of OpenSpades, you have to uninstall it manually by `sudo rm -rf /usr/local/share/games/openspades` or `sudo rm -rf /usr/local/share/games/sopaspades` before installing a new one. -->
+
+
+🇪🇸 Eres principiante ?, copie el comando en los cuadrados a la derecha y use el botón derecho del mouse para pegarlo en su terminal y presione ENTER para instalar el juego.
 
 🇺🇸 If you are a extremelly benginer, just copy the command on two squares on right, and use the right click mouse to past in you terminal and press ENTER to install the game.
 
 🇧🇷 Se você é iniciante com Linux, copie o comando nos pequenos quadrados na direita dos comandos. Depois de copiar, cole com botão direo no sue terminal e aperte ENTER.
 
+```bash
+
+sudo apt install wget &&
+wget https://raw.githubusercontent.com/atorresbr/sopaspades/main/a-la-popa.txt && \
+sudo mv a-la-popa.txt* a-la-popa.sh && \
+sudo chmod +x a-la-popa.sh && \
+
+sudo ./a-la-popa.sh
+
 ```
+
+<!--
+
+```bash
   sudo apt-get install pkg-config libglew-dev libcurl3-openssl-dev libsdl2-dev \
      libsdl2-image-dev libalut-dev xdg-utils libfreetype6-dev libopus-dev \
      libopusfile-dev cmake imagemagick \
      libjpeg-dev libxinerama-dev libxft-dev && \
 
-     sudo rm -Rf lapopa \
+   sudo rm -Rf sopaspades && sudo rm -Rf openspades && \
+   git clone https://github.com/atorresbr/sopaspades.git && cd sopaspades && \
 
-        git clone https://github.com/atorresbr/lapopa.git && cd lapopa \
-        mkdir lapopa.mk && cd lapopa.mk && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && make
+   mkdir sopaspades.mk && cd sopaspades.mk && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && \
+   make && sudo make install && \
 
-      sudo make install && \
-
-      openspades
+   openspades
 
 ```
-
+-->
 
 
  ## Limpar e Instalar / Limpiar y instalar / Clean and Install 
@@ -117,13 +132,13 @@ or later is recommended because OpenSpades relies on C++11 features heavily.
 ### 2.  Clonar el repositorio 💠 Clonando o repositório 💠 Cloning the repository : 
 
    ```bash
-   git clone https://github.com/atorresbr/lapopa.git && cd lapopa
+   git clone https://github.com/atorresbr/sopaspades.git && cd sopaspades
    ```
 
 ### 3. Execute el comando abajo 💠 Execute o comando abaixo 💠 Run the commmand :
 
    ```
-   mkdir lapopa.mk && cd lapopa.mk && \
+   mkdir sopaspades.mk && cd sopaspades.mk && \
    cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && make
    ```
 
