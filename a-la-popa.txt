@@ -14,59 +14,108 @@ fi
 
 echo
 echo
+
 sleep 2
 
 echo -e "🇪🇸 Este script instalará Sopa Spades en tu PC 🍜 "
+
 echo
-echo
+
 sleep 2
 
 echo -e "🇺🇸 This scrip will isntall Sopa Spades on you PC 🍜 "
+
 echo
-echo
+
 sleep 2
 
 echo -e "🇧🇷 Este script irá instalar o Sopa Spades em seu PC 🍜 "
+
 echo
-echo
+
 sleep 1
 
 echo -e "🇪🇸 Eliminando el directorio antiguo para reinstalar el juego"
+
 echo
+
 sleep 1
+
 echo -e "🇺🇸 Removing the old directory to reinstall the Game"
-echo
+
+echo 
+
 sleep 1
+
 echo -ne "🇧🇷 Removendo o antigo diretório para reinstalar o Jogo"
+
 echo
+echo 
 
 echo -e " sudo rm -rf /usr/local/share/games/openspades && 
 sudo rm -rf /usr/local/share/games/sopaspades "
+
+echo
 echo
 
 sudo rm -rf /usr/local/share/games/openspades && 
 sudo rm -rf /usr/local/share/games/sopaspades && \
 
+echo
+echo
+
 ## informando sobre as dependências
 
 sleep 1
+
 echo -e " 🇪🇸 Instalando las dependencias "
+
 echo
+
 sleep 1
+
 echo -e " 🇺🇸 Installing the dependencies "
+
 echo
+
 sleep 1
+
 echo -e " 🇧🇷 Instalando as dependências "
-echo
 
+echo
+echo
 
 sleep 1
-echo " sudo apt-get install pkg-config libglew-dev libcurl3-openssl-dev libsdl2-dev
-     libsdl2-image-dev libalut-dev xdg-utils libfreetype6-dev libopus-dev
-     libopusfile-dev cmake imagemagick
-     libjpeg-dev libxinerama-dev libxft-dev "
+echo " sudo apt-get install 
+
+     pkg-config libglew-dev
+sleep 1
+     libcurl3-openssl-dev 
+sleep 1
+     libsdl2-dev
+sleep 1
+     libsdl2-image-dev
+sleep 1
+     libalut-dev 
+sleep 1
+     xdg-utils libfreetype6-dev
+sleep 1
+     libopus-dev
+sleep 1
+     libopusfile-dev
+sleep 1
+     cmake imagemagick
+sleep 1
+     libjpeg-dev
+sleep 1
+     libxinerama-dev
+sleep 1
+     libxft-dev "
+sleep 1
 
 echo
+echo
+
 sleep 1
 
  sudo apt-get install pkg-config libglew-dev libcurl3-openssl-dev libsdl2-dev
@@ -84,16 +133,27 @@ echo -e " 🇺🇸 Cloning the repository and installing"
 echo
 sleep 1
 echo -e " 🇧🇷 Clonando o repositório e instalando"
-echo
 
+echo
+echo
 sleep 1
+
 echo -e " sudo rm -Rf sopaspades && sudo rm -Rf openspades && \
    git clone https://github.com/atorresbr/sopaspades.git && cd sopaspades "
 
+echo
+echo
+
 sleep 1
+
+echo
+echo
 
    sudo rm -Rf sopaspades && sudo rm -Rf openspades && \
    git clone https://github.com/atorresbr/sopaspades.git && cd sopaspades && \
+
+echo
+echo   
 
 sleep 1
 echo -e " 🇪🇸 instalando"
@@ -105,13 +165,23 @@ sleep 1
 echo -e " 🇧🇷 instalando"
 echo
 
+echo
+echo
+
 sleep 1
 
-echo -e " mkdir sopaspades.mk && cd sopaspades.mk && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && \
-   make && sudo make install "
+echo -e " mkdir sopaspades.mk && cd sopaspades.mk && 
+sleep 1
+cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && \
+sleep 1
+make && sudo make install "
+sleep 1
 
    mkdir sopaspades.mk && cd sopaspades.mk && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && \
    make && sudo make install && \
+
+echo
+echo
 
 sleep 1
 echo -e " 🇪🇸 comenzando el Juego"
@@ -126,6 +196,8 @@ echo
 sleep 1
 
  echo " openspades "
+
+exit
 
 openspades
 
