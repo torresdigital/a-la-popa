@@ -90,29 +90,29 @@ sleep 1
 
 echo " sudo apt-get install "
 
-   echo    "pkg-config libglew-dev"
+   echo    " pkg-config libglew-dev"
 sleep 1
-   echo    "libcurl3-openssl-dev" 
+   echo    " libcurl3-openssl-dev" 
 sleep 1
-   echo     "libsdl2-dev"
+   echo    " libsdl2-dev"
 sleep 1
-   echo    "libsdl2-image-dev"
+   echo    " libsdl2-image-dev"
 sleep 1
-   echo     "libalut-dev"
+   echo    " libalut-dev"
 sleep 1
-   echo     "xdg-utils libfreetype6-dev"
+   echo    " xdg-utils libfreetype6-dev"
 sleep 1
-   echo     "libopus-dev"
+   echo    " libopus-dev"
 sleep 1
-   echo    "libopusfile-dev"
+   echo    " libopusfile-dev"
 sleep 1
-   echo      "cmake imagemagick"
+   echo    " cmake imagemagick"
 sleep 1
-   echo      "libjpeg-dev"
+   echo    " libjpeg-dev"
 sleep 1
-   echo      "libxinerama-dev
+   echo    " libxinerama-dev
 sleep 1
-   echo      "libxft-dev "
+   echo    " libxft-dev "
 sleep 1
 
 echo
@@ -138,10 +138,12 @@ echo -e " 🇧🇷 Clonando o repositório e instalando"
 
 echo
 echo
+
 sleep 1
 
-echo -e " sudo rm -Rf sopaspades && sudo rm -Rf openspades && \
-   git clone https://github.com/atorresbr/sopaspades.git && cd sopaspades "
+echo -e " sudo rm -Rf sopaspades && sudo rm -Rf openspades"
+echo -e " &&"
+echo -e " git clone https://github.com/atorresbr/sopaspades.git && cd sopaspades"
 
 echo
 echo
@@ -174,10 +176,13 @@ sleep 1
 
 echo -e " mkdir sopaspades.mk && cd sopaspades.mk && 
 sleep 1
-cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && \
+echo -e "cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && \"
 sleep 1
-make && sudo make install "
+echo -e "make && sudo make install"
 sleep 1
+
+echo
+echo
 
    mkdir sopaspades.mk && cd sopaspades.mk && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && \
    make && sudo make install && \
@@ -197,7 +202,7 @@ echo
 
 sleep 1
 
- echo " openspades "
+ echo " openspades"
 
 exit
 
