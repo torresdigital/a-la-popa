@@ -52,8 +52,9 @@ echo -ne "🇧🇷 Removendo o antigo diretório para reinstalar o Jogo"
 echo
 echo 
 
-echo -e " sudo rm -rf /usr/local/share/games/openspades && 
-sudo rm -rf /usr/local/share/games/sopaspades "
+echo -e " sudo rm -rf /usr/local/share/games/openspades
+echo -e " && " 
+echo -e " sudo rm -rf /usr/local/share/games/sopaspades "
 
 echo
 echo
@@ -86,31 +87,32 @@ echo
 echo
 
 sleep 1
-echo " sudo apt-get install 
 
-     pkg-config libglew-dev
+echo " sudo apt-get install "
+
+   echo    " pkg-config libglew-dev"
 sleep 1
-     libcurl3-openssl-dev 
+   echo    " libcurl3-openssl-dev" 
 sleep 1
-     libsdl2-dev
+   echo    " libsdl2-dev"
 sleep 1
-     libsdl2-image-dev
+   echo    " libsdl2-image-dev"
 sleep 1
-     libalut-dev 
+   echo    " libalut-dev"
 sleep 1
-     xdg-utils libfreetype6-dev
+   echo    " xdg-utils libfreetype6-dev"
 sleep 1
-     libopus-dev
+   echo    " libopus-dev"
 sleep 1
-     libopusfile-dev
+   echo    " libopusfile-dev"
 sleep 1
-     cmake imagemagick
+   echo    " cmake imagemagick"
 sleep 1
-     libjpeg-dev
+   echo    " libjpeg-dev"
 sleep 1
-     libxinerama-dev
+   echo    " libxinerama-dev
 sleep 1
-     libxft-dev "
+   echo    " libxft-dev "
 sleep 1
 
 echo
@@ -136,10 +138,12 @@ echo -e " 🇧🇷 Clonando o repositório e instalando"
 
 echo
 echo
+
 sleep 1
 
-echo -e " sudo rm -Rf sopaspades && sudo rm -Rf openspades && \
-   git clone https://github.com/atorresbr/sopaspades.git && cd sopaspades "
+echo -e " sudo rm -Rf sopaspades && sudo rm -Rf openspades"
+echo -e " &&"
+echo -e " git clone https://github.com/atorresbr/sopaspades.git && cd sopaspades"
 
 echo
 echo
@@ -172,10 +176,13 @@ sleep 1
 
 echo -e " mkdir sopaspades.mk && cd sopaspades.mk && 
 sleep 1
-cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && \
+echo -e "cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && \"
 sleep 1
-make && sudo make install "
+echo -e "make && sudo make install"
 sleep 1
+
+echo
+echo
 
    mkdir sopaspades.mk && cd sopaspades.mk && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && \
    make && sudo make install && \
@@ -195,7 +202,7 @@ echo
 
 sleep 1
 
- echo " openspades "
+ echo " openspades"
 
 exit
 
