@@ -30,12 +30,12 @@
 #include <ScriptBindings/Config.h>
 #include <ScriptBindings/ScriptFunction.h>
 
-DEFINE_SPADES_SETTING(syn_macro_P, "Testing Macro - P - /syn_macro_P [macro]");
-DEFINE_SPADES_SETTING(syn_macro_MS4, "Mouse Button 4 Macro - /syn_macro_MS4 [macro]");
-DEFINE_SPADES_SETTING(syn_macro_MS5, "Mouse Button 5 Macro - /syn_macro_MS5 [macro]");
+DEFINE_SPADES_SETTING(sopa_maco_P, "SOPA BRUV's, SOPA ! - P - /sopa_maco_P [macro]");
+DEFINE_SPADES_SETTING(sopa_maco_MS4, "Mouse Button 4 Macro - /sopa_maco_MS4 [macro]");
+DEFINE_SPADES_SETTING(sopa_maco_MS5, "Mouse Button 5 Macro - /sopa_maco_MS5 [macro]");
 
 // amogus
-DEFINE_SPADES_SETTING(amogus, "amogus (amogus) among us (real life) (sus)");
+DEFINE_SPADES_SETTING(amogus, "SOPA BRUV's, SOPA !");
 // sussy
 
 namespace spades {
@@ -86,19 +86,19 @@ namespace spades {
 	void ClientUI::sendP() {
 		if (!client)
 			return;
-		client->net->SendChat((std::string)syn_macro_P, false);
+		client->net->SendChat((std::string)sopa_maco_P, false);
 	}
 
 	void ClientUI::sendMS4() {
 		if (!client)
 			return;
-		client->net->SendChat((std::string)syn_macro_MS4, false);
+		client->net->SendChat((std::string)sopa_maco_MS4, false);
 	}
 
 void ClientUI::sendMS5() {
 	if (!client)
 		return;
-	client->net->SendChat((std::string)syn_macro_MS5, false);
+	client->net->SendChat((std::string)sopa_maco_MS5, false);
 }
 
 void ClientUI::susamogus() { // red sus
