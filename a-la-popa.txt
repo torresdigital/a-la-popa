@@ -274,7 +274,7 @@ sleep 1
 
  echo " openspades"
 
-exit
+exit;
 
 openspades
 
