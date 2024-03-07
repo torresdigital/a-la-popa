@@ -185,23 +185,25 @@ echo
 ## informando e Clonando os repositórios
 
 sleep 1
-echo -e " 🇪🇸 Clonando el repositorio y instalando"
+echo -e " 🇪🇸 Clonando el repositorio y instalando "
 
 echo
 sleep 1
 
-echo -e " 🇺🇸 Cloning the repository and installing"
+echo -e " 🇺🇸 Cloning the repository and installing "
 
 echo
 sleep 1
 
-echo -e " 🇧🇷 Clonando o repositório e instalando"
+echo -e " 🇧🇷 Clonando o repositório e instalando "
 
 echo
 sleep 1
 
 echo -e " sudo rm -Rf sopaspades && sudo rm -Rf openspades "
+sleep 1
 echo -e " && "
+sleep 1
 echo -e " git clone https://github.com/atorresbr/sopaspades.git && cd sopaspades "
 
 echo
@@ -234,6 +236,7 @@ echo -e " 🇪🇸 instalando"
 
 echo
 sleep 1
+
 echo -e " 🇺🇸 installing"
 
 echo
@@ -246,9 +249,9 @@ sleep 1
 
 echo -e " mkdir sopaspades.mk && cd sopaspades.mk && "
 sleep 1
-echo -e "cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && \"
+echo -e " cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && "
 sleep 1
-echo -e "make && sudo make install"
+echo -e " make && sudo make install "
 sleep 1
 
 echo
@@ -267,7 +270,7 @@ echo
 echo -e " Êxito !"
 echo
 
-sleep 2
+sleep 1
 
    mkdir sopaspades.mk && cd sopaspades.mk && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && \
    make && sudo make install && \
@@ -278,15 +281,19 @@ echo
 ## FALTA REVISAR ! 
 
 sleep 1
-echo -e " 🇪🇸 comenzando el Juego"
-echo
-sleep 1
-echo -e " 🇺🇸 starting the Game"
-echo
-sleep 1
-echo -e " 🇧🇷 iniciando o Jogo"
-echo
 
+echo -e " 🇪🇸 comenzando el Juego "
+
+echo
+sleep 1
+
+echo -e " 🇺🇸 starting the Game "
+
+echo
+sleep 1
+echo -e " 🇧🇷 iniciando o Jogo "
+
+echo
 sleep 1
 
  echo " openspades"
@@ -299,12 +306,17 @@ openspades
   echo
 
   echo -e " 😘 🇪🇸 Comparte este script Compartilhe este Script ! "
+
   echo
   sleep 1
+
   echo -e " 😘 🇺🇸 Share this Script ! "
+
   echo
   sleep 1
+
   echo -e " 😘 🇧🇷 Compartilhe este Script ! "
+
   echo
 
   echo
