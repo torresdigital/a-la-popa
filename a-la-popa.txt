@@ -29,10 +29,13 @@ green='\033[0;32m'    # Light Green
 red='\033[0;31m'      # Red
 nc='\033[0m'          # No Color
 
-
-#================================================== * 
+echo -e "
+*================================================== * 
 # =        Executando os Comandos de Shell           *
 #================================================== *
+"
+echo
+echo
 
 ## informando sobre a instalação
 
@@ -65,8 +68,13 @@ echo -ne " 🇧🇷 Removendo o antigo diretório para reinstalar o Jogo "
 echo
 echo 
 
+sleep 1
 echo -e " sudo rm -rf /usr/local/share/games/openspades "
-echo -e " && " 
+
+sleep 1
+echo -e " && "
+
+sleep 1
 echo -e " sudo rm -rf /usr/local/share/games/sopaspades "
 
 echo
@@ -87,7 +95,8 @@ echo
 
 sleep 2
 
-sudo rm -rf /usr/local/share/games/openspades && 
+sudo rm -rf /usr/local/share/games/openspades &&
+sudo rm -rf /usr/local/share/games/synspades &&
 sudo rm -rf /usr/local/share/games/sopaspades && \
 
 echo
@@ -296,7 +305,7 @@ echo -e " 🇧🇷 iniciando o Jogo "
 echo
 sleep 1
 
- echo " openspades"
+ echo " openspades 🔫 "
 
 exit
 
