@@ -1,6 +1,5 @@
 #!/bin/bash
 ## La Popa és Nuestra !
-## informand sobre a instalação
 
 
 #this functio send the error mesage to user if his not use the sudo command
