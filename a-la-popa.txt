@@ -6,10 +6,10 @@
 if [ "$(whoami)" != "root" ]
 then
   echo
-    echo -e " 🔴 use sudo to run this script "
+    echo -e " 🔴 use the sudo command to run this script "
     sleep 1
     echo
-    echo -e " 🔴 use sudo para usar el cript "
+    echo -e " 🔴 use el comando sudo para usar el script "
     sleep 1
     echo
     echo -e " 🔴 use o comando sudo para rodar o script de instalação "
