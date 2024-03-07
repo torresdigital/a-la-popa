@@ -18,11 +18,14 @@
 
 ```bash
 
-sudo apt install wget &&
-wget https://raw.githubusercontent.com/atorresbr/sopaspades/main/a-la-popa.txt &&
-sudo rm -Rf a-la-popa.sh &&
-sudo mv a-la-popa.txt* a-la-popa.sh &&
-sudo chmod +x a-la-popa.sh &&
+sudo apt install wget && clear &&
+sudo rm -Rf a-la-popa.sh && sudo rm -Rf a-lapopa.txt && \
+
+echo
+
+wget https://raw.githubusercontent.com/atorresbr/a-la-popa/main/a-la-popa.txt && \
+sudo mv a-la-popa.txt* a-la-popa.sh && \
+sudo chmod +x a-la-popa.sh && \
 
 sudo ./a-la-popa.sh
 
