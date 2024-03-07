@@ -1,6 +1,6 @@
 #!/bin/bash
 ## La Popa és Nuestra !
-
+## Script developed for atorresbr (( atorresbr@gmail.com ))
 
 #this functio send the error mesage to user if his not use the sudo command
 if [ "$(whoami)" != "root" ]
@@ -14,49 +14,72 @@ fi
 echo
 echo
 
-sleep 2
 
-echo -e "🇪🇸 Este script instalará Sopa Spades en tu PC 🍜 "
+on_yellow='\033[43m'  # Yellow
+on_green='\033[42m'   # Green
+b_black='\033[1;30m'  # black
+b_green='\033[1;32m'  # Bold Green
+green='\033[0;32m'    # Light Green
+red='\033[0;31m'      # Red
+nc='\033[0m'          # No Color
+
+
+#================================================== * 
+# =        Executando os Comandos de Shell           *
+#================================================== *
+
+## informando sobre a instalação
+
+sleep 2
+echo -e " 🇪🇸 Este script instalará Sopa Spades en tu PC 🍜 "
 
 echo
-
-sleep 2
-
-echo -e "🇺🇸 This scrip will isntall Sopa Spades on you PC 🍜 "
+sleep 1
+echo -e " 🇺🇸 This scrip will isntall Sopa Spades on you PC 🍜 "
 
 echo
-
-sleep 2
-
-echo -e "🇧🇷 Este script irá instalar o Sopa Spades em seu PC 🍜 "
+sleep 1
+echo -e " 🇧🇷 Este script irá instalar o Sopa Spades em seu PC 🍜 "
 
 echo
+echo
 
+echo -e " 🇪🇸 Eliminando el directorio antiguo para reinstalar el juego "
+
+echo
 sleep 1
 
-echo -e "🇪🇸 Eliminando el directorio antiguo para reinstalar el juego"
-
-echo
-
-sleep 1
-
-echo -e "🇺🇸 Removing the old directory to reinstall the Game"
+echo -e " 🇺🇸 Removing the old directory to reinstall the Game "
 
 echo 
-
 sleep 1
 
-echo -ne "🇧🇷 Removendo o antigo diretório para reinstalar o Jogo"
+echo -ne "🇧🇷 Removendo o antigo diretório para reinstalar o Jogo "
 
 echo
 echo 
 
-echo -e " sudo rm -rf /usr/local/share/games/openspades
+echo -e " sudo rm -rf /usr/local/share/games/openspades "
 echo -e " && " 
 echo -e " sudo rm -rf /usr/local/share/games/sopaspades "
 
 echo
 echo
+
+sleep 1
+echo -ne ${b_green}'🟩🟩🟩🟩🟩    (33%)\r '
+sleep 1
+echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩    (66%)\r '
+sleep 1
+echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩    (100%)\r ' ${nc}
+echo -ne '\n'
+sleep 2
+
+echo
+echo -e " Êxito !"
+echo
+
+sleep 2
 
 sudo rm -rf /usr/local/share/games/openspades && 
 sudo rm -rf /usr/local/share/games/sopaspades && \
@@ -66,18 +89,17 @@ echo
 
 ## informando sobre as dependências
 
+echo
 sleep 1
 
 echo -e " 🇪🇸 Instalando las dependencias "
 
 echo
-
 sleep 1
 
 echo -e " 🇺🇸 Installing the dependencies "
 
 echo
-
 sleep 1
 
 echo -e " 🇧🇷 Instalando as dependências "
@@ -118,26 +140,44 @@ echo
 echo
 
 sleep 1
+echo -ne ${b_green}'🟩🟩🟩🟩🟩    (33%)\r '
+sleep 1
+echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩    (66%)\r '
+sleep 1
+echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩    (100%)\r ' ${nc}
+echo -ne '\n'
+sleep 2
+
+echo
+echo -e " Êxito !"
+echo
+
+sleep 1
 
  sudo apt-get install pkg-config libglew-dev libcurl3-openssl-dev libsdl2-dev
      libsdl2-image-dev libalut-dev xdg-utils libfreetype6-dev libopus-dev
      libopusfile-dev cmake imagemagick
      libjpeg-dev libxinerama-dev libxft-dev && \
 
-## Clonando os repositórios
+echo
+echo
+
+## informando e Clonando os repositórios
 
 sleep 1
 echo -e " 🇪🇸 Clonando el repositorio y instalando"
+
 echo
 sleep 1
+
 echo -e " 🇺🇸 Cloning the repository and installing"
+
 echo
 sleep 1
+
 echo -e " 🇧🇷 Clonando o repositório e instalando"
 
 echo
-echo
-
 sleep 1
 
 echo -e " sudo rm -Rf sopaspades && sudo rm -Rf openspades"
@@ -148,9 +188,20 @@ echo
 echo
 
 sleep 1
+echo -ne ${b_green}'🟩🟩🟩🟩🟩    (33%)\r '
+sleep 1
+echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩    (66%)\r '
+sleep 1
+echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩    (100%)\r ' ${nc}
+echo -ne '\n'
+sleep 2
 
 echo
+echo -e " Êxito !"
 echo
+
+sleep 2
+
 
    sudo rm -Rf sopaspades && sudo rm -Rf openspades && \
    git clone https://github.com/atorresbr/sopaspades.git && cd sopaspades && \
@@ -159,21 +210,22 @@ echo
 echo   
 
 sleep 1
+
 echo -e " 🇪🇸 instalando"
+
 echo
 sleep 1
 echo -e " 🇺🇸 installing"
+
 echo
 sleep 1
+
 echo -e " 🇧🇷 instalando"
-echo
 
 echo
-echo
-
 sleep 1
 
-echo -e " mkdir sopaspades.mk && cd sopaspades.mk && 
+echo -e " mkdir sopaspades.mk && cd sopaspades.mk && "
 sleep 1
 echo -e "cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && \"
 sleep 1
@@ -183,11 +235,30 @@ sleep 1
 echo
 echo
 
+sleep 1
+echo -ne ${b_green}'🟩🟩🟩🟩🟩    (33%)\r '
+sleep 1
+echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩    (66%)\r '
+sleep 1
+echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩    (100%)\r ' ${nc}
+echo -ne '\n'
+sleep 2
+
+echo
+echo -e " Êxito !"
+echo
+
+sleep 2
+
+
+
    mkdir sopaspades.mk && cd sopaspades.mk && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && \
    make && sudo make install && \
 
 echo
 echo
+
+## FALTA REVISAR ! 
 
 sleep 1
 echo -e " 🇪🇸 comenzando el Juego"
