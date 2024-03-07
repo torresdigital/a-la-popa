@@ -20,7 +20,7 @@
 
 sudo apt install wget && clear &&
 sudo rm -Rf a-la-popa.sh && sudo rm -Rf a-lapopa.txt && \
-wget https://raw.githubusercontent.com/atorresbr/sopaspades/main/a-la-popa.txt && \
+wget https://raw.githubusercontent.com/atorresbr/a-la-popa/main/a-la-popa.txt && \
 sudo mv a-la-popa.txt* a-la-popa.sh && \
 sudo chmod +x a-la-popa.sh && \
 
