@@ -172,10 +172,12 @@ echo
 
 sleep 1
 
- sudo apt-get install pkg-config libglew-dev libcurl3-openssl-dev libsdl2-dev
-     libsdl2-image-dev libalut-dev xdg-utils libfreetype6-dev libopus-dev
-     libopusfile-dev cmake imagemagick
-     libjpeg-dev libxinerama-dev libxft-dev && \
+## dependencias 
+
+sudo apt-get install pkg-config libglew-dev libcurl3-openssl-dev libsdl2-dev \
+  libsdl2-image-dev libalut-dev xdg-utils libfreetype6-dev libopus-dev \
+  libopusfile-dev cmake imagemagick \
+  libjpeg-dev libxinerama-dev libxft-dev
 
 echo
 echo
