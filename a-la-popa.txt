@@ -54,7 +54,7 @@ echo -e " 🇺🇸 Removing the old directory to reinstall the Game "
 echo 
 sleep 1
 
-echo -ne "🇧🇷 Removendo o antigo diretório para reinstalar o Jogo "
+echo -ne " 🇧🇷 Removendo o antigo diretório para reinstalar o Jogo "
 
 echo
 echo 
@@ -111,29 +111,41 @@ sleep 1
 
 echo " sudo apt-get install "
 
-   echo    " pkg-config libglew-dev"
+   echo
+   echo    " 🍺 pkg-config libglew-dev "
 sleep 1
-   echo    " libcurl3-openssl-dev" 
+   echo
+   echo    " 🍺 libcurl3-openssl-dev " 
 sleep 1
-   echo    " libsdl2-dev"
+   echo
+   echo    " 🍺 libsdl2-dev "
 sleep 1
-   echo    " libsdl2-image-dev"
+   echo
+   echo    " 🍺 libsdl2-image-dev "
 sleep 1
-   echo    " libalut-dev"
+   echo
+   echo    " 😋 libalut-dev "
 sleep 1
-   echo    " xdg-utils libfreetype6-dev"
+   echo
+   echo    " 🍺 xdg-utils libfreetype6-dev "
 sleep 1
-   echo    " libopus-dev"
+   echo
+   echo    " 🍺 libopus-dev "
 sleep 1
-   echo    " libopusfile-dev"
+   echo
+   echo    " 🍺 libopusfile-dev "
 sleep 1
-   echo    " cmake imagemagick"
+   echo
+   echo    " 🍺 cmake imagemagick "
 sleep 1
-   echo    " libjpeg-dev"
+   echo
+   echo    " 🍺 libjpeg-dev "
 sleep 1
-   echo    " libxinerama-dev
+   echo
+   echo    " 😋 🙏 libxinerama-dev "
 sleep 1
-   echo    " libxft-dev "
+   echo
+   echo    " 🙏 libxft-dev "
 sleep 1
 
 echo
@@ -180,9 +192,9 @@ echo -e " 🇧🇷 Clonando o repositório e instalando"
 echo
 sleep 1
 
-echo -e " sudo rm -Rf sopaspades && sudo rm -Rf openspades"
-echo -e " &&"
-echo -e " git clone https://github.com/atorresbr/sopaspades.git && cd sopaspades"
+echo -e " sudo rm -Rf sopaspades && sudo rm -Rf openspades "
+echo -e " && "
+echo -e " git clone https://github.com/atorresbr/sopaspades.git && cd sopaspades "
 
 echo
 echo
@@ -201,7 +213,6 @@ echo -e " Êxito !"
 echo
 
 sleep 2
-
 
    sudo rm -Rf sopaspades && sudo rm -Rf openspades && \
    git clone https://github.com/atorresbr/sopaspades.git && cd sopaspades && \
@@ -250,8 +261,6 @@ echo
 
 sleep 2
 
-
-
    mkdir sopaspades.mk && cd sopaspades.mk && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && \
    make && sudo make install && \
 
@@ -274,7 +283,7 @@ sleep 1
 
  echo " openspades"
 
-exit;
+exit
 
 openspades
 
