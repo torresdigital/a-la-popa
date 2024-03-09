@@ -40,15 +40,15 @@ echo
 ## informando sobre a instalação
 
 sleep 2
-echo -ne " {$on_green}🇪🇸 Este script instalará Sopa Spades en tu PC 🍜 "{$nc}
+echo -ne " ${b_green} 🇪🇸 Este script instalará Sopa Spades en tu PC 🍜 "{$nc}
 
 echo
 sleep 1
-echo -ne  {$on_green} " 🇺🇸 This scrip will isntall Sopa Spades on you PC 🍜 "{$nc}
+echo -ne "${b_green} 🇺🇸 This scrip will isntall Sopa Spades on you PC 🍜 "{$nc}
 
 echo
 sleep 1
-echo -e " 🇧🇷 Este script irá instalar o Sopa Spades em seu PC 🍜 "
+echo -e " ${b_green}🇧🇷 Este script irá instalar o Sopa Spades em seu PC 🍜 "
 
 echo
 echo
