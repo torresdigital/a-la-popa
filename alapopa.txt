@@ -103,13 +103,9 @@ echo
 echo -ne ${b_yellow}
 
 sleep 1
-echo -e " sudo rm -rf /usr/local/share/games/openspades "
-
+echo -e " sudo rm -rf /usr/local/share/games/openspades &&"
 sleep 1
-echo -e " && "
-
-sleep 1
-echo -e " sudo rm -rf /usr/local/share/games/sopaspades "
+echo -e " sudo rm -rf /usr/local/share/games/sopaspades"
 
 echo -ne ${nc}
 
@@ -134,9 +130,6 @@ echo -ne ${nc}
 
 sleep 2
 
-sudo rm -Rf a-la-popa
-sudo rm -Rf a-la-popa.txt
-sudo rm -Rf a-la-popa.sh
 
 sudo rm -rf /usr/local/share/games/openspades &&
 sudo rm -rf /usr/local/share/games/synspades &&
@@ -263,9 +256,7 @@ sleep 1
 
 echo -ne ${b_yellow}
 
-echo -e " sudo rm -Rf sopaspades && sudo rm -Rf openspades "
-sleep 1
-echo -e " && "
+echo -e " sudo rm -Rf sopaspades && sudo rm -Rf openspades && "
 sleep 1
 echo -e " git clone https://github.com/atorresbr/sopaspades.git && cd sopaspades "
 
@@ -289,10 +280,8 @@ echo
 
 sleep 2
 
- sudo rm -Rf sopaspades && \
- sudo rm -Rf openspades && \ 
- sudo rm -Rf a-la-popa && \
-  git clone https://github.com/atorresbr/alapopa.git && cd alapopa && \
+sudo rm -Rf sopaspades && sudo rm -Rf openspades && sudo rm -Rf a-la-popa &&
+git clone https://github.com/atorresbr/alapopa.git && cd alapopa && \
 
 echo
 echo   
@@ -346,8 +335,8 @@ echo
 sleep 1
 
 
-  mkdir alapopa.mk && cd alapopa.mk && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && \
-  make && sudo make install && \
+mkdir alapopa.mk && cd alapopa.mk && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && \
+make && sudo make install && \
 
 echo
 echo
