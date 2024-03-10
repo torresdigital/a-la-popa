@@ -19,15 +19,17 @@
 ```bash
 
 sudo apt install wget && clear &&
-sudo rm -Rf a-la-popa.sh && sudo rm -Rf a-lapopa.txt && \
+sudo rm -Rf a-la-popa.sh && 
+sudo rm -Rf a-lapopa.txt && 
+sudo rm -Rf alapopa && \
 
 echo
 
-wget https://raw.githubusercontent.com/atorresbr/a-la-popa/main/a-la-popa.txt && \
-sudo mv a-la-popa.txt* a-la-popa.sh && \
-sudo chmod +x a-la-popa.sh && \
+wget https://raw.githubusercontent.com/atorresbr/alapopa/main/alapopa.txt && \
+sudo mv alapopa.txt* alapop.txt.sh && \
+sudo chmod +x alapopa.txt.sh && \
 
-sudo ./a-la-popa.sh
+sudo ./alapopa.txt.sh
 
 ```
 
