@@ -6,7 +6,13 @@
 if [ "$(whoami)" != "root" ]
 then
   echo
-    echo -e " 🔴 use sudo to run this script "
+    echo -e " 🔴 use the sudo command to run this script "
+    sleep 1
+    echo
+    echo -e " 🔴 use el comando sudo para usar el script "
+    sleep 1
+    echo
+    echo -e " 🔴 use o comando sudo para rodar o script de instalação "
   echo
   exit 1
 fi
@@ -23,10 +29,13 @@ green='\033[0;32m'    # Light Green
 red='\033[0;31m'      # Red
 nc='\033[0m'          # No Color
 
-
-#================================================== * 
+echo -e "
+*================================================== * 
 # =        Executando os Comandos de Shell           *
 #================================================== *
+"
+echo
+echo
 
 ## informando sobre a instalação
 
@@ -54,13 +63,18 @@ echo -e " 🇺🇸 Removing the old directory to reinstall the Game "
 echo 
 sleep 1
 
-echo -ne "🇧🇷 Removendo o antigo diretório para reinstalar o Jogo "
+echo -ne " 🇧🇷 Removendo o antigo diretório para reinstalar o Jogo "
 
 echo
 echo 
 
+sleep 1
 echo -e " sudo rm -rf /usr/local/share/games/openspades "
-echo -e " && " 
+
+sleep 1
+echo -e " && "
+
+sleep 1
 echo -e " sudo rm -rf /usr/local/share/games/sopaspades "
 
 echo
@@ -81,7 +95,8 @@ echo
 
 sleep 2
 
-sudo rm -rf /usr/local/share/games/openspades && 
+sudo rm -rf /usr/local/share/games/openspades &&
+sudo rm -rf /usr/local/share/games/synspades &&
 sudo rm -rf /usr/local/share/games/sopaspades && \
 
 echo
@@ -111,29 +126,41 @@ sleep 1
 
 echo " sudo apt-get install "
 
-   echo    " pkg-config libglew-dev"
+   echo
+   echo    " 🍺 pkg-config libglew-dev "
 sleep 1
-   echo    " libcurl3-openssl-dev" 
+   echo
+   echo    " 🍺 libcurl3-openssl-dev " 
 sleep 1
-   echo    " libsdl2-dev"
+   echo
+   echo    " 🍺 libsdl2-dev "
 sleep 1
-   echo    " libsdl2-image-dev"
+   echo
+   echo    " 🍺 libsdl2-image-dev "
 sleep 1
-   echo    " libalut-dev"
+   echo
+   echo    " 😋 libalut-dev "
 sleep 1
-   echo    " xdg-utils libfreetype6-dev"
+   echo
+   echo    " 🍺 xdg-utils libfreetype6-dev "
 sleep 1
-   echo    " libopus-dev"
+   echo
+   echo    " 🍺 libopus-dev "
 sleep 1
-   echo    " libopusfile-dev"
+   echo
+   echo    " 🍺 libopusfile-dev "
 sleep 1
-   echo    " cmake imagemagick"
+   echo
+   echo    " 🍺 cmake imagemagick "
 sleep 1
-   echo    " libjpeg-dev"
+   echo
+   echo    " 🍺 libjpeg-dev "
 sleep 1
-   echo    " libxinerama-dev
+   echo
+   echo    " 😋 🙏 libxinerama-dev "
 sleep 1
-   echo    " libxft-dev "
+   echo
+   echo    " 🙏 libxft-dev "
 sleep 1
 
 echo
@@ -154,10 +181,12 @@ echo
 
 sleep 1
 
- sudo apt-get install pkg-config libglew-dev libcurl3-openssl-dev libsdl2-dev
-     libsdl2-image-dev libalut-dev xdg-utils libfreetype6-dev libopus-dev
-     libopusfile-dev cmake imagemagick
-     libjpeg-dev libxinerama-dev libxft-dev && \
+## dependencias 
+
+sudo apt-get install pkg-config libglew-dev libcurl3-openssl-dev libsdl2-dev \
+  libsdl2-image-dev libalut-dev xdg-utils libfreetype6-dev libopus-dev \
+  libopusfile-dev cmake imagemagick \
+  libjpeg-dev libxinerama-dev libxft-dev
 
 echo
 echo
@@ -165,24 +194,26 @@ echo
 ## informando e Clonando os repositórios
 
 sleep 1
-echo -e " 🇪🇸 Clonando el repositorio y instalando"
+echo -e " 🇪🇸 Clonando el repositorio y instalando "
 
 echo
 sleep 1
 
-echo -e " 🇺🇸 Cloning the repository and installing"
+echo -e " 🇺🇸 Cloning the repository and installing "
 
 echo
 sleep 1
 
-echo -e " 🇧🇷 Clonando o repositório e instalando"
+echo -e " 🇧🇷 Clonando o repositório e instalando "
 
 echo
 sleep 1
 
-echo -e " sudo rm -Rf sopaspades && sudo rm -Rf openspades"
-echo -e " &&"
-echo -e " git clone https://github.com/atorresbr/sopaspades.git && cd sopaspades"
+echo -e " sudo rm -Rf sopaspades && sudo rm -Rf openspades "
+sleep 1
+echo -e " && "
+sleep 1
+echo -e " git clone https://github.com/atorresbr/sopaspades.git && cd sopaspades "
 
 echo
 echo
@@ -202,9 +233,8 @@ echo
 
 sleep 2
 
-
    sudo rm -Rf sopaspades && sudo rm -Rf openspades && \
-   git clone https://github.com/atorresbr/sopaspades.git && cd sopaspades && \
+   git clone https://github.com/atorresbr/a-la-popa.git && cd sopaspades && \
 
 echo
 echo   
@@ -215,6 +245,7 @@ echo -e " 🇪🇸 instalando"
 
 echo
 sleep 1
+
 echo -e " 🇺🇸 installing"
 
 echo
@@ -227,9 +258,9 @@ sleep 1
 
 echo -e " mkdir sopaspades.mk && cd sopaspades.mk && "
 sleep 1
-echo -e "cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && \"
+echo -e " cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && "
 sleep 1
-echo -e "make && sudo make install"
+echo -e " make && sudo make install "
 sleep 1
 
 echo
@@ -248,9 +279,7 @@ echo
 echo -e " Êxito !"
 echo
 
-sleep 2
-
-
+sleep 1
 
    mkdir sopaspades.mk && cd sopaspades.mk && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && \
    make && sudo make install && \
@@ -261,34 +290,44 @@ echo
 ## FALTA REVISAR ! 
 
 sleep 1
-echo -e " 🇪🇸 comenzando el Juego"
-echo
-sleep 1
-echo -e " 🇺🇸 starting the Game"
-echo
-sleep 1
-echo -e " 🇧🇷 iniciando o Jogo"
-echo
 
+echo -e " 🇪🇸 comenzando el Juego "
+
+echo
 sleep 1
 
- echo " openspades"
+echo -e " 🇺🇸 starting the Game "
+
+echo
+sleep 1
+echo -e " 🇧🇷 iniciando o Jogo "
+
+echo
+sleep 1
+
+ echo " openspades 🔫 "
 
 exit
 
-openspades
 
   echo
   echo
 
   echo -e " 😘 🇪🇸 Comparte este script Compartilhe este Script ! "
+
   echo
   sleep 1
+
   echo -e " 😘 🇺🇸 Share this Script ! "
+
   echo
   sleep 1
+
   echo -e " 😘 🇧🇷 Compartilhe este Script ! "
+
   echo
+  
+openspades
 
   echo
   echo
