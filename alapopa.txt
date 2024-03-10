@@ -292,7 +292,7 @@ sleep 2
  sudo rm -Rf sopaspades && \
  sudo rm -Rf openspades && \ 
  sudo rm -Rf a-la-popa && \
-  git clone https://github.com/atorresbr/a-la-popa.git && cd a-la-popa && \
+  git clone https://github.com/atorresbr/alapopa.git && cd alapopa && \
 
 echo
 echo   
@@ -346,7 +346,7 @@ echo
 sleep 1
 
 
-  mkdir a-la-popa.mk && cd a-la-popa.mk && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && \
+  mkdir alapopa.mk && cd alapopa.mk && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && \
   make && sudo make install && \
 
 echo
@@ -372,9 +372,9 @@ echo
 sleep 0
  echo " openspades 🔫 "
 
-sudo ln -sf /usr/local/share/games/openspades  /usr/bin/games/sopaspades
+##sudo ln -sf /usr/local/share/games/openspades  /usr/bin/games/sopaspades
 
-cd $REPO_DIRECTORY/usr/bin; games/sopaspades
+##cd $REPO_DIRECTORY/usr/bin; games/sopaspades
 
   echo
   echo
