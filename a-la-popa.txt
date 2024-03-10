@@ -127,9 +127,9 @@ echo -ne ${nc}
 
 sleep 2
 
-##sudo rm -rf /usr/local/share/games/openspades &&
-##sudo rm -rf /usr/local/share/games/synspades &&
-##sudo rm -rf /usr/local/share/games/sopaspades && \
+sudo rm -rf /usr/local/share/games/openspades &&
+sudo rm -rf /usr/local/share/games/synspades &&
+sudo rm -rf /usr/local/share/games/sopaspades && \
 
 ## informando sobre as dependências
 
@@ -278,10 +278,10 @@ echo
 
 sleep 2
 
-
-
-  ##sudo rm -Rf sopaspades && sudo rm -Rf openspades && \
-  ##git clone https://github.com/atorresbr/a-la-popa.git && cd sopaspades && \
+  sudo rm -Rf sopaspades && 
+  sudo rm -Rf openspades && 
+  sudo rm -Rf a-la-popa &&
+  git clone https://github.com/atorresbr/a-la-popa.git && cd sopaspades && \
 
 echo
 echo   
@@ -335,8 +335,8 @@ echo
 sleep 1
 
 
-##   mkdir sopaspades.mk && cd sopaspades.mk && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && \
-##   make && sudo make install && \
+  mkdir sopaspades.mk && cd sopaspades.mk && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && \
+  make && sudo make install && \
 
 echo
 echo
@@ -359,9 +359,11 @@ echo -e " 🇧🇷 iniciando o Jogo "
 
 echo
 sleep 1
- echo " openspades 🔫 " && \
+ echo " openspades 🔫 "
 
-cd /usr/local/games && openspades
+sudo ln -sf /usr/local/share/games/openspades  /usr/bin/games/sopaspades
+
+cd $REPO_DIRECTORY/usr/bin; games/sopaspades
 
   echo
   echo
@@ -380,8 +382,6 @@ cd /usr/local/games && openspades
 
   echo
   
-openspades
-
   echo
   echo
 
