@@ -278,13 +278,17 @@ echo
 
 sleep 2
 
+
+
   ##sudo rm -Rf sopaspades && sudo rm -Rf openspades && \
-  ##git clone https://github.com/atorresbr/a-la-popa.git && cd sopaspades && \ -->
+  ##git clone https://github.com/atorresbr/a-la-popa.git && cd sopaspades && \
 
 echo
 echo   
 
 sleep 1
+
+echo -ne ${b_green}
 
 echo -e " 🇪🇸 instalando"
 
@@ -300,6 +304,8 @@ echo -e " 🇧🇷 instalando"
 
 echo
 sleep 1
+
+echo -ne ${b_yellow}
 
 echo -e " mkdir sopaspades.mk && cd sopaspades.mk && "
 sleep 1
@@ -320,6 +326,8 @@ echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩  
 echo -ne '\n'
 sleep 2
 
+echo -ne ${b_yellow}
+
 echo
 echo -e " Êxito !"
 echo
@@ -335,13 +343,14 @@ echo
 
 ## FALTA REVISAR ! 
 
+echo -ne ${b_green}
+
 sleep 1
 
 echo -e " 🇪🇸 comenzando el Juego "
 
 echo
 sleep 1
-
 echo -e " 🇺🇸 starting the Game "
 
 echo
@@ -350,10 +359,9 @@ echo -e " 🇧🇷 iniciando o Jogo "
 
 echo
 sleep 1
+ echo " openspades 🔫 " && \
 
- echo " openspades 🔫 "
-
-exit
+cd /usr/local/games && openspades
 
   echo
   echo
