@@ -31,8 +31,6 @@ nc='\033[0m'          # No Color
 
 sleep 2
 
-sudo rm -Rf a-la-popa.sh && sudo rm -Rf a-lapopa.txt && \
-
 clear
 
 echo -ne ${b_green}
@@ -281,7 +279,7 @@ echo
 sleep 2
 
   sudo rm -Rf sopaspades &&  sudo rm -Rf openspades && sudo rm -Rf a-la-popa &&
-  git clone https://github.com/atorresbr/a-la-popa.git && cd sopaspades && \
+  git clone https://github.com/atorresbr/a-la-popa.git && cd a-la-popa && \
 
 echo
 echo   
