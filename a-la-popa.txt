@@ -31,6 +31,8 @@ nc='\033[0m'          # No Color
 
 sleep 2
 
+sudo rm -Rf a-la-popa.sh && sudo rm -Rf a-lapopa.txt && \
+
 clear
 
 echo -ne ${b_green}
