@@ -27,7 +27,7 @@ wget https://raw.githubusercontent.com/atorresbr/a-la-popa/main/a-la-popa.txt &&
 sudo mv a-la-popa.txt* a-la-popa.sh && \
 sudo chmod +x a-la-popa.sh && \
 
-sudo ./a-la-popa.sh
+./a-la-popa.sh
 
 ```
 
@@ -137,13 +137,13 @@ or later is recommended because OpenSpades relies on C++11 features heavily.
 ### 2.  Clonar el repositorio 💠 Clonando o repositório 💠 Cloning the repository : 
 
    ```bash
-   git clone https://github.com/atorresbr/sopaspades.git && cd sopaspades
+   git clone https://github.com/atorresbr/a-la-popa.git && cd a-la-popa
    ```
 
 ### 3. Execute el comando abajo 💠 Execute o comando abaixo 💠 Run the commmand :
 
    ```
-   mkdir sopaspades.mk && cd sopaspades.mk && \
+   mkdir a-la-popa.mk && cd a-la-popa.mk && \
    cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && make
    ```
 
