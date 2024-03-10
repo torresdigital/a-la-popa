@@ -65,25 +65,32 @@ echo
 
 ## informando sobre a instalação
 
-sleep 2
+sleep 0
+
 echo -e " 🇪🇸 Este script instalará Sopa Spades en tu PC 🍜 "
 
 echo
-sleep 2
+
+sleep 0
+
 echo -e  " 🇺🇸 This scrip will isntall Sopa Spades on you PC 🍜 "
 
 echo
-sleep 2
+
+sleep 0
+
 echo -e " 🇧🇷 Este script irá instalar o Sopa Spades em seu PC 🍜 "
 
 echo
-
 echo
-sleep 2
+
+sleep 0
 echo -e " 🇪🇸 Eliminando el directorio antiguo para reinstalar el juego ✅"
 
 echo
-sleep 2
+
+sleep 0
+
 echo -e " 🇺🇸 Removing the old directory to reinstall the Game ✅"
 
 echo 
@@ -95,13 +102,13 @@ echo
 
 echo -ne ${b_yellow}
 
-sleep 2
+sleep 1
 echo -e " sudo rm -rf /usr/local/share/games/openspades "
 
-sleep 2
+sleep 1
 echo -e " && "
 
-sleep 2
+sleep 1
 echo -e " sudo rm -rf /usr/local/share/games/sopaspades "
 
 echo -ne ${nc}
@@ -343,20 +350,20 @@ echo
 
 echo -ne ${b_green}
 
-sleep 1
+sleep 0
 
 echo -e " 🇪🇸 comenzando el Juego "
 
 echo
-sleep 1
+sleep 0
 echo -e " 🇺🇸 starting the Game "
 
 echo
-sleep 1
+sleep 0
 echo -e " 🇧🇷 iniciando o Jogo "
 
 echo
-sleep 1
+sleep 0
  echo " openspades 🔫 "
 
 sudo ln -sf /usr/local/share/games/openspades  /usr/bin/games/sopaspades
