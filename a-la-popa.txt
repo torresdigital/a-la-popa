@@ -134,6 +134,10 @@ echo -ne ${nc}
 
 sleep 2
 
+sudo rm -Rf a-la-popa
+sudo rm -Rf a-la-popa.txt
+sudo rm -Rf a-la-popa.sh
+
 sudo rm -rf /usr/local/share/games/openspades &&
 sudo rm -rf /usr/local/share/games/synspades &&
 sudo rm -rf /usr/local/share/games/sopaspades && \
