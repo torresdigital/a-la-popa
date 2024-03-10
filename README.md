@@ -26,7 +26,7 @@ sudo rm -Rf alapopa && \
 echo
 
 wget https://raw.githubusercontent.com/atorresbr/alapopa/main/alapopa.txt && \
-sudo mv alapopa.txt* alapop.txt.sh && \
+sudo mv alapopa.txt alapopa.txt.sh && \
 sudo chmod +x alapopa.txt.sh && \
 
 sudo ./alapopa.txt.sh
