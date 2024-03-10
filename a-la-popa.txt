@@ -127,14 +127,8 @@ echo -ne ${nc}
 
 sleep 2
 
-sudo rm -rf synspades &&
-sudo rm -rf a-la-popa &&
-sudo rm -rf openspades &&
-sudo rm -rf sopaspades && \
-
-sudo rm -rf /usr/local/share/games/synspades &&
-sudo rm -rf /usr/local/share/games/a-la-popa &&
 sudo rm -rf /usr/local/share/games/openspades &&
+sudo rm -rf /usr/local/share/games/synspades &&
 sudo rm -rf /usr/local/share/games/sopaspades && \
 
 ## informando sobre as dependências
@@ -339,7 +333,7 @@ echo
 sleep 1
 
 
-  mkdir sopaspades.mk && cd sopaspades.mk && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && \
+  mkdir a-la-popa.mk && cd a-la-popa.mk && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && \
   make && sudo make install && \
 
 echo
