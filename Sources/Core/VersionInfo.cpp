@@ -13,25 +13,25 @@
 
 std::string VersionInfo::GetVersionInfo() {
 #if defined(OS_PLATFORM_LINUX)
-	return std::string("sopaspades - https://github.com/atorresbr/sopaspades");
+	return std::string("synSpades - www.github.com/c-um/synSpades");
 #elif defined(TARGET_OS_MAC)
-	return std::string("Mac OS X | This user has compiled sopaspades for macOS, GG! - https://github.com/atorresbr/sopaspades");
+	return std::string("Mac OS X | This user has compiled synSpades for macOS, GG! - www.github.com/c-um/synSpades");
 #elif defined(OS_PLATFORM_WINDOWS)
 
 	std::string windowsVersion;
 
 	if (IsWindowsXPOrGreater() && !IsWindowsVistaOrGreater()) {
-		windowsVersion = "Windows XP | sopaspades - Whoever is this player, is a psychopath. Who plays on XP these days. - https://github.com/atorresbr/sopaspades";
+		windowsVersion = "Windows XP | synSpades - Whoever is this player, is a psychopath. Who plays on XP these days. - www.github.com/c-um/synSpades";
 	} else if (IsWindowsVistaOrGreater() && !IsWindows7OrGreater()) {
-		windowsVersion = "Windows Vista | sopaspades - Why is this player using Vista.. - https://github.com/atorresbr/sopaspades";
+		windowsVersion = "Windows Vista | synSpades - Why is this player using Vista.. - www.github.com/c-um/synSpades";
 	} else if (IsWindows7OrGreater() && !IsWindows8OrGreater()) {
-		windowsVersion = "Windows 7 | sopaspades - Windows 7 Best Windows version no cap. - https://github.com/atorresbr/sopaspades";
+		windowsVersion = "Windows 7 | synSpades - Windows 7 Best Windows version no cap. - www.github.com/c-um/synSpades";
 	} else if (IsWindows8OrGreater() && !IsWindows8Point1OrGreater()) {
-		windowsVersion = "Windows 8 | sopaspades - https://github.com/atorresbr/sopaspades";
+		windowsVersion = "Windows 8 | synSpades - www.github.com/c-um/synSpades";
 	} else if (IsWindows8Point1OrGreater()) {
-		windowsVersion = "Windows 8.1 | sopaspades - https://github.com/atorresbr/sopaspades";
+		windowsVersion = "Windows 8.1 | synSpades - www.github.com/c-um/synSpades";
 	} else {
-		windowsVersion = "Windows 10 | sopaspades - https://github.com/atorresbr/sopaspades";
+		windowsVersion = "Windows 10 | synSpades - www.github.com/c-um/synSpades";
 	}
 
 	if (IsWindowsServer())
