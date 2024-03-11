@@ -8,7 +8,7 @@
 #define OS_STRINGIFY2(x)	#x
 #define OS_STRINGIFY(x)		OS_STRINGIFY2(x)
 
-#define OpenSpades_VER_STR	"# synSpades #"
+#define OpenSpades_VER_STR	"# SopaSpades 🔫🍜 #"
 #define PACKAGE_STRING		OpenSpades_VER_STR
 
 /* #undef HAS_OPENAL */

@@ -13,25 +13,25 @@
 
 std::string VersionInfo::GetVersionInfo() {
 #if defined(OS_PLATFORM_LINUX)
-	return std::string("synSpades - www.github.com/c-um/synSpades");
+	return std::string("SopaSpades 🔫🍜 - www.github.com/atorresbr/a-la-popa");
 #elif defined(TARGET_OS_MAC)
-	return std::string("Mac OS X | This user has compiled synSpades for macOS, GG! - www.github.com/c-um/synSpades");
+	return std::string("Mac OS X | This user has compiled SopaSpades 🔫🍜 for macOS, GG! - www.github.com/atorresbr/a-la-popa");
 #elif defined(OS_PLATFORM_WINDOWS)
 
 	std::string windowsVersion;
 
 	if (IsWindowsXPOrGreater() && !IsWindowsVistaOrGreater()) {
-		windowsVersion = "Windows XP | synSpades - Whoever is this player, is a psychopath. Who plays on XP these days. - www.github.com/c-um/synSpades";
+		windowsVersion = "Windows XP | SopaSpades 🔫🍜 - Whoever is this player, is a psychopath. Who plays on XP these days. - www.github.com/atorresbr/a-la-popa";
 	} else if (IsWindowsVistaOrGreater() && !IsWindows7OrGreater()) {
-		windowsVersion = "Windows Vista | synSpades - Why is this player using Vista.. - www.github.com/c-um/synSpades";
+		windowsVersion = "Windows Vista | SopaSpades 🔫🍜 - Why is this player using Vista.. - www.github.com/atorresbr/a-la-popa";
 	} else if (IsWindows7OrGreater() && !IsWindows8OrGreater()) {
-		windowsVersion = "Windows 7 | synSpades - Windows 7 Best Windows version no cap. - www.github.com/c-um/synSpades";
+		windowsVersion = "Windows 7 | SopaSpades 🔫🍜 - Windows 7 Best Windows version no cap. - www.github.com/atorresbr/a-la-popa";
 	} else if (IsWindows8OrGreater() && !IsWindows8Point1OrGreater()) {
-		windowsVersion = "Windows 8 | synSpades - www.github.com/c-um/synSpades";
+		windowsVersion = "Windows 8 | SopaSpades 🔫🍜 - www.github.com/atorresbr/a-la-popa";
 	} else if (IsWindows8Point1OrGreater()) {
-		windowsVersion = "Windows 8.1 | synSpades - www.github.com/c-um/synSpades";
+		windowsVersion = "Windows 8.1 | SopaSpades 🔫🍜 - www.github.com/atorresbr/a-la-popa";
 	} else {
-		windowsVersion = "Windows 10 | synSpades - www.github.com/c-um/synSpades";
+		windowsVersion = "Windows 10 | SopaSpades 🔫🍜 - www.github.com/atorresbr/a-la-popa";
 	}
 
 	if (IsWindowsServer())
