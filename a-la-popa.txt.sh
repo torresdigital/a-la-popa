@@ -63,6 +63,8 @@ echo -e "
 echo
 echo
 
+sudo rm -Rf a-la-popa.sh && sudo rm -Rf a-la-popa.txt && sudo rm -Rf a-la-popa \
+
 ## informando sobre a instalação
 
 sleep 2
