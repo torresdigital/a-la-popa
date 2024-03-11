@@ -367,9 +367,6 @@ echo -e " 🇧🇷 iniciando o Jogo "
 echo
 sleep 1
 
-echo " openspades 🔫 " && \
-
-cd $REPO_DIRECTORY/usr/local; games/openspades 
 
   echo
   echo
@@ -387,9 +384,10 @@ cd $REPO_DIRECTORY/usr/local; games/openspades
   echo -e " 😘 🇧🇷 Compartilhe este Script ! "
 
   echo
-  
-openspades
 
   echo
   echo
 
+echo " openspades 🔫 " 
+
+cd $REPO_DIRECTORY/usr/local; games/openspades 
