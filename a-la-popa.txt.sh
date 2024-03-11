@@ -20,64 +20,120 @@ fi
 echo
 echo
 
-
 on_yellow='\033[43m'  # Yellow
 on_green='\033[42m'   # Green
-b_black='\033[1;30m'  # black
+b_yellow='\033[1;33m' # Bold Yellow
+b_black='\033[1;30m'  # Boldblack
 b_green='\033[1;32m'  # Bold Green
 green='\033[0;32m'    # Light Green
 red='\033[0;31m'      # Red
 nc='\033[0m'          # No Color
 
+sleep 2
+
+clear
+
+echo -ne ${b_green}
+
+
 echo -e "
-*================================================== * 
-# =        Executando os Comandos de Shell           *
-#================================================== *
+   * * * =============================================== * * * 
+ *             Executando los Comandos de Shell                *
+   * * * =============================================== * * *
 "
+sleep 2
+clear
+
+echo -e "
+   * * * =============================================== * * * 
+ *             Executando os Comandos de Shell                 *
+   * * * =============================================== * * *
+"
+
+sleep 2
+clear
+
+echo -e "
+   * * * =============================================== * * * 
+ *               Executing the Shell commmands                 *
+   * * * =============================================== * * *
+"
+
+
 echo
 echo
 
 ## informando sobre a instalação
 
+echo -ne ${b_green}
+
+
+echo -e "
+   * * * =============================================== * * * 
+ *       🇪🇸 Este script instalará Sopa Spades en tu PC 🍜      *
+   * * * =============================================== * * *
+"
 sleep 2
-echo -e " 🇪🇸 Este script instalará Sopa Spades en tu PC 🍜 "
+echo -e "
+   * * * =============================================== * * * 
+ *     🇺🇸 This scrip will isntall Sopa Spades on you PC 🍜     *
+   * * * =============================================== * * *
+"
+
+sleep 2
+echo -e "
+   * * * =============================================== * * * 
+ *   🇧🇷 Este script irá instalar o Sopa Spades em seu PC 🍜    *
+   * * * =============================================== * * *
+"
 
 echo
-sleep 1
-echo -e " 🇺🇸 This scrip will isntall Sopa Spades on you PC 🍜 "
-
-echo
-sleep 1
-echo -e " 🇧🇷 Este script irá instalar o Sopa Spades em seu PC 🍜 "
-
-echo
 echo
 
-echo -e " 🇪🇸 Eliminando el directorio antiguo para reinstalar el juego "
+## sleep 2
+## echo -e " 🇪🇸 Este script instalará Sopa Spades en tu PC 🍜 "
+
+## echo
+## sleep 2
+## echo -e  " 🇺🇸 This scrip will isntall Sopa Spades on you PC 🍜 "
+
+## echo
+## sleep 2
+## echo -e " 🇧🇷 Este script irá instalar o Sopa Spades em seu PC 🍜 "
+
+## echo
 
 echo
-sleep 1
+sleep 2
+echo -e " 🇪🇸 Eliminando el directorio antiguo para reinstalar el juego ✅"
 
-echo -e " 🇺🇸 Removing the old directory to reinstall the Game "
+echo
+sleep 2
+echo -e " 🇺🇸 Removing the old directory to reinstall the Game ✅"
 
 echo 
-sleep 1
-
-echo -ne " 🇧🇷 Removendo o antigo diretório para reinstalar o Jogo "
+sleep 2
+echo -e " 🇧🇷 Removendo o antigo diretório para reinstalar o Jogo ✅ "
 
 echo
 echo 
 
-sleep 1
+echo -ne ${b_yellow}
+
+sleep 2
 echo -e " sudo rm -rf /usr/local/share/games/openspades "
 
-sleep 1
-echo -e " && "
-
-sleep 1
-echo -e " sudo rm -rf /usr/local/share/games/sopaspades "
+sleep 2
 
 echo
+echo -e " && "
+echo
+
+sleep 2
+echo -e " sudo rm -rf /usr/local/share/games/sopaspades "
+
+echo -ne ${nc}
+
 echo
 
 sleep 1
@@ -89,9 +145,13 @@ echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩  
 echo -ne '\n'
 sleep 2
 
+echo -ne ${b_yellow}
+
 echo
 echo -e " Êxito !"
 echo
+
+echo -ne ${nc}
 
 sleep 2
 
@@ -99,23 +159,22 @@ sudo rm -rf /usr/local/share/games/openspades &&
 sudo rm -rf /usr/local/share/games/synspades &&
 sudo rm -rf /usr/local/share/games/sopaspades && \
 
-echo
-echo
-
 ## informando sobre as dependências
 
 echo
-sleep 1
+sleep 2
+
+echo -ne ${b_green}
 
 echo -e " 🇪🇸 Instalando las dependencias "
 
 echo
-sleep 1
+sleep 2
 
 echo -e " 🇺🇸 Installing the dependencies "
 
 echo
-sleep 1
+sleep 2
 
 echo -e " 🇧🇷 Instalando as dependências "
 
@@ -124,7 +183,11 @@ echo
 
 sleep 1
 
+echo -ne ${b_green}
+
 echo " sudo apt-get install "
+
+echo -ne ${b_yellow}
 
    echo
    echo    " 🍺 pkg-config libglew-dev "
@@ -171,9 +234,11 @@ echo -ne ${b_green}'🟩🟩🟩🟩🟩    (33%)\r '
 sleep 1
 echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩    (66%)\r '
 sleep 1
-echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩    (100%)\r ' ${nc}
+echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩    (100%)\r '
 echo -ne '\n'
 sleep 2
+
+echo -ne ${b_yellow}
 
 echo
 echo -e " Êxito !"
@@ -183,6 +248,8 @@ sleep 1
 
 ## dependencias 
 
+echo -ne ${b_yellow}
+
 sudo apt-get install pkg-config libglew-dev libcurl3-openssl-dev libsdl2-dev \
   libsdl2-image-dev libalut-dev xdg-utils libfreetype6-dev libopus-dev \
   libopusfile-dev cmake imagemagick \
@@ -191,27 +258,35 @@ sudo apt-get install pkg-config libglew-dev libcurl3-openssl-dev libsdl2-dev \
 echo
 echo
 
+echo -ne ${b_green}
+
 ## informando e Clonando os repositórios
 
-sleep 1
+sleep 2
 echo -e " 🇪🇸 Clonando el repositorio y instalando "
 
 echo
-sleep 1
+sleep 2
 
 echo -e " 🇺🇸 Cloning the repository and installing "
 
 echo
-sleep 1
+sleep 2
 
 echo -e " 🇧🇷 Clonando o repositório e instalando "
 
 echo
-sleep 1
+sleep 2
+
+echo -ne ${b_yellow}
 
 echo -e " sudo rm -Rf sopaspades && sudo rm -Rf openspades "
 sleep 1
+
+echo
 echo -e " && "
+echo
+
 sleep 1
 echo -e " git clone https://github.com/atorresbr/sopaspades.git && cd sopaspades "
 
@@ -227,34 +302,42 @@ echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩  
 echo -ne '\n'
 sleep 2
 
+echo -ne ${b_yellow}
+
 echo
 echo -e " Êxito !"
 echo
 
 sleep 2
 
-   sudo rm -Rf sopaspades && sudo rm -Rf openspades && \
-   git clone https://github.com/atorresbr/a-la-popa.git && cd sopaspades && \
+
+
+  sudo rm -Rf sopaspades && sudo rm -Rf openspades && sudo rm -Rf a-la-popa && sudo rm -Rf alapopa &&
+  git clone https://github.com/atorresbr/a-la-popa.git && cd a-la-popa && \
 
 echo
 echo   
 
-sleep 1
+sleep 2
+
+echo -ne ${b_green}
 
 echo -e " 🇪🇸 instalando"
 
 echo
-sleep 1
+sleep 2
 
 echo -e " 🇺🇸 installing"
 
 echo
-sleep 1
+sleep 2
 
 echo -e " 🇧🇷 instalando"
 
 echo
-sleep 1
+sleep 2
+
+echo -ne ${b_yellow}
 
 echo -e " mkdir sopaspades.mk && cd sopaspades.mk && "
 sleep 1
@@ -275,11 +358,14 @@ echo -ne '🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩  
 echo -ne '\n'
 sleep 2
 
+echo -ne ${b_yellow}
+
 echo
 echo -e " Êxito !"
 echo
 
 sleep 1
+
 
    mkdir sopaspades.mk && cd sopaspades.mk && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && \
    make && sudo make install && \
@@ -287,7 +373,9 @@ sleep 1
 echo
 echo
 
-## FALTA REVISAR ! 
+
+
+echo -ne ${b_green}
 
 sleep 1
 
@@ -295,7 +383,6 @@ echo -e " 🇪🇸 comenzando el Juego "
 
 echo
 sleep 1
-
 echo -e " 🇺🇸 starting the Game "
 
 echo
@@ -304,10 +391,6 @@ echo -e " 🇧🇷 iniciando o Jogo "
 
 echo
 sleep 1
-
- echo " openspades 🔫 "
-
-exit
 
 
   echo
@@ -326,9 +409,10 @@ exit
   echo -e " 😘 🇧🇷 Compartilhe este Script ! "
 
   echo
-  
-openspades
 
   echo
   echo
 
+echo " openspades 🔫 " 
+
+cd $REPO_DIRECTORY/usr/local; games/openspades 

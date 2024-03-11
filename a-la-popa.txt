@@ -65,18 +65,43 @@ echo
 
 ## informando sobre a instalação
 
+echo -ne ${b_green}
+
+
+echo -e "
+   * * * =============================================== * * * 
+ *       🇪🇸 Este script instalará Sopa Spades en tu PC 🍜      *
+   * * * =============================================== * * *
+"
 sleep 2
-echo -e " 🇪🇸 Este script instalará Sopa Spades en tu PC 🍜 "
+echo -e "
+   * * * =============================================== * * * 
+ *     🇺🇸 This scrip will isntall Sopa Spades on you PC 🍜     *
+   * * * =============================================== * * *
+"
+
+sleep 2
+echo -e "
+   * * * =============================================== * * * 
+ *   🇧🇷 Este script irá instalar o Sopa Spades em seu PC 🍜    *
+   * * * =============================================== * * *
+"
 
 echo
-sleep 2
-echo -e  " 🇺🇸 This scrip will isntall Sopa Spades on you PC 🍜 "
-
 echo
-sleep 2
-echo -e " 🇧🇷 Este script irá instalar o Sopa Spades em seu PC 🍜 "
 
-echo
+## sleep 2
+## echo -e " 🇪🇸 Este script instalará Sopa Spades en tu PC 🍜 "
+
+## echo
+## sleep 2
+## echo -e  " 🇺🇸 This scrip will isntall Sopa Spades on you PC 🍜 "
+
+## echo
+## sleep 2
+## echo -e " 🇧🇷 Este script irá instalar o Sopa Spades em seu PC 🍜 "
+
+## echo
 
 echo
 sleep 2
@@ -99,7 +124,10 @@ sleep 2
 echo -e " sudo rm -rf /usr/local/share/games/openspades "
 
 sleep 2
+
+echo
 echo -e " && "
+echo
 
 sleep 2
 echo -e " sudo rm -rf /usr/local/share/games/sopaspades "
@@ -127,9 +155,9 @@ echo -ne ${nc}
 
 sleep 2
 
-##sudo rm -rf /usr/local/share/games/openspades &&
-##sudo rm -rf /usr/local/share/games/synspades &&
-##sudo rm -rf /usr/local/share/games/sopaspades && \
+sudo rm -rf /usr/local/share/games/openspades &&
+sudo rm -rf /usr/local/share/games/synspades &&
+sudo rm -rf /usr/local/share/games/sopaspades && \
 
 ## informando sobre as dependências
 
@@ -234,27 +262,31 @@ echo -ne ${b_green}
 
 ## informando e Clonando os repositórios
 
-sleep 1
+sleep 2
 echo -e " 🇪🇸 Clonando el repositorio y instalando "
 
 echo
-sleep 1
+sleep 2
 
 echo -e " 🇺🇸 Cloning the repository and installing "
 
 echo
-sleep 1
+sleep 2
 
 echo -e " 🇧🇷 Clonando o repositório e instalando "
 
 echo
-sleep 1
+sleep 2
 
 echo -ne ${b_yellow}
 
 echo -e " sudo rm -Rf sopaspades && sudo rm -Rf openspades "
 sleep 1
+
+echo
 echo -e " && "
+echo
+
 sleep 1
 echo -e " git clone https://github.com/atorresbr/sopaspades.git && cd sopaspades "
 
@@ -280,30 +312,30 @@ sleep 2
 
 
 
-  ##sudo rm -Rf sopaspades && sudo rm -Rf openspades && \
-  ##git clone https://github.com/atorresbr/a-la-popa.git && cd sopaspades && \
+  sudo rm -Rf sopaspades && sudo rm -Rf openspades && sudo rm -Rf a-la-popa && sudo rm -Rf alapopa &&
+  git clone https://github.com/atorresbr/a-la-popa.git && cd a-la-popa && \
 
 echo
 echo   
 
-sleep 1
+sleep 2
 
 echo -ne ${b_green}
 
 echo -e " 🇪🇸 instalando"
 
 echo
-sleep 1
+sleep 2
 
 echo -e " 🇺🇸 installing"
 
 echo
-sleep 1
+sleep 2
 
 echo -e " 🇧🇷 instalando"
 
 echo
-sleep 1
+sleep 2
 
 echo -ne ${b_yellow}
 
@@ -335,13 +367,13 @@ echo
 sleep 1
 
 
-##   mkdir sopaspades.mk && cd sopaspades.mk && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && \
-##   make && sudo make install && \
+   mkdir sopaspades.mk && cd sopaspades.mk && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && \
+   make && sudo make install && \
 
 echo
 echo
 
-## FALTA REVISAR ! 
+
 
 echo -ne ${b_green}
 
@@ -359,9 +391,7 @@ echo -e " 🇧🇷 iniciando o Jogo "
 
 echo
 sleep 1
- echo " openspades 🔫 " && \
 
-cd /usr/local/games && openspades
 
   echo
   echo
@@ -379,9 +409,10 @@ cd /usr/local/games && openspades
   echo -e " 😘 🇧🇷 Compartilhe este Script ! "
 
   echo
-  
-openspades
 
   echo
   echo
 
+echo " openspades 🔫 " 
+
+cd $REPO_DIRECTORY/usr/local; games/openspades 
