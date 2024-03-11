@@ -65,18 +65,43 @@ echo
 
 ## informando sobre a instalação
 
+echo -ne ${b_green}
+
+
+echo -e "
+   * * * =============================================== * * * 
+ *       🇪🇸 Este script instalará Sopa Spades en tu PC 🍜      *
+   * * * =============================================== * * *
+"
 sleep 2
-echo -e " 🇪🇸 Este script instalará Sopa Spades en tu PC 🍜 "
+echo -e "
+   * * * =============================================== * * * 
+ *     🇺🇸 This scrip will isntall Sopa Spades on you PC 🍜     *
+   * * * =============================================== * * *
+"
+
+sleep 2
+echo -e "
+   * * * =============================================== * * * 
+ *   🇧🇷 Este script irá instalar o Sopa Spades em seu PC 🍜    *
+   * * * =============================================== * * *
+"
 
 echo
-sleep 2
-echo -e  " 🇺🇸 This scrip will isntall Sopa Spades on you PC 🍜 "
-
 echo
-sleep 2
-echo -e " 🇧🇷 Este script irá instalar o Sopa Spades em seu PC 🍜 "
 
-echo
+## sleep 2
+## echo -e " 🇪🇸 Este script instalará Sopa Spades en tu PC 🍜 "
+
+## echo
+## sleep 2
+## echo -e  " 🇺🇸 This scrip will isntall Sopa Spades on you PC 🍜 "
+
+## echo
+## sleep 2
+## echo -e " 🇧🇷 Este script irá instalar o Sopa Spades em seu PC 🍜 "
+
+## echo
 
 echo
 sleep 2
