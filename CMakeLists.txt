@@ -315,7 +315,7 @@ elseif(UNIX AND NOT APPLE)
 
 endif(WIN32 AND NOT UNIX)
 
-set(CPACK_PACKAGE_EXECUTABLES "sopaspades" "Launch OpenSpades")
+set(CPACK_PACKAGE_EXECUTABLES "openspades" "Launch OpenSpades")
 set(CPACK_INCLUDE_TOPLEVEL_DIRECTORY FALSE)		#everyone hates a dir inside a zip named exactly like the zip
 include(CPack)
 

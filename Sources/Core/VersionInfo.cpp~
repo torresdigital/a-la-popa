@@ -6,33 +6,38 @@
 	#define OS_PLATFORM_WINDOWS
 	#include <Windows.h>
 	#include <sstream>
-	#include <VersionHelpers.h>
+	#include <VersionHelpers.h> // Requires windows 8.1 sdk at least
 #endif
 
 #include "VersionInfo.h"
 
 std::string VersionInfo::GetVersionInfo() {
 #if defined(OS_PLATFORM_LINUX)
-	return std::string("synSpades - www.github.com/c-um/synSpades");
+	return std::string("// DankSpades | synth rules you //");
 #elif defined(TARGET_OS_MAC)
-	return std::string("Mac OS X | This user has compiled synSpades for macOS, GG! - www.github.com/c-um/synSpades");
+	return std::string("Mac OS X");
 #elif defined(OS_PLATFORM_WINDOWS)
 
 	std::string windowsVersion;
 
 	if (IsWindowsXPOrGreater() && !IsWindowsVistaOrGreater()) {
-		windowsVersion = "Windows XP | synSpades - Whoever is this player, is a psychopath. Who plays on XP these days. - www.github.com/c-um/synSpades";
+		windowsVersion = "Windows XP";
 	} else if (IsWindowsVistaOrGreater() && !IsWindows7OrGreater()) {
-		windowsVersion = "Windows Vista | synSpades - Why is this player using Vista.. - www.github.com/c-um/synSpades";
+		windowsVersion = "Windows Vista";
 	} else if (IsWindows7OrGreater() && !IsWindows8OrGreater()) {
-		windowsVersion = "Windows 7 | synSpades - Windows 7 Best Windows version no cap. - www.github.com/c-um/synSpades";
+		windowsVersion = "Windows 7";
 	} else if (IsWindows8OrGreater() && !IsWindows8Point1OrGreater()) {
-		windowsVersion = "Windows 8 | synSpades - www.github.com/c-um/synSpades";
+		windowsVersion = "Windows 8";
 	} else if (IsWindows8Point1OrGreater()) {
-		windowsVersion = "Windows 8.1 | synSpades - www.github.com/c-um/synSpades";
+		windowsVersion = "Windows 8.1";
 	} else {
-		windowsVersion = "Windows 10 | synSpades - www.github.com/c-um/synSpades";
+		// Default to Windows 10
+		// See https://github.com/yvt/openspades/pull/528 for reason.
+		windowsVersion = "Windows 10";
 	}
+
+	// Might be a greater version, but the new Microsoft
+	// API doesn't support checking for specific versions.
 
 	if (IsWindowsServer())
 		windowsVersion += " Server";
