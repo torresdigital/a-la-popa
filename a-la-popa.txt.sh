@@ -63,8 +63,6 @@ echo -e "
 echo
 echo
 
-sudo rm -Rf a-la-popa.sh && sudo rm -Rf a-la-popa.txt && sudo rm -Rf a-la-popa \
-
 ## informando sobre a instalação
 
 sleep 2
@@ -290,7 +288,7 @@ sleep 2
 
 
   sudo rm -Rf sopaspades && sudo rm -Rf openspades && sudo rm -Rf a-la-popa && sudo rm -Rf alapopa &&
-  git clone https://github.com/atorresbr/a-la-popa.git && cd sopaspades && \
+  git clone https://github.com/atorresbr/a-la-popa.git && cd a-la-popa && \
 
 echo
 echo   
@@ -369,9 +367,6 @@ echo -e " 🇧🇷 iniciando o Jogo "
 echo
 sleep 1
 
-echo " openspades 🔫 " && \
-
-cd $REPO_DIRECTORY/usr/local; games/openspades 
 
   echo
   echo
@@ -389,9 +384,10 @@ cd $REPO_DIRECTORY/usr/local; games/openspades
   echo -e " 😘 🇧🇷 Compartilhe este Script ! "
 
   echo
-  
-openspades
 
   echo
   echo
 
+echo " openspades 🔫 " 
+
+cd $REPO_DIRECTORY/usr/local; games/openspades 
