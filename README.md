@@ -19,7 +19,7 @@
 ```bash
 
 sudo apt install wget && clear &&
-sudo rm -Rf a-la-popa.sh && sudo rm -Rf a-lapopa.txt && \
+sudo rm -Rf a-la-popa.sh && sudo rm -Rf a-la-popa.txt && \
 
 echo
 
