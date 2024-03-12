@@ -160,6 +160,9 @@ sudo rm -rf /usr/local/games/openspades &&
 sudo rm -rf ~/.local/share/openspades &&
 sudo apt purge openspades -y && \
 
+echo
+echo
+
 ## informando sobre as dependências
 
 echo
