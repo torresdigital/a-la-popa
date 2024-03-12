@@ -157,7 +157,8 @@ sleep 2
 
 sudo rm -rf /usr/local/share/games/openspades &&
 sudo rm -rf /usr/local/share/games/synspades &&
-sudo rm -rf /usr/local/share/games/sopaspades && \
+sudo rm -rf /usr/local/share/games/sopaspades &&
+sudo rm -rf ~/.local/share/openspades && \
 
 ## informando sobre as dependências
 
@@ -367,8 +368,9 @@ echo
 sleep 1
 
 
-   mkdir sopaspades.mk && cd sopaspades.mk && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && \
-   make && sudo make install && \
+   mkdir sopaspades.mk && cd sopaspades.mk && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && make &&
+   sudo make install
+   
 
 echo
 echo
