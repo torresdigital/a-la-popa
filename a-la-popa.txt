@@ -398,7 +398,7 @@ sleep 1
   echo
   echo
 
-  echo -e " 😘 🇪🇸 Comparte este script Compartilhe este Script ! "
+  echo -e " 😘 🇪🇸 Comparte este script ! "
 
   echo
   sleep 1
