@@ -163,6 +163,11 @@ sudo apt purge openspades -y && \
 echo
 echo
 
+echo -e " it's not a error 🙌 👆 "
+
+echo
+echo
+
 ## informando sobre as dependências
 
 echo
@@ -424,4 +429,5 @@ cd $REPO_DIRECTORY/usr/local; games/openspades
 
 echo
 echo 
+
 
