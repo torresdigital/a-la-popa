@@ -418,3 +418,7 @@ sleep 1
 echo " openspades 🔫 " 
 
 cd $REPO_DIRECTORY/usr/local; games/openspades 
+
+echo
+echo 
+
