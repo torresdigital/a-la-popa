@@ -157,7 +157,10 @@ sleep 2
 
 sudo rm -rf /usr/local/share/games/openspades &&
 sudo rm -rf /usr/local/share/games/synspades &&
-sudo rm -rf /usr/local/share/games/sopaspades && \
+sudo rm -rf /usr/local/share/games/sopaspades &&
+sudo rm -rf /usr/local/games/openspades &&
+sudo rm -rf ~/.local/share/openspades &&
+sudo apt purge openspades -y && \
 
 ## informando sobre as dependências
 
