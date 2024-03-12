@@ -103,7 +103,7 @@ namespace spades {
                 AABB2(0.f, 0.f, renderer.ScreenWidth, renderer.ScreenHeight));
 
             // draw title logo
-            Image@ img = renderer.RegisterImage("Gfx/Title/LogoSmall.png");
+            Image@ img = renderer.RegisterImage("Gfx/Title/SopaSmall.png");
             renderer.ColorNP = Vector4(1.f, 1.f, 1.f, 1.f);
             renderer.DrawImage(img, AABB2(10.f, 10.f, img.Width, img.Height));
 
