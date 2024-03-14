@@ -160,6 +160,14 @@ sudo rm -rf /usr/local/games/openspades &&
 sudo rm -rf ~/.local/share/openspades &&
 sudo apt purge openspades -y && \
 
+echo
+echo
+
+echo -e " it's not a error 🙌 👆 "
+
+echo
+echo
+
 ## informando sobre as dependências
 
 echo
@@ -398,7 +406,7 @@ sleep 1
   echo
   echo
 
-  echo -e " 😘 🇪🇸 Comparte este script Compartilhe este Script ! "
+  echo -e " 😘 🇪🇸 Comparte este script ! "
 
   echo
   sleep 1
@@ -417,4 +425,10 @@ sleep 1
 
 echo " openspades 🔫 " 
 
-cd $REPO_DIRECTORY/usr/local; games/openspades 
+## cd $REPO_DIRECTORY/usr/local; games/openspades
+cd $REPO_DIRECTORY/sopaspades.mk; bin/OpenSpade
+
+echo
+echo 
+
+
