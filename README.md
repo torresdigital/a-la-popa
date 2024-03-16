@@ -18,8 +18,7 @@
 
 ```bash
 
-sudo apt install wget && clear && 
-sudo rm -rf a-la-popa && sudo rm -rf a-la-popa.sh
+sudo apt install wget && clear && sudo rm -rf a-la-popa && sudo rm -rf a-la-popa.sh
 
 wget https://raw.githubusercontent.com/atorresbr/a-la-popa/main/a-la-popa.txt && \
 sudo mv a-la-popa.txt a-la-popa.sh && \
