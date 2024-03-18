@@ -377,7 +377,7 @@ echo
 sleep 1
 
 
-   mkdir sopaspades.mk && sudo chmod +x sopaspades.mk* &&
+   mkdir sopaspades.mk && sudo chmod +x sopaspades.mk &&
    cd sopaspades.mk && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && make &&
    sudo make install
    
