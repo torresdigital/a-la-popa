@@ -425,7 +425,7 @@ sleep 1
   echo
   echo
 
-   exit \
+   exit && \
 
 echo " openspades 🔫 " 
 
