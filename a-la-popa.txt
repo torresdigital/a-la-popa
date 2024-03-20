@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/sh
+
 ## La Popa és Nuestra !
 ## Script developed for atorresbr (( atorresbr@gmail.com ))
 
