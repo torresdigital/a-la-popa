@@ -35,7 +35,6 @@ clear
 
 echo -ne ${b_green}
 
-
 echo -e "
    * * * =============================================== * * * 
  *             Executando los Comandos de Shell                *
