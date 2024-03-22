@@ -1,4 +1,5 @@
 #!/bin/bash
+
 ## La Popa és Nuestra !
 ## Script developed for atorresbr (( atorresbr@gmail.com ))
 
@@ -373,9 +374,10 @@ echo
 
 sleep 1
 
-   mkdir sopaspades.mk && sudo chmod +x sopaspades.mk* &&
-   cd sopaspades.mk && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && make &&
-   sudo make install
+   mkdir sopaspades.mk && sudo chmod +x sopaspades.mk &&
+   cd sopaspades.mk && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && make \
+   ## &&
+   ## sudo make install
    
 echo
 echo
@@ -419,8 +421,8 @@ sleep 1
 
 echo " openspades 🔫 " 
 
-## cd $REPO_DIRECTORY/usr/local; games/openspades
-cd ~/a-la-popa/sopaspades.mk; bin/openspades
+cd $REPO_DIRECTORY a-la-popa/sopaspades.mk; bin/openspades
+## cd ~/a-la-popa/sopaspades.mk; bin/openspades
 
 echo
 echo 

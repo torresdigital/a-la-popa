@@ -421,7 +421,7 @@ sleep 1
 echo " openspades 🔫 " 
 
 ## cd $REPO_DIRECTORY/usr/local; games/openspades
-cd ~/a-la-popa/sopaspades.mk; bin/openspades
+cd $REPO_DIRECTORY a-la-popa/sopaspades.mk; bin/openspades
 
 echo
 echo 
