@@ -30,12 +30,12 @@
 #include <ScriptBindings/Config.h>
 #include <ScriptBindings/ScriptFunction.h>
 
-DEFINE_SPADES_SETTING(syn_macro_P, "Testing Macro - P - /syn_macro_P [macro]");
-DEFINE_SPADES_SETTING(syn_macro_MS4, "Mouse Button 4 Macro - /syn_macro_MS4 [macro]");
-DEFINE_SPADES_SETTING(syn_macro_MS5, "Mouse Button 5 Macro - /syn_macro_MS5 [macro]");
+DEFINE_SPADES_SETTING(_sup_macro_P, "testing Macro - P - /_sup_macro_P [macro]");
+DEFINE_SPADES_SETTING(_sup_macro_MS4, "Mouse Button 4 Macro - /_sup_macro_MS4 [macro]");
+DEFINE_SPADES_SETTING(_sup_macro_MS5, "Mouse Button 5 Macro - /_sup_macro_MS5 [macro]");
 
 // amogus
-DEFINE_SPADES_SETTING(amogus, "amogus (amogus) among us (real life) (sus)");
+DEFINE_SPADES_SETTING(amogus, "SOPA BRV's, are so delicious 🙌");
 // sussy
 
 namespace spades {
