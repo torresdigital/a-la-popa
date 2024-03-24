@@ -155,10 +155,10 @@ echo -ne ${nc}
 
 sleep 2
 
-sudo rm -Rf /usr/local/share/games/openspade* && \
-sudo rm -Rf /usr/local/games/openspades* && \
-sudo rm -Rf ~/.local/share/openspades* && \
-sudo apt purge openspades -y && \
+sudo rm -Rf /usr/local/share/games/openspades* &&
+sudo rm -Rf /usr/local/games/openspades* &&
+sudo rm -Rf ~/.local/share/openspades* &&
+sudo apt purge openspades -y
 
 echo
 echo
