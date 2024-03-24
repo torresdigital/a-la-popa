@@ -130,7 +130,7 @@ echo -e " && "
 echo
 
 sleep 2
-echo -e " sudo rm -rf /usr/local/share/games/sopaspades "
+echo -e " sudo rm -rf /usr/local/share/games/openspades "
 
 echo -ne ${nc}
 
