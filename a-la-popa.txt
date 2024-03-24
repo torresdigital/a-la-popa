@@ -383,20 +383,20 @@ echo
 
 echo -ne ${b_green}
 
-## sleep 1
+sleep 1
 
-## echo -e " 🇪🇸 comenzando el Juego "
+echo -e " 🇪🇸 comenzando el Juego "
 
-## echo
-## sleep 1
-## echo -e " 🇺🇸 starting the Game "
+echo
+sleep 1
+echo -e " 🇺🇸 starting the Game "
 
-## echo
-## sleep 1
-## echo -e " 🇧🇷 iniciando o Jogo "
+echo
+sleep 1
+echo -e " 🇧🇷 iniciando o Jogo "
 
-## echo
-## sleep 1
+echo
+sleep 1
 
   echo
   echo
