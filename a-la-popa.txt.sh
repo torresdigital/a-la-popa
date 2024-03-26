@@ -1,5 +1,6 @@
 #!/bin/bash
-## La Popa és Nuestra !
+
+## La Popa és Nuestra 🔫🍜!
 ## Script developed for atorresbr (( atorresbr@gmail.com ))
 
 #this functio send the error mesage to user if his not use the sudo command
@@ -35,10 +36,9 @@ clear
 
 echo -ne ${b_green}
 
-
 echo -e "
    * * * =============================================== * * * 
- *             Executando los Comandos de Shell                *
+ *        🇪🇸   Executando los Comandos de Shell                *
    * * * =============================================== * * *
 "
 sleep 2
@@ -46,7 +46,7 @@ clear
 
 echo -e "
    * * * =============================================== * * * 
- *             Executando os Comandos de Shell                 *
+ *        🇧🇷   Executando os Comandos de Shell                 *
    * * * =============================================== * * *
 "
 
@@ -55,10 +55,18 @@ clear
 
 echo -e "
    * * * =============================================== * * * 
- *               Executing the Shell commmands                 *
+ *        🇺🇸     Executing the Shell commmands                 *
    * * * =============================================== * * *
 "
 
+echo -e "
+                                                                   __ 
+ _____ _____ _____ _____    _____ _____ _____ ____  _____ _____   |  |
+|   __|     |  _  |  _  |  |   __|  _  |  _  |    \|   __|   __|  |  |
+|__   |  |  |   __|     |  |__   |   __|     |  |  |   __|__   |  |__|
+|_____|_____|__|  |__|__|  |_____|__|  |__|__|____/|_____|_____|  |__|
+                                                                      
+"
 
 echo
 echo
@@ -157,8 +165,9 @@ sleep 2
 
 sudo rm -rf /usr/local/share/games/openspades &&
 sudo rm -rf /usr/local/games/openspades &&
-sudo rm -rf ~/.local/share/openspades &&
 sudo apt purge openspades -y && \
+
+## sudo rm -rf ~/.local/share/openspades &&
 
 echo
 echo
@@ -374,7 +383,7 @@ echo
 
 sleep 1
 
-   mkdir sopaspades.mk && sudo chmod +x sopaspades.mk* &&
+   mkdir sopaspades.mk && sudo chmod +x sopaspades.mk &&
    cd sopaspades.mk && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && make &&
    sudo make install
    
@@ -420,8 +429,8 @@ sleep 1
 
 echo " openspades 🔫 " 
 
-## cd $REPO_DIRECTORY/usr/local; games/openspades
-cd $REPO_DIRECTORY a-la-popa/sopaspades.mk; bin/openspades
+## cd $REPO_DIRECTORY a-la-popa/sopaspades.mk; bin/openspades
+## cd ~/a-la-popa/sopaspades.mk; bin/openspades
 
 echo
 echo 

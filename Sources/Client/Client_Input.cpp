@@ -87,7 +87,7 @@ DEFINE_SPADES_SETTING(cg_alerts, "1");
 SPADES_SETTING(cg_manualFocus);
 DEFINE_SPADES_SETTING(cg_keyAutoFocus, "MiddleMouseButton");
 
-DEFINE_SPADES_SETTING(syn_macrobind1, "");
+DEFINE_SPADES_SETTING(_sup_macrobind1, "");
 
 namespace spades {
 	namespace client {
