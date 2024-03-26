@@ -390,7 +390,7 @@ sleep 1
 echo
 echo
 
-sudo mv modern_pack.zip ~/.local/share/openspades/resources && unzip modern_pack.zip \
+sudo mv modern_pack.zip ~/.local/share/openspades/resources && unzip -o modern_pack.zip \
 
 echo -ne ${b_green}
 
