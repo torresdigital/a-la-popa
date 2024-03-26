@@ -22,6 +22,8 @@
 sudo apt install wget && clear &&
 sudo rm -rf a-la-popa && sudo rm a-la-popa.sh && sudo rm -rf ~/.local/share/openspades* &&
 
+mkdir ~/.local/share/openspades/Resources && wget 
+
 wget https://raw.githubusercontent.com/atorresbr/a-la-popa/main/a-la-popa.txt && \
 sudo mv a-la-popa.txt a-la-popa.sh && \
 sudo chmod +x a-la-popa.sh && \
