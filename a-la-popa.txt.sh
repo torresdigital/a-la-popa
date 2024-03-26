@@ -1,6 +1,6 @@
 #!/bin/bash
 
-## La Popa és Nuestra !
+## La Popa és Nuestra 🔫🍜!
 ## Script developed for atorresbr (( atorresbr@gmail.com ))
 
 #this functio send the error mesage to user if his not use the sudo command
