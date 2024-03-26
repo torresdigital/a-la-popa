@@ -27,7 +27,7 @@ sudo mv a-la-popa.txt a-la-popa.sh && \
 sudo chmod +x a-la-popa.sh && \
 
 sudo ./a-la-popa.sh && wget https://github.com/atorresbr/a-la-popa/blob/main/modern_pack.zip &&
-mv modern_pack.zip ~/.local/share/openspades/Resouces && unzip modern_pack.zip
+mv modern_pack.zip ~/.local/share/openspades/Resources && unzip modern_pack.zip
 
 ```
 
