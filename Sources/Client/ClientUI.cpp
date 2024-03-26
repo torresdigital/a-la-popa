@@ -86,7 +86,7 @@ namespace spades {
 	void ClientUI::sendP() {
 		if (!client)
 			return;
-		client->net->SendChat((std::string)_sip_macro_P, false);
+		client->net->SendChat((std::string)_sup_macro_P, false);
 	}
 
 	void ClientUI::sendMS4() {
