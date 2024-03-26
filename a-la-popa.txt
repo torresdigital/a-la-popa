@@ -390,6 +390,7 @@ sleep 1
 echo
 echo
 
+cd a-la-popa && \
 sudo mv modern_pack.zip ~/.local/share/openspades/Resources && unzip -o modern_pack.zip \
 
 echo -ne ${b_green}
