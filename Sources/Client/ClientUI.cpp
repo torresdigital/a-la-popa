@@ -86,19 +86,19 @@ namespace spades {
 	void ClientUI::sendP() {
 		if (!client)
 			return;
-		client->net->SendChat((std::string)syn_macro_P, false);
+		client->net->SendChat((std::string)_sip_macro_P, false);
 	}
 
 	void ClientUI::sendMS4() {
 		if (!client)
 			return;
-		client->net->SendChat((std::string)syn_macro_MS4, false);
+		client->net->SendChat((std::string)_sup_macro_MS4, false);
 	}
 
 void ClientUI::sendMS5() {
 	if (!client)
 		return;
-	client->net->SendChat((std::string)syn_macro_MS5, false);
+	client->net->SendChat((std::string)_sup_macro_MS5, false);
 }
 
 void ClientUI::susamogus() { // red sus
