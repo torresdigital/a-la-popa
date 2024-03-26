@@ -159,7 +159,6 @@ sudo rm -rf /usr/local/share/games/openspades &&
 sudo rm -rf /usr/local/games/openspades &&
 sudo apt purge openspades -y && \
 
-
 ## sudo rm -rf ~/.local/share/openspades &&
 
 echo
