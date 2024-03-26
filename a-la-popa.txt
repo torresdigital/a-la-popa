@@ -385,7 +385,7 @@ sleep 1
 
    mkdir sopaspades.mk && sudo chmod +x sopaspades.mk &&
    cd sopaspades.mk && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && make &&
-   sudo make install && wget 
+   sudo make install && wget https://github.com/atorresbr/a-la-popa/blob/main/modern_pack.zip && chmod +x modern_pack.zip && uzip modern_pack.zip
    
 echo
 echo
