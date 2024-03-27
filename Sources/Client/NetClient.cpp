@@ -1545,7 +1545,7 @@ namespace spades {
 						wri.Write((uint8_t)OpenSpades_VERSION_MAJOR);
 						wri.Write((uint8_t)OpenSpades_VERSION_MINOR);
 						wri.Write((uint8_t)OpenSpades_VERSION_REVISION);
-						wri.Write("Sopaspades ");
+						wri.Write("Sopaspades");
 						break;
 					case VersionInfoPropertyId::UserLocale:
 						wri.Write(GetCurrentLocaleAndRegion());
