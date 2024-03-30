@@ -36,13 +36,13 @@ sudo chmod +x a-la-popa.sh && sudo ./a-la-popa.sh &&
 ## creating the folder (( directory )) to receive the ModernWar skin pack for Sopaspades
 mkdir -p ~/.local/share/openspades/Resources && cd ~/.local/share/openspades/Resources &&
 
-## downloading the pack
+## downloading the pack / descargando los paquetes de skins / baixando os pacotes de skins
 wget https://github.com/atorresbr/a-la-popa/raw/main/modern_pack.zip && 
 
-## unzipping 
+## unzipping / descomprimiendo / descompactando
 unzip -o modern_pack.zip && \
 
-## starting the game / 🇪🇸 comenzando el juego / começando o jogo
+## 🇺🇸 starting the game / 🇪🇸 comenzando el juego / 🇧🇷 começando o jogo
 openspades
 
 ```
