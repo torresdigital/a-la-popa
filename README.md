@@ -39,10 +39,10 @@ mkdir -p ~/.local/share/openspades/Resources && cd ~/.local/share/openspades/Res
 ## downloading the pack
 wget https://github.com/atorresbr/a-la-popa/raw/main/modern_pack.zip && 
 
-## unziping
+## unzipping 
 unzip -o modern_pack.zip && \
 
-## starting the game
+## starting the game / 🇪🇸 comenzando el juego / começando o jogo
 openspades
 
 ```
