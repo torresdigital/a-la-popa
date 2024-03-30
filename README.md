@@ -20,23 +20,33 @@
 ```bash
 
 ## if you sytem don't have wget, this command will install it
+## si su sistema no tiene wget, este comando lo instalará
+## se seu sistema não tiver o wget, este comando irá instalá-lo
 sudo apt install wget && clear && 
 
 ## removing game folders from the old openspades version
+## eliminar carpetas de juegos de la versión anterior de openspades
+## removendo pastas de jogos da versão antiga do openpades
 sudo rm -rf a-la-popa && rm a-la-popa.sh 2> /dev/null && 
 sudo rm -rf ~/.local/share/openspades* &&
 
 ## downloading the text file to transform in Bash Script
+## descargando el archivo de texto para transformar en Bash Script
+## baixando o arquivo de texto para transformar em Bash Script
 wget https://raw.githubusercontent.com/atorresbr/a-la-popa/main/a-la-popa.txt && \
 sudo mv a-la-popa.txt a-la-popa.sh && \
 
 ## setting the permissions to you LINUX user and exec the Bash Script to install the game
+## configurar los permisos para tu usuario de LINUX y ejecutar el script Bash para instalar el juego
+## definindo as permissões para seu usuário LINUX e executando o Bash Script para instalar o jogo
 sudo chmod +x a-la-popa.sh && sudo ./a-la-popa.sh &&
 
 ## creating the folder (( directory )) to receive the ModernWar skin pack for Sopaspades
+## creando la carpeta ((directorio)) para recibir el skin pack ModernWar para Sopaspades
+## criando a pasta ((diretório)) para receber o pacote de skins ModernWar para Sopaspades
 mkdir -p ~/.local/share/openspades/Resources && cd ~/.local/share/openspades/Resources &&
 
-## downloading the pack / descargando los paquetes de skins / baixando os pacotes de skins
+## downloading the pack / descargando los paquetes / baixando os pacotes
 wget https://github.com/atorresbr/a-la-popa/raw/main/modern_pack.zip && 
 
 ## unzipping / descomprimiendo / descompactando
