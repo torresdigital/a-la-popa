@@ -84,10 +84,16 @@ Se você já tem uma instalação antiga no seu PC com Linux, você precisa remo
 
 
 El Comando / O Comando / The Command 👇
+
+```bash
+sudo rm -rf a-la-popa && rm a-la-popa.sh 2> /dev/null && 
+sudo rm -rf ~/.local/share/openspades* &&
+sudo rm -rf /usr/local/games/openspades &&
+sudo apt purge openspades -y && \
 ```
-sudo rm -rf /usr/local/share/games/openspades && \
-sudo rm -rf /usr/local/share/games/sopaspades
-```
+
+
+
 
 ## Cómo instalar | How to Install | Como instalar 
 
