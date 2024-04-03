@@ -62,7 +62,7 @@ namespace spades {
             }
             {
                 spades::ui::CheckBox button(Manager);
-                button.Caption = _Tr("StartupScreen", "Skip this screen next time");
+                button.Caption = _Tr("StartupScreen", "POPA");
                 button.Bounds = AABB2(360.f, 62.f, width - 1.f, 1.f); // note: this is updated later soon
                 AddChild(button);
                 @bypassStartupWindowCheck = button;
