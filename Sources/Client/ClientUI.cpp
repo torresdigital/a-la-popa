@@ -35,7 +35,7 @@ DEFINE_SPADES_SETTING(_sup_instant_MS4, "Mouse Button 4 /_sup_instant_MS4 ");
 DEFINE_SPADES_SETTING(_sup_instant_MS5, "Mouse Button 5 /_sup_instant_MS5 ");
 
 // amogus
-DEFINE_SPADES_SETTING(sopa, "SOPA BRV's, are so delicious ♨");
+DEFINE_SPADES_SETTING(amogus, "SOPA BRV's, are so delicious ");
 // sussy
 
 namespace spades {
