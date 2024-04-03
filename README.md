@@ -219,6 +219,10 @@ Please see the file named LICENSE.
 ## SOPA SPADES VERSION.
 SOPA SPADES is a modified 😒 synSpades 🤫 and OpenSpades version, with changes by Doctor Dank and Ixve  (( synth )), including a bigger color palette thanks to Liza & other smaller changes such as macros (Totally didn't steal the macros from [this dude](https://www.github.com/yusufcardinal/openspades)).
 
-## How do I use the macros?
+## Instant messages.
 Write `/sopa_macro_` in chat and it'll essentially explain itself to you. There's currently only a macro for the P key & the Mouse Button 4 & 5 keys.
 If someone can, please implement a macro menu where you can set macro keys yourself, as right now you have to add lines to the code to have another bind.
+
+Instant messages.
+
+You can configure your instant messages as a Catchphrase, for example, as " SOPA ! " or " WE ARE THE CHAMPIONS ! " and which can be configured in the menu of your SOPA spadades client, in the ADVANCED tab
