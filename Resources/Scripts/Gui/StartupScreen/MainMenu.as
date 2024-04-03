@@ -60,14 +60,14 @@ namespace spades {
                 @button.Activated = spades::ui::EventHandler(this.OnStartPressed);
                 AddChild(button);
             }
-            {
+            /* {
                 spades::ui::CheckBox button(Manager);
                 button.Caption = _Tr("StartupScreen", "Skip this screen next time");
                 button.Bounds = AABB2(360.f, 62.f, width - 380.f, 20.f); // note: this is updated later soon
                 AddChild(button);
                 @bypassStartupWindowCheck = button;
                 @button.Activated = spades::ui::EventHandler(this.OnBypassStartupWindowCheckChanged);
-            }
+            } */
             {
                 UpdateCheckView view(Manager, ui.helper.PackageUpdateManager);
                 view.Bounds = AABB2(0.f, height - 40.f, width, 40.f);
@@ -114,10 +114,10 @@ namespace spades {
                 @tabStrip.Changed = spades::ui::EventHandler(this.OnTabChanged);
 
                 // Reposition the "Skip this screen next time" check box
-                spades::ui::UIElement@[]@ tabStripItems = tabStrip.GetChildren();
-                float right = tabStripItems[tabStripItems.length - 1].Bounds.max.x +
-                    tabStrip.Bounds.min.x + 10.f;
-                bypassStartupWindowCheck.Bounds = AABB2(right, 62.f, width - right - 20.f, 20.f);
+                // spades::ui::UIElement@[]@ tabStripItems = tabStrip.GetChildren();
+                // float right = tabStripItems[tabStripItems.length - 1].Bounds.max.x +
+                //    tabStrip.Bounds.min.x + 10.f;
+                // bypassStartupWindowCheck.Bounds = AABB2(right, 62.f, width - right - 20.f, 20.f);
             }
 
             LoadConfig();
