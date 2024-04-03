@@ -9,6 +9,8 @@
 
 <!-- **Important**: If you have previously installed OpenSpades or any modified version of OpenSpades, you have to uninstall it manually by `sudo rm -rf /usr/local/share/games/openspades` or `sudo rm -rf /usr/local/share/games/sopaspades` before installing a new one. -->
 
+https://github.com/atorresbr/a-la-popa/assets/13744483/1b71f093-dc32-4bd9-a0cf-2dfdc1c10408
+
 ## 🍜 🇪🇸 Para los Principiantes | 🇧🇷 Para os iniciantes | 🇺🇸 To Benginners
 
    🇪🇸 Eres principiante  con Linux ?, copie el comando en los cuadrados a la derecha y use el botón derecho del mouse para pegarlo en su terminal y presione ENTER para instalar el juego.
@@ -217,6 +219,6 @@ Please see the file named LICENSE.
 ## SOPA SPADES VERSION.
 SOPA SPADES is a modified 😒 synSpades 🤫 and OpenSpades version, with changes by Doctor Dank and Ixve  (( synth )), including a bigger color palette thanks to Liza & other smaller changes such as macros (Totally didn't steal the macros from [this dude](https://www.github.com/yusufcardinal/openspades)).
 
-## Instant messages.
-
-You can configure your instant messages as a Catchphrase, for example, as " SOPA ! " or " WE ARE THE CHAMPIONS ! " and which can be configured in the menu of your SOPA spadades client, in the ADVANCED tab.
+## How do I use the macros?
+Write `/sopa_macro_` in chat and it'll essentially explain itself to you. There's currently only a macro for the P key & the Mouse Button 4 & 5 keys.
+If someone can, please implement a macro menu where you can set macro keys yourself, as right now you have to add lines to the code to have another bind.
