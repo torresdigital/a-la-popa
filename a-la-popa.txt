@@ -75,7 +75,7 @@ echo
 
 echo -ne ${b_green}
 
-
+sleep 2
 echo -e "
    * * * =============================================== * * * 
  *       🇪🇸 Este script instalará Sopa Spades en tu PC 🍜      *
