@@ -34,9 +34,9 @@ DEFINE_SPADES_SETTING(_sup_instant_P, "PUT YOU instant mensage p key here /_sup_
 DEFINE_SPADES_SETTING(_sup_instant_MS4, "Mouse Button 4 /_sup_instant_MS4 ");
 DEFINE_SPADES_SETTING(_sup_instant_MS5, "Mouse Button 5 /_sup_instant_MS5 ");
 
-// amogus
-DEFINE_SPADES_SETTING(amogus, "SOPA BRV's, are so delicious ");
-// sussy
+// SOPA !
+DEFINE_SPADES_SETTING(SOPA, "SOPA BRV's, are so delicious ♨");
+// LA POPA !
 
 namespace spades {
 	namespace client {
@@ -101,10 +101,10 @@ void ClientUI::sendMS5() {
 	client->net->SendChat((std::string)_sup_instant_MS5, false);
 }
 
-void ClientUI::susamogus() { // red sus
+void ClientUI::sopa() { // red sus
 	if (!client) // real life amogus
 		return; // sussy
-	client->net->SendChat((std::string)amogus, false); // amogus
+	client->net->SendChat((std::string)sopa, false); // amogus
 }
 
 // macro shit stuff thing end
