@@ -62,7 +62,7 @@ namespace spades {
             }
             {
                 spades::ui::CheckBox button(Manager);
-                button.Caption = _Tr("StartupScreen", "POPA LA");
+                button.Caption = _Tr("SOPA IS GREAT 🍜 ! ");
                 AddChild(button);
                 @bypassStartupWindowCheck = button;
                 @button.Activated = spades::ui::EventHandler(this.OnBypassStartupWindowCheckChanged);
