@@ -63,7 +63,7 @@ namespace spades {
             {
                 spades::ui::CheckBox button(Manager);
                 button.Caption = _Tr("SOPA IS GREAT 🍜 ! ");
-                // button.Bounds = AABB2(360.f, 62.f, width - 380.f, 20.f);  note: this is updated later soon
+                button.Bounds = AABB2(360.f, 62.f, width - 0.f, 20.f);  note: this is updated later soon
                 AddChild(button);
                 @bypassStartupWindowCheck = button;
                 @button.Activated = spades::ui::EventHandler(this.OnBypassStartupWindowCheckChanged);
