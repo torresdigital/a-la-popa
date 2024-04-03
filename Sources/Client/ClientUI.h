@@ -85,7 +85,7 @@ namespace spades {
 			void sendP();
 			void sendMS4();
 			void sendMS5();
-			void sopa(); // amogus sussy red sus sussy baka
+			void sopa(); // soup are so delicious <3 
 			void CloseUI();
 
 			// lm: so the chat does not have the initial chat key
