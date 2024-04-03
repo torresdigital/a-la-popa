@@ -35,7 +35,7 @@ DEFINE_SPADES_SETTING(_sup_instant_MS4, "Mouse Button 4 /_sup_instant_MS4 ");
 DEFINE_SPADES_SETTING(_sup_instant_MS5, "Mouse Button 5 /_sup_instant_MS5 ");
 
 // amogus
-DEFINE_SPADES_SETTING(amogus, "SOPA BRV's, are so delicious ");
+DEFINE_SPADES_SETTING(_sopa, "SOPA BRV's, are so delicious ♨");
 // sussy
 
 namespace spades {
@@ -82,7 +82,8 @@ namespace spades {
 			client->ShowAlert(msg, Client::AlertType::Notice);
 		}
 
-// macro shit stuff thing start
+// sopa are so delicious instant mensages structure start
+
 	void ClientUI::sendP() {
 		if (!client)
 			return;
@@ -101,13 +102,13 @@ void ClientUI::sendMS5() {
 	client->net->SendChat((std::string)_sup_instant_MS5, false);
 }
 
-void ClientUI::susamogus() { // red sus
-	if (!client) // real life amogus
-		return; // sussy
-	client->net->SendChat((std::string)amogus, false); // amogus
+void ClientUI::sopa() { // red sopa
+	if (!client) // real life sopa
+		return; // sopa <3
+	client->net->SendChat((std::string)_sopa, false); // sopa
 }
 
-// macro shit stuff thing end
+// sopa are so delicious instant mensages structure start end
 
 		void ClientUI::AlertWarning(const std::string &msg) {
 			if (!client)
