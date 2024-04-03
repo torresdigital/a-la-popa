@@ -101,10 +101,10 @@ void ClientUI::sendMS5() {
 	client->net->SendChat((std::string)_sup_instant_MS5, false);
 }
 
-void ClientUI::sopa() { // red sus
-	if (!client) // real life amogus
-		return; // sussy
-	client->net->SendChat((std::string)sopa, false); // amogus
+void ClientUI::sopa() { // red and blues lobes sopa
+	if (!client) // real life lobes sopa
+		return; // sopa
+	client->net->SendChat((std::string)sopa, false); // sopa !
 }
 
 // macro shit stuff thing end
