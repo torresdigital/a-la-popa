@@ -200,29 +200,32 @@ Same goes for Windows. Although I've yet to meet anyone playing OpenSpades or B&
 
 
 ### Network usage during building
-
 OpenSpades' build process automatically downloads prebuilt game assets and libraries as needed. Specifically:
 
 - `pak000-Nonfree.pak` and `font-uniform.pak` from <https://github.com/yvt/openspades-paks>. Can be disabled by passing `-D OPENSPADES_NONFREE_RESOURCES=NO` to CMake.
+
 - The prebuilt binaries of YSRSpades (audio engine) from <https://github.com/yvt/openspades-media>. Can be disabled by passing `-D OPENSPADES_YSR=NO` to CMake.
 
 In addition, vcpkg (sort of package manager only used for Windows and macOS builds) [collects and sends telemetry data to Microsoft](https://vcpkg.readthedocs.io/en/latest/about/privacy/). You can opt out of this behavior by passing `-disableMetrics` option when running `vcpkg/bootstrap-vcpkg.sh` command.
 
 
 ## Troubleshooting
-
+We will try to help you resolve any issues or resolve any concerns about installing the game on your Linux system.
 
 
 ## Licensing
 Please see the file named LICENSE.
 
-## SOPA SPADES VERSION.
-SOPA SPADES is a modified 😒 synSpades 🤫 and OpenSpades version, with changes by Doctor Dank and Ixve  (( synth )), including a bigger color palette thanks to Liza & other smaller changes such as macros (Totally didn't steal the macros from [this dude](https://www.github.com/yusufcardinal/openspades)).
+## 🍜 SOPA SPADES.
 
-## Instant messages (( MACROS )).
+SOPA SPADES is a modified version from 😒synSpades and 🤫OpenSpades.
+
+ synSpades are a version from open spades with changes by Doctor Dank and Ixve  (( synth )), including a bigger color palette thanks to Liza & other smaller changes such as macros (Totally didn't steal the macros from [this dude](https://www.github.com/yusufcardinal/openspades)).
+
+## Instant messages ( /_macros ).
 <!-- Write `/sopa_macro_` in chat and it'll essentially explain itself to you. There's currently only a macro for the P key & the Mouse Button 4 & 5 keys.
 If someone can, please implement a macro menu where you can set macro keys yourself, as right now you have to add lines to the code to have another bind. -->
 
-You can configure your instant messages as a Catchphrase, for example, as " SOPA ! " or " WE ARE THE CHAMPIONS ! " and which can be configured in the menu of your SOPA spadades client, in the ADVANCED tab. You can use you Catchphrase using the P key and the 4 & 5 Mouse Button Keys.
+You can configure your instant messages as a Catchphrase, for example, as " SOPA ! " or " WE ARE THE CHAMPIONS ! " and which can be configured in the menu of your SOPA SPADES client, in the ADVANCED tab. You can use you Catchphrase using the P key and the 4 & 5 Mouse Button Keys.
 
 To see you CatchPhrases on the game, just tipe `/_sup` on the game chat 
