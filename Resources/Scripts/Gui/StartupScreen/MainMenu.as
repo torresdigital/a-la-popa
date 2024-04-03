@@ -114,10 +114,10 @@ namespace spades {
                 @tabStrip.Changed = spades::ui::EventHandler(this.OnTabChanged);
 
                 // Reposition the "Skip this screen next time" check box
-                // spades::ui::UIElement@[]@ tabStripItems = tabStrip.GetChildren();
-                // float right = tabStripItems[tabStripItems.length - 1].Bounds.max.x +
-                //    tabStrip.Bounds.min.x + 10.f;
-                // bypassStartupWindowCheck.Bounds = AABB2(right, 62.f, width - right - 20.f, 20.f);
+               // spades::ui::UIElement@[]@ tabStripItems = tabStrip.GetChildren();
+               // float right = tabStripItems[tabStripItems.length - 1].Bounds.max.x +
+               //     tabStrip.Bounds.min.x + 10.f;
+               // bypassStartupWindowCheck.Bounds = AABB2(right, 62.f, width - right - 20.f, 20.f);
             }
 
             LoadConfig();
