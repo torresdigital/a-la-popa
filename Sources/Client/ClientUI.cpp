@@ -82,7 +82,7 @@ namespace spades {
 			client->ShowAlert(msg, Client::AlertType::Notice);
 		}
 
-// sopa are so delicious stuff thing start
+// sopa are so delicious instant mensages structure start
 
 	void ClientUI::sendP() {
 		if (!client)
@@ -105,10 +105,10 @@ void ClientUI::sendMS5() {
 void ClientUI::sopa() { // red sopa
 	if (!client) // real life sopa
 		return; // sopa <3
-	client->net->SendChat((std::string)_sopa, false); // amogus
+	client->net->SendChat((std::string)_sopa, false); // sopa
 }
 
-// macro shit stuff thing end
+// sopa are so delicious instant mensages structure start end
 
 		void ClientUI::AlertWarning(const std::string &msg) {
 			if (!client)
