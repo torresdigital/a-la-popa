@@ -56,14 +56,14 @@ namespace spades {
             {
                 spades::ui::Button button(Manager);
                 button.Caption = _Tr("StartupScreen", "Start");
-                button.Bounds = AABB2(width - 70.f, 20.f, 150.f, 30.f);
+                button.Bounds = AABB2(width - 170.f, 20.f, 150.f, 30.f);
                 @button.Activated = spades::ui::EventHandler(this.OnStartPressed);
                 AddChild(button);
             }
             {
                 spades::ui::CheckBox button(Manager);
                 button.Caption = _Tr("StartupScreen", "POPA");
-                button.Bounds = AABB2(260.f, 32.f, width - 1.f, 1.f); // note: this is updated later soon
+                button.Bounds = AABB2(60.f, 32.f, width - 1.f, 1.f); // note: this is updated later soon
                 AddChild(button);
                 @bypassStartupWindowCheck = button;
                 @button.Activated = spades::ui::EventHandler(this.OnBypassStartupWindowCheckChanged);
