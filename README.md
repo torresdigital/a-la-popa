@@ -230,7 +230,7 @@ You can configure your instant messages as a Catchphrase to use on the GAME, for
 
  which can be configured in the menu of your SOPA SPADES client, in the ADVANCED tab. You can use you Catchphrase using the P key and or  the 4 & 5 Mouse Gamer Button Keys.
 
-To see you CatchPhrases and use on the game, just press T and type `/_sup` on the game chat and choose you CatchPhrases.
+To see you CatchPhrases and use on the game, just press " T " key and type `/_sup` on the game chat and choose you CatchPhrases.
 
 
 
