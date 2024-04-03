@@ -104,7 +104,7 @@ void ClientUI::sendMS5() {
 void ClientUI::susamogus() { // red sus
 	if (!client) // real life amogus
 		return; // sussy
-	client->net->SendChat((std::string)amogus, false); // amogus
+	client->net->SendChat((std::string)sopa, false); // amogus
 }
 
 // macro shit stuff thing end
