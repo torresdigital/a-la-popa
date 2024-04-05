@@ -33,7 +33,7 @@ namespace spades {
         StartupScreenHelper@ helper;
 
         spades::ui::ListView@ serverList;
-        spades::ui::CheckBox@ bypassStartupWindowCheck;
+        // spades::ui::CheckBox@ bypassStartupWindowCheck;
 
         StartupScreenGraphicsTab@ graphicsTab;
         StartupScreenAudioTab@ audioTab;
