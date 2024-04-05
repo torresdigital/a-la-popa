@@ -62,7 +62,7 @@ namespace spades {
             }
             {
                 spades::ui::CheckBox button(Manager);
-                button.Caption = _Tr("StartupScreen", "🍜 Sopa BRUV's, are so Delicious ");
+                button.Caption = _Tr("StartupScreen", "Skip this screen next time");
                 button.Bounds = AABB2(360.f, 62.f, width - 380.f, 20.f); // note: this is updated later soon
                 AddChild(button);
                 @bypassStartupWindowCheck = button;
@@ -137,7 +137,7 @@ namespace spades {
                 bypassStartupWindowCheck.Toggled = false;
                 break;
             case 0:
-                bypassStartupWindowCheck.Toggled = false;
+                bypassStartupWindowCheck.Toggled = true;
                 break;
             default:
                 bypassStartupWindowCheck.Toggled = false;
