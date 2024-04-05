@@ -117,7 +117,7 @@ namespace spades {
                 spades::ui::UIElement@[]@ tabStripItems = tabStrip.GetChildren();
                 float right = tabStripItems[tabStripItems.length - 1].Bounds.max.x +
                     tabStrip.Bounds.min.x + 10.f;
-                bypassStartupWindowCheck.Bounds = AABB2(right, 62.f, width - right - 0.f, 0.f);
+                bypassStartupWindowCheck.Bounds = AABB2(right, 0.f, width - right - 0.f, 0.f);
             }
 
             LoadConfig();
