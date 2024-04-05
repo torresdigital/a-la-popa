@@ -62,7 +62,7 @@ namespace spades {
             }
             {
                 spades::ui::CheckBox button(Manager);
-                button.Caption = _Tr("StartupScreen", "Skip this screen next time");
+                button.Caption = _Tr("StartupScreen", "🍜 Sopa BRUV's, are so Delicious ");
                 button.Bounds = AABB2(360.f, 62.f, width - 380.f, 20.f); // note: this is updated later soon
                 AddChild(button);
                 @bypassStartupWindowCheck = button;
@@ -117,7 +117,7 @@ namespace spades {
                 spades::ui::UIElement@[]@ tabStripItems = tabStrip.GetChildren();
                 float right = tabStripItems[tabStripItems.length - 1].Bounds.max.x +
                     tabStrip.Bounds.min.x + 10.f;
-                bypassStartupWindowCheck.Bounds = AABB2(right, 0.f, width - right - 0.f, 0.f);
+                bypassStartupWindowCheck.Bounds = AABB2(right, 62.f, width - right - 0.f, 20.f);
             }
 
             LoadConfig();
