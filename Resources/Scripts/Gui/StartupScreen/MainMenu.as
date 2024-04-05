@@ -60,7 +60,7 @@ namespace spades {
                 @button.Activated = spades::ui::EventHandler(this.OnStartPressed);
                 AddChild(button);
             }
-        
+      
             {
                 UpdateCheckView view(Manager, ui.helper.PackageUpdateManager);
                 view.Bounds = AABB2(0.f, height - 40.f, width, 40.f);
