@@ -62,10 +62,10 @@ namespace spades {
             }
             {
                 spades::ui::CheckBox button(Manager);
-                button.Caption = _Tr("StartupScreen", "Skip this screen next time");
-                button.Bounds = AABB2(360.f, 62.f, width - 380.f, 20.f); // note: this is updated later soon
+                button.Caption = _Tr("SOPA IS GREAT ");
+                button.Bounds = AABB2(360.f, 62.f, width - 320.f, 20.f);  // note: this is updated later soon
                 AddChild(button);
-                @bypassStartupWindowCheck = button;
+                @bypassStartupWindowCheck = ;
                 @button.Activated = spades::ui::EventHandler();
             }
             {
