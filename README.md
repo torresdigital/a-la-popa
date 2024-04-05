@@ -232,5 +232,5 @@ You can configure your instant messages as a Catchphrase to use on the GAME, for
 
 To see you CatchPhrases and use on the game, just press " T " key and type `/_sup` on the game chat and choose you CatchPhrases.
 
-
+To use in the game, just press the Key corresponding Key: to use the Catchphrase on " p ", press " p " key.
 
