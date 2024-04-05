@@ -137,7 +137,7 @@ namespace spades {
                 bypassStartupWindowCheck.Toggled = false;
                 break;
             case 0:
-                bypassStartupWindowCheck.Toggled = true;
+                bypassStartupWindowCheck.Toggled = false;
                 break;
             default:
                 bypassStartupWindowCheck.Toggled = false;
