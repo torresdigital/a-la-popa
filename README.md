@@ -226,6 +226,11 @@ SOPA SPADES is a modified version from 😒synSpades and 🤫OpenSpades.
 <!-- Write `/sopa_macro_` in chat and it'll essentially explain itself to you. There's currently only a macro for the P key & the Mouse Button 4 & 5 keys.
 If someone can, please implement a macro menu where you can set macro keys yourself, as right now you have to add lines to the code to have another bind. -->
 
-You can configure your instant messages as a Catchphrase, for example, as " SOPA ! " or " WE ARE THE CHAMPIONS ! " and which can be configured in the menu of your SOPA SPADES client, in the ADVANCED tab. You can use you Catchphrase using the P key and the 4 & 5 Mouse Button Keys.
+You can configure your instant messages as a Catchphrase to use on the GAME, for example, as " SOPA ! " or " WE ARE THE CHAMPIONS ! ".
 
-To see you CatchPhrases on the game, just tipe `/_sup` on the game chat 
+ which can be configured in the menu of your SOPA SPADES client, in the ADVANCED tab. You can use you Catchphrase using the P key and or  the 4 & 5 Mouse Gamer Button Keys.
+
+To see you CatchPhrases and use on the game, just press " T " key and type `/_sup` on the game chat and choose you CatchPhrases.
+
+To use in the game, just press the Key corresponding Key: to use the Catchphrase on " p ", press " p " key.
+
