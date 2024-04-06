@@ -56,7 +56,7 @@ namespace spades {
             {
                 spades::ui::Button button(Manager);
                 button.Caption = _Tr("StartupScreen", "(ﾒ` ﾛ ´)︻デ═一 * START");
-                button.Bounds = AABB2(width - 170.f, 20.f, 50.f, 30.f);
+                button.Bounds = AABB2(width - 170.f, 20.f, 80.f, 130.f);
                 @button.Activated = spades::ui::EventHandler(this.OnStartPressed);
                 AddChild(button);
             }
