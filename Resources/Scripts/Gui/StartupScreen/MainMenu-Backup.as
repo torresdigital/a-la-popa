@@ -55,8 +55,8 @@ namespace spades {
             float height = Manager.Renderer.ScreenHeight;
             {
                 spades::ui::Button button(Manager);
-                button.Caption = _Tr("StartupScreen", "(ง'̀-'́)ง *START");
-                button.Bounds = AABB2(width - 170.f, 20.f, 80.f, 30.f);
+                button.Caption = _Tr("StartupScreen", "Start");
+                button.Bounds = AABB2(width - 170.f, 20.f, 150.f, 30.f);
                 @button.Activated = spades::ui::EventHandler(this.OnStartPressed);
                 AddChild(button);
             }
@@ -117,7 +117,7 @@ namespace spades {
                 spades::ui::UIElement@[]@ tabStripItems = tabStrip.GetChildren();
                 float right = tabStripItems[tabStripItems.length - 1].Bounds.max.x +
                     tabStrip.Bounds.min.x + 10.f;
-                bypassStartupWindowCheck.Bounds = AABB2(right, 62.f, width - right - 0.f, 0.f);
+                bypassStartupWindowCheck.Bounds = AABB2(right, 62.f, width - right - 20.f, 20.f);
             }
 
             LoadConfig();
