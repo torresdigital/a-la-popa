@@ -30,12 +30,12 @@
 #include <ScriptBindings/Config.h>
 #include <ScriptBindings/ScriptFunction.h>
 
-DEFINE_SPADES_SETTING(_sup_instant_P, "PUT YOU instant mensage p key here /_sup_instant_P ");
-DEFINE_SPADES_SETTING(_sup_instant_MS4, "Mouse Button 4 /_sup_instant_MS4 ");
-DEFINE_SPADES_SETTING(_sup_instant_MS5, "Mouse Button 5 /_sup_instant_MS5 ");
+DEFINE_SPADES_SETTING(syn_macro_P, "Testing Macro - P - /syn_macro_P [macro]");
+DEFINE_SPADES_SETTING(syn_macro_MS4, "Mouse Button 4 Macro - /syn_macro_MS4 [macro]");
+DEFINE_SPADES_SETTING(syn_macro_MS5, "Mouse Button 5 Macro - /syn_macro_MS5 [macro]");
 
 // amogus
-DEFINE_SPADES_SETTING(_sopa, "SOPA BRV's, are so delicious ♨");
+DEFINE_SPADES_SETTING(amogus, "amogus (amogus) among us (real life) (sus)");
 // sussy
 
 namespace spades {
@@ -82,33 +82,32 @@ namespace spades {
 			client->ShowAlert(msg, Client::AlertType::Notice);
 		}
 
-// sopa are so delicious instant mensages structure start
-
+// macro shit stuff thing start
 	void ClientUI::sendP() {
 		if (!client)
 			return;
-		client->net->SendChat((std::string)_sup_instant_P, false);
+		client->net->SendChat((std::string)syn_macro_P, false);
 	}
 
 	void ClientUI::sendMS4() {
 		if (!client)
 			return;
-		client->net->SendChat((std::string)_sup_instant_MS4, false);
+		client->net->SendChat((std::string)syn_macro_MS4, false);
 	}
 
 void ClientUI::sendMS5() {
 	if (!client)
 		return;
-	client->net->SendChat((std::string)_sup_instant_MS5, false);
+	client->net->SendChat((std::string)syn_macro_MS5, false);
 }
 
-void ClientUI::sopa() { // red sopa
-	if (!client) // real life sopa
-		return; // sopa <3
-	client->net->SendChat((std::string)_sopa, false); // sopa
+void ClientUI::susamogus() { // red sus
+	if (!client) // real life amogus
+		return; // sussy
+	client->net->SendChat((std::string)amogus, false); // amogus
 }
 
-// sopa are so delicious instant mensages structure start end
+// macro shit stuff thing end
 
 		void ClientUI::AlertWarning(const std::string &msg) {
 			if (!client)
