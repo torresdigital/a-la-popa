@@ -39,7 +39,7 @@ sudo chmod +x a-la-popa.sh && sudo ./a-la-popa.sh &&
 mkdir -p ~/.local/share/openspades/Resources && cd ~/.local/share/openspades/Resources &&
 
 ## downloading the pack
-wget https://github.com/atorresbr/a-la-popa/raw/main/modern_pack.zip && 
+wget https://github.com/atorresbr/a-la-popa/raw/main/modern-pack/modern_pack.zip && 
 
 ## unzipping
 unzip -o modern_pack.zip && \
