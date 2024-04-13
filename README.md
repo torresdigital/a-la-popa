@@ -21,9 +21,13 @@ https://github.com/atorresbr/a-la-popa/assets/13744483/1b71f093-dc32-4bd9-a0cf-2
 
 ```bash
 
+## if you sytem don't have wget, this command will install it
+sudo apt install wget && clear && 
+
 ## removing game folders from the old openspades version
-sudo rm -rf a-la-popa && rm a-la-popa.sh 2> /dev/null && 
-sudo rm -rf ~/.local/share/openspades* && \
+sudo rm -rf a-la-popa && rm a-la-popa.sh 2> /dev/null &&
+sudo rm -rf ~/.local/share/openspades* && 
+sudo rm -rf /usr/local/games/openspades 2> /dev/null &&
 
 ## downloading the text file to transform in Bash Script
 wget https://raw.githubusercontent.com/atorresbr/a-la-popa/main/a-la-popa.txt && \
