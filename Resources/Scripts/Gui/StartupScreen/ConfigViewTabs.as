@@ -129,7 +129,7 @@ namespace spades {
                     StartupScreenComplexConfig cplx;
                     cplx.AddEditor(StartupScreenConfigCheckItemEditor(ui,
                     StartupScreenConfig(ui, "r_cameraBlur"), "0", "1", _Tr("StartupScreen", "Camera Blur"),
-                    _Tr("StartupScreen", "If you use this, you're a psychopath.")));
+                    _Tr("StartupScreen", "If you use this, you're a good person.")));
                     cplx.AddEditor(StartupScreenConfigCheckItemEditor(ui,
                     StartupScreenConfig(ui, "r_lens"), "0", "1", _Tr("StartupScreen", "Lens Effect"),
                     _Tr("StartupScreen", "Why would any pro gamer want to use this..?")));
