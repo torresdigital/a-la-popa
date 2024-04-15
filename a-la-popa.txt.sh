@@ -1,6 +1,6 @@
 #!/bin/bash
 
-## La Popa és Nuestra 🔫🍜!
+## La Popa és Nuestra !
 ## Script developed for atorresbr (( atorresbr@gmail.com ))
 
 #this functio send the error mesage to user if his not use the sudo command
@@ -75,7 +75,7 @@ echo
 
 echo -ne ${b_green}
 
-
+sleep 2
 echo -e "
    * * * =============================================== * * * 
  *       🇪🇸 Este script instalará Sopa Spades en tu PC 🍜      *
@@ -163,8 +163,8 @@ echo -ne ${nc}
 
 sleep 2
 
-sudo rm -rf /usr/local/share/games/openspades &&
-sudo rm -rf /usr/local/games/openspades &&
+## sudo rm -rf /usr/local/share/games/openspades &&
+## sudo rm -rf /usr/local/games/openspades &&
 sudo apt purge openspades -y && \
 
 ## sudo rm -rf ~/.local/share/openspades &&
