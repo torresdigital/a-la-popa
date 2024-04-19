@@ -35,7 +35,7 @@ DEFINE_SPADES_SETTING(syn_macro_MS4, "Mouse Button 4 Macro - /syn_macro_MS4 [mac
 DEFINE_SPADES_SETTING(syn_macro_MS5, "Mouse Button 5 Macro - /syn_macro_MS5 [macro]");
 
 // amogus
-DEFINE_SPADES_SETTING(amogus, "amogus (amogus) among us (real life) (sus)");
+DEFINE_SPADES_SETTING(amogus, "SOPA are so delicious <3");
 // sussy
 
 namespace spades {
