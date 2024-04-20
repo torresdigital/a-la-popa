@@ -30,9 +30,9 @@
 #include <ScriptBindings/Config.h>
 #include <ScriptBindings/ScriptFunction.h>
 
-DEFINE_SPADES_SETTING(syn_macro_P, "pon tu mensaje automático para usar con la letra P aquí");
-DEFINE_SPADES_SETTING(syn_macro_MS4, "Mouse Button 4 Macro - /syn_macro_MS4 [macro]");
-DEFINE_SPADES_SETTING(syn_macro_MS5, "Mouse Button 5 Macro - /syn_macro_MS5 [macro]");
+DEFINE_SPADES_SETTING(syn_macro_P, "mensaje automático con la letra P");
+DEFINE_SPADES_SETTING(syn_macro_MS4, "mensaje automático con el botón 4 del mouse");
+DEFINE_SPADES_SETTING(syn_macro_MS5, "mensaje automático con el botón 5 del mouse");
 
 // amogus
 DEFINE_SPADES_SETTING(amogus, "SOPA are so delicious <3");
