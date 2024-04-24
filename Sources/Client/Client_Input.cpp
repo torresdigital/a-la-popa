@@ -533,7 +533,7 @@ namespace spades {
 						scriptedUI ->sendMS5();
 						scriptedUI->setIgnored(name);
 					} else if (CheckKey("o", name) && down) { // 
-						scriptedUI ->sopa(); // sussy based mogus
+						scriptedUI ->sopa_are_so_delicious(); // sussy based mogus
 						scriptedUI->setIgnored(name); // among us in real life
 					} else if (CheckKey(cg_keyTeamChat, name) && down) { // impostor sus red
 						// team chat
