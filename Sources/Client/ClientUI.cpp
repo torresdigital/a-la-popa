@@ -30,9 +30,9 @@
 #include <ScriptBindings/Config.h>
 #include <ScriptBindings/ScriptFunction.h>
 
-DEFINE_SPADES_SETTING(syn_macro_P, "mensaje automático con la letra P");
-DEFINE_SPADES_SETTING(syn_macro_MS4, "mensaje automático con el botón 4 del mouse");
-DEFINE_SPADES_SETTING(syn_macro_MS5, "mensaje automático con el botón 5 del mouse");
+DEFINE_SPADES_SETTING(_sup_mensage_P, "mensaje automático con la letra P");
+DEFINE_SPADES_SETTING(_sup_mensage_MS4, "mensaje automático con el botón 4 del mouse");
+DEFINE_SPADES_SETTING(_sup_mensage_MS5, "mensaje automático con el botón 5 del mouse");
 
 // amogus
 DEFINE_SPADES_SETTING(amogus, "SOPA are so delicious <3");
@@ -82,23 +82,23 @@ namespace spades {
 			client->ShowAlert(msg, Client::AlertType::Notice);
 		}
 
-// macro shit stuff thing start
+// mensages start
 	void ClientUI::sendP() {
 		if (!client)
 			return;
-		client->net->SendChat((std::string)syn_macro_P, false);
+		client->net->SendChat((std::string)_sup_mensage_P, false);
 	}
 
 	void ClientUI::sendMS4() {
 		if (!client)
 			return;
-		client->net->SendChat((std::string)syn_macro_MS4, false);
+		client->net->SendChat((std::string)_sup_mensage_MS4, false);
 	}
 
 void ClientUI::sendMS5() {
 	if (!client)
 		return;
-	client->net->SendChat((std::string)syn_macro_MS5, false);
+	client->net->SendChat((std::string)_sup_mensage_MS5, false);
 }
 
 void ClientUI::susamogus() { // red sus
@@ -107,7 +107,7 @@ void ClientUI::susamogus() { // red sus
 	client->net->SendChat((std::string)amogus, false); // amogus
 }
 
-// macro shit stuff thing end
+// mensages end
 
 		void ClientUI::AlertWarning(const std::string &msg) {
 			if (!client)
