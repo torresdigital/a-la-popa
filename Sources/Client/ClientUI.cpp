@@ -35,7 +35,7 @@ DEFINE_SPADES_SETTING(_sup_mensage_MS4, "mensaje automático con el botón 4 del
 DEFINE_SPADES_SETTING(_sup_mensage_MS5, "mensaje automático con el botón 5 del mouse");
 
 // amogus
-DEFINE_SPADES_SETTING(amogus, "SOPA are so delicious <3");
+DEFINE_SPADES_SETTING(sopa, "SOPA are so delicious <3");
 // sussy
 
 namespace spades {
@@ -101,10 +101,10 @@ void ClientUI::sendMS5() {
 	client->net->SendChat((std::string)_sup_mensage_MS5, false);
 }
 
-void ClientUI::susamogus() { // red sus
+void ClientUI::sopa() { // red sus
 	if (!client) // real life amogus
 		return; // sussy
-	client->net->SendChat((std::string)amogus, false); // amogus
+	client->net->SendChat((std::string)sopa, false); // amogus
 }
 
 // mensages end
