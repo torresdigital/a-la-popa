@@ -101,7 +101,7 @@ void ClientUI::sendMS5() {
 	client->net->SendChat((std::string)_sup_mensage_MS5, false);
 }
 
-void ClientUI::sopa() { // red sus
+void ClientUI::sopa_are_so_delicious() { // red sus
 	if (!client) // real life 
 		return; // sussy
 	client->net->SendChat((std::string)sopa, false); // 

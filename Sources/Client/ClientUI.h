@@ -85,7 +85,7 @@ namespace spades {
 			void sendP();
 			void sendMS4();
 			void sendMS5();
-			void sopa(); //
+			void sopa_are_so_delicious(); //
 			void CloseUI();
 
 			// lm: so the chat does not have the initial chat key
