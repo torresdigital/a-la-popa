@@ -13,7 +13,7 @@
 
 std::string VersionInfo::GetVersionInfo() {
 #if defined(OS_PLATFORM_LINUX)
-	return std::string("SOPA SPADES - https://github.com/atorresbr/a-la-popa");
+	return std::string("SOPA SPADES - www.github.com/atorresbr/a-la-popa");
 #elif defined(TARGET_OS_MAC)
 	return std::string("Mac OS X | This user has compiled SOPA SPADES for macOS, GG! - www.github.com/atorresbr/a-la-popa");
 #elif defined(OS_PLATFORM_WINDOWS)
