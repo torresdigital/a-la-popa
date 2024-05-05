@@ -239,7 +239,7 @@ To use in the game, just press the Key corresponding Key: to use the Catchphrase
 
 ### Minimum - Mínimo
 
- Linux, OS X, or Windows Vista or later,
+ Linux, OS X, or Windows Vista or later.<br><br>
 
 1GHz dual-core processor
 GPU: 512MB or more VRAM
