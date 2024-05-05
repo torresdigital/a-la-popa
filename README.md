@@ -235,7 +235,7 @@ To see you CatchPhrases and use on the game, just press " T " key and type `/_su
 
 To use in the game, just press the Key corresponding Key: to use the Catchphrase on " p ", press " p " key.
 
-## Requirements - Requisitos
+## 🧮 Requirements - Requisitos
 
 ### Minimum - Mínimo
 
