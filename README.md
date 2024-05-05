@@ -235,3 +235,28 @@ To see you CatchPhrases and use on the game, just press " T " key and type `/_su
 
 To use in the game, just press the Key corresponding Key: to use the Catchphrase on " p ", press " p " key.
 
+## Requirements - Requisitos
+
+### Minimum - Mínimo
+
+ Linux, OS X, or Windows Vista or later,
+
+1GHz dual-core processor
+GPU: 512MB or more VRAM
+GPU (Intel): Intel HD Graphics 3000 or better
+GPU (NVIDIA): GeForce 9 Series or better
+GPU (AMD): Radeon HD 7350
+1GB RAM
+800x600 display
+Broadband network connection
+Keyboard and pointing device
+
+## Recommended - Recomendado
+
+3GHz quad-core processor
+Stereo audio output
+GPU: 1GB or more VRAM
+GPU (NVIDIA): GeForce GTX 680
+GPU (AMD): Radeon R9 280X
+2GB RAM
+Mouse input
