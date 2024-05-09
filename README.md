@@ -224,10 +224,24 @@ SOPA SPADES is a modified version from 😒synSpades and 🤫OpenSpades.
  synSpades are a version from openspades with changes by Doctor Dank and Ixve  (( synth )), including a bigger color palette thanks to Liza & other smaller changes such as macros (Totally didn't steal the macros from [this dude](https://www.github.com/yusufcardinal/openspades)).
 
 ## Instant messages ( /_sup_instant ).
+
 <!-- Write `/sopa_macro_` in chat and it'll essentially explain itself to you. There's currently only a macro for the P key & the Mouse Button 4 & 5 keys.
 If someone can, please implement a macro menu where you can set macro keys yourself, as right now you have to add lines to the code to have another bind. -->
 
-You can configure your instant messages as a Catchphrase to use on the GAME, for example, as " SOPA ! " or " WE ARE THE CHAMPIONS ! ".
+### 🇪🇸 Mensajes instantáneos
+
+Puedes configurar tus mensajes instantáneos como un eslogan para usar en el JUEGO, por ejemplo, como "¡SOPA!" o "¡SOMOS LOS CAMPEONES!".
+
+  el cual puede configurarse en el menú de su cliente SOPA SPADES, en la pestaña AVANZADO. Puedes usar tu frase clave usando la tecla P o las teclas 4 y 5 del mouse Gamer.
+
+Para ver tus CatchPhrases y usarlos en el juego, simplemente presiona la tecla "T" y escribe `/_sup` en el chat del juego y elige tus CatchPhrases.
+
+Para usar en el juego, simplemente presione la tecla correspondiente: para usar el eslogan en "p", presione la tecla "p".
+
+
+### 🇺🇸 Instant messages 
+
+ You can configure your instant messages as a Catchphrase to use on the GAME, for example, as " SOPA ! " or " WE ARE THE CHAMPIONS ! ".
 
  which can be configured in the menu of your SOPA SPADES client, in the ADVANCED tab. You can use you Catchphrase using the P key and or  the 4 & 5 Mouse Gamer Button Keys.
 
