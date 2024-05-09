@@ -234,7 +234,7 @@ Puedes configurar tus mensajes instantáneos como un eslogan para usar en el JUE
 
   el cual puede configurarse en el menú de su cliente SOPA SPADES, en la pestaña AVANZADO. Puedes usar tu frase clave usando la tecla P o las teclas 4 y 5 del mouse Gamer.
 
-Para ver tus CatchPhrases y usarlos en el juego, simplemente presiona la tecla "T" y escribe `/_sup` en el chat del juego y elige tus CatchPhrases.
+Para ver tus mensajes instantáneas y usarlos en el juego, simplemente, presiona la tecla "T" y escribe `/_sup` en el chat del juego y elige tus mensajes instantáneas.
 
 Para usar en el juego, simplemente presione la tecla correspondiente: para usar el eslogan en "p", presione la tecla "p".
 
