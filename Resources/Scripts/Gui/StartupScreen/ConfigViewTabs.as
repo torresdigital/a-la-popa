@@ -635,7 +635,7 @@ namespace spades {
                 "- " + _Tr("StartupScreen", "All key bindings") + "\n" +
                 "- " + _Tr("StartupScreen", "Your player name") + "\n" +
                 "- " + _Tr("StartupScreen", "Other advanced settings only accessible through '{0}' tab and in-game commands",
-                    _Tr("StartupScreen", "Advanced"));
+                "- " + _Tr("StartupScreen", "Advanced"));
             ConfirmScreen al(Parent, msg, 200.f);
             @al.Closed = spades::ui::EventHandler(OnResetSettingsConfirmed);
             al.Run();
