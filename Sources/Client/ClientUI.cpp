@@ -30,12 +30,12 @@
 #include <ScriptBindings/Config.h>
 #include <ScriptBindings/ScriptFunction.h>
 
+// AQUI SUA MENSAGEM AUTOMÁTICA USANDO MS4, MS5 e P ( use _sup para ver suas mensagens via chat options )
+
 DEFINE_SPADES_SETTING(_sup_mensage_P, "mensaje automático con la letra P");
 DEFINE_SPADES_SETTING(_sup_mensage_MS4, "mensaje automático con el botón 4 del mouse");
 DEFINE_SPADES_SETTING(_sup_mensage_MS5, "mensaje automático con el botón 5 del mouse");
-
-// 
-DEFINE_SPADES_SETTING(sopa, "SOPA are so delicious <3");
+DEFINE_SPADES_SETTING(_sopa, "SOPA are so delicious <3");
 // sussy
 
 namespace spades {
@@ -104,7 +104,7 @@ void ClientUI::sendMS5() {
 void ClientUI::sopa_are_so_delicious() { // SO delicious
 	if (!client) // real life 
 		return; // not sussy
-	client->net->SendChat((std::string)sopa, false); // 
+	client->net->SendChat((std::string)_sopa, false); // 
 }
 
 // macro shit stuff thing end
