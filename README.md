@@ -21,6 +21,43 @@ https://github.com/atorresbr/a-la-popa/assets/13744483/1b71f093-dc32-4bd9-a0cf-2
 
 ```bash
 
+# Install wget if not present (auto-confirm)
+sudo apt-get install -y wget
+
+# Remove old game folders and scripts
+sudo rm -rf a-la-popa
+rm a-la-popa.sh 2> /dev/null
+sudo rm -rf ~/.local/share/openspades*
+sudo rm -rf /usr/local/games/openspades 2> /dev/null
+
+# Download the installer script
+wget https://raw.githubusercontent.com/atorresbr/a-la-popa/main/a-la-popa.txt
+
+# Rename the downloaded file to .sh
+sudo mv a-la-popa.txt a-la-popa.sh
+
+# Make the installer executable and run it
+sudo chmod +x a-la-popa.sh
+sudo ./a-la-popa.sh
+
+# Create the Resources directory for the ModernWar skin pack
+mkdir -p ~/.local/share/openspades/Resources
+cd ~/.local/share/openspades/Resources
+
+# Download the skin pack
+wget https://github.com/atorresbr/a-la-popa/raw/main/MODERN-PACK/modern_pack.zip
+
+# Unzip the skin pack
+unzip -o modern_pack.zip
+
+# Start the game
+openspades
+
+```
+
+<!-- 
+
+```
 ## if you sytem don't have wget, this command will install it
 sudo apt install wget && clear && 
 
@@ -49,6 +86,11 @@ unzip -o modern_pack.zip && \
 openspades
 
 ```
+
+
+
+
+-->
 
 <!--
 
