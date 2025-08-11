@@ -164,12 +164,14 @@ namespace spades {
         spades::ui::SimpleButton@ globalButton;
 
         bool isTeamChat;
+        ThunderEffect@ thunderEffect;
 
         ClientChatWindow(ClientUI@ ui, bool isTeamChat) {
             super(ui.manager);
             @this.ui = ui;
             @this.helper = ui.helper;
             this.isTeamChat = isTeamChat;
+            @thunderEffect = ThunderEffect(ui.manager.Renderer.AudioDevice);
 
             float winW = Manager.Renderer.ScreenWidth * 0.7f, winH = 66.f;
             float winX = (Manager.Renderer.ScreenWidth - winW) * 0.5f;
@@ -292,6 +294,19 @@ namespace spades {
 
         private void OnSay(spades::ui::UIElement@ sender) {
             field.CommandSent();
+            // Check for /nightthunder command
+            if(field.Text.findFirst("/nightthunder") == 0) {
+                if(thunderEffect !is null) {
+                    thunderEffect.PlayThunder();
+                }
+                // Optionally, send the command to chat as well
+                if(isTeamChat)
+                    ui.helper.SayTeam(field.Text);
+                else
+                    ui.helper.SayGlobal(field.Text);
+                Close();
+                return;
+            }
             if(!CheckAndSetConfigVariable()) {
                 if(isTeamChat)
                     ui.helper.SayTeam(field.Text);
