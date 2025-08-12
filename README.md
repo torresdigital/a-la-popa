@@ -22,7 +22,7 @@ https://github.com/atorresbr/a-la-popa/assets/13744483/1b71f093-dc32-4bd9-a0cf-2
 ```bash
 
 # Install wget if not present (auto-confirm)
-sudo apt-get install -y wget
+sudo apt-get install -y wget && \
 
 ## removing game folders from the old openspades version
 sudo rm -rf a-la-popa && rm a-la-popa.sh 2> /dev/null &&
