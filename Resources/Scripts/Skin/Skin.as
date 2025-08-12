@@ -31,4 +31,3 @@
 #include "SMG/View.as"
 #include "Shotgun/ThirdPerson.as"
 #include "Shotgun/View.as"
-#include "Nature/Thunder.as"
